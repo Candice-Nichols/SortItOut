@@ -1,10 +1,10 @@
 #!/bin/bash
-download and calculate pdb volume
-echo "start pdb calculation"
-cd A2G_G2S
-nohup python PDB2A2G_G2S.py > pdboutput.txt
-python convert.py
-cd ..
+#download and calculate pdb volume
+#echo "start pdb calculation"
+#cd A2G_G2S
+#nohup python PDB2A2G_G2S.py > pdboutput.txt
+#python convert.py
+#cd ..
 
 #download and calculate em volume
 echo "start em calculation"

@@ -1,6 +1,6 @@
 import os
 import subprocess
-infile = open("gmminput.txt","r")
+infile = open("eminput.txt","r")
 for line in infile:
 	#parse emd id from input file
 	line = line.strip()
@@ -17,9 +17,9 @@ for line in infile:
 		try:
 			#convert em map to gaussion model, then to surface model
 			os.system("./V2G_G2S.sh {0} {1}".format(emfile,gmmoutput))
-			os.remove(emfile)
-			os.remove("pdbfile.pdb")
-			os.remove(gmmoutput)
+#			os.remove(emfile)
+#			os.remove("pdbfile.pdb")
+#			os.remove(gmmoutput)
 		except:
 			#raise error if fail to convert em map
 			print("error flag: fail to convert")
