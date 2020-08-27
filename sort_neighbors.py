@@ -1,14 +1,20 @@
-pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol2.txt","r")
+pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_groupa.txt","r")
 pdbvoldict={}
 pdbvollst=[]
 for line in pdbvol:
 	line=line.strip()
 	line2=line.split(":")
 	key=line2[0]
+	#parse resolution
+        res=line2[2]
+        #apply non membrane multi linear regression
+        #linear_vol=float(line2[1])*0.992639271+float(res)*15270.2314-157623.736115305
+	linear_vol=float(line2[1])
+	#apply linear regression to membrane proteins
 	#parse pdb id and volume into a dictionary
-	pdbvoldict[key]=float(line2[1])
+	pdbvoldict[key]=linear_vol
 	#create a list of volumes
-	pdbvollst.append(float(line2[1]))
+	pdbvollst.append(linear_vol)
 print(pdbvoldict)
 #sort volume by size
 pdbvollst.sort()
@@ -22,7 +28,7 @@ print(sortedpdb)
 pdbvol.close()
 
 
-emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol0.txt","r")
+emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_groupa.txt","r")
 emvoldict={}
 emvollst=[]
 for line in emvol:
@@ -47,9 +53,9 @@ emvol.close()
 
 
 #sorting
-handle= open("fittedpairs.txt","w")
-handle.write("atomid: atom_vol, EMid: EM_vol, score\n")
-print("atomid: atom_vol, EMid: EM_vol, score")
+handle= open("fittedpairs_test_3.txt","w")
+handle.write("atomid: atom_vol_linear, EMid: EM_vol, diff\n")
+print("atomid: atom_vol_linear, EMid: EM_vol, diff")
 count=len(sortedem)
 for i in range(count):
 		pdb=sortedpdb[i]
@@ -57,23 +63,23 @@ for i in range(count):
 		pdb_vol=pdbvoldict[pdb]
 		em_vol=emvoldict[emfile]
 		print(pdbvoldict[pdb])
-		score=abs((pdb_vol-em_vol)/pdb_vol)
+		score=abs((pdb_vol-em_vol)/em_vol)
 		print(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score))
 		handle.write(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score)+"\n")
-		#nearest neighbor k=2
+		#sliding window k=2
 		for j in range(2,0,-1):
 			if (i-j)>=0:
 				emfile=sortedem[i-j]
 				pdb_vol=pdbvoldict[pdb]
                         	em_vol=emvoldict[emfile]
-                        	score=abs((pdb_vol-em_vol)/pdb_vol)
+                        	score=abs((pdb_vol-em_vol)/em_vol)
 				print(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score))
                                 handle.write(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score)+"\n")
 			if (i+j)<count:
 				emfile=sortedem[i+j]
 				pdb_vol=pdbvoldict[pdb]
 				em_vol=emvoldict[emfile]
-				score=abs((pdb_vol-em_vol)/pdb_vol)
+				score=abs((pdb_vol-em_vol)/em_vol)
 				print(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score))
 				handle.write(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score)+"\n")
 		print("")
