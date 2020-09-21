@@ -1,0 +1,380 @@
+HEADER    LYASE/HYDROLASE                         16-JUN-14   4UPF              
+TITLE     ASSEMBLY PRINCIPLES OF THE UNIQUE CAGE FORMED BY THE ATPASE RAVA      
+TITLE    2 HEXAMER AND THE LYSINE DECARBOXYLASE LDCI DECAMER                    
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: LYSINE DECARBOXYLASE, INDUCIBLE;                           
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 SYNONYM: LDC, INDUCIBLE LYSINE DECARBOXYLASE;                        
+COMPND   5 EC: 4.1.1.18;                                                        
+COMPND   6 ENGINEERED: YES;                                                     
+COMPND   7 MOL_ID: 2;                                                           
+COMPND   8 MOLECULE: ATPASE RAVA;                                               
+COMPND   9 CHAIN: D;                                                            
+COMPND  10 FRAGMENT: LARA DOMAIN RESIDUES 329-440;                              
+COMPND  11 SYNONYM: REGULATORY ATPASE VARIANT A;                                
+COMPND  12 EC: 3.6.3.1;                                                         
+COMPND  13 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI STR. K-12 SUBSTR. MG1655;      
+SOURCE   3 ORGANISM_TAXID: 511145;                                              
+SOURCE   4 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   5 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   6 EXPRESSION_SYSTEM_VARIANT: CF1693 SOURCE 7;                          
+SOURCE   7 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR: PET22B;                                    
+SOURCE   9 MOL_ID: 2;                                                           
+SOURCE  10 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI STR. K-12 SUBSTR. MG1655;      
+SOURCE  11 ORGANISM_TAXID: 511145;                                              
+SOURCE  12 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE  13 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE  14 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE  15 EXPRESSION_SYSTEM_VARIANT: GOLD PLYSS;                               
+SOURCE  16 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  17 EXPRESSION_SYSTEM_VECTOR: P11                                        
+KEYWDS    LYASE-HYDROLASE COMPLEX, LYSINE DECARBOXYLASE, AAA+ ATPASE, ACID      
+KEYWDS   2 STRESS RESPONSE                                                      
+EXPDTA    ELECTRON MICROSCOPY                                                   
+MDLTYP    CA ATOMS ONLY, CHAIN A, D                                             
+AUTHOR    H.MALET,K.LIU,M.EL BAKKOURI,S.W.S.CHAN,G.EFFANTIN,M.BACIA,W.A.HOURY,  
+AUTHOR   2 I.GUTSCHE                                                            
+REVDAT   3   30-AUG-17 4UPF    1       REMARK                                   
+REVDAT   2   10-SEP-14 4UPF    1       JRNL                                     
+REVDAT   1   20-AUG-14 4UPF    0                                                
+JRNL        AUTH   H.MALET,K.LIU,M.EL BAKKOURI,S.W.S.CHAN,G.EFFANTIN,M.BACIA,   
+JRNL        AUTH 2 W.A.HOURY,I.GUTSCHE                                          
+JRNL        TITL   ASSEMBLY PRINCIPLES OF A UNIQUE CAGE FORMED BY HEXAMERIC AND 
+JRNL        TITL 2 DECAMERIC E. COLI PROTEINS.                                  
+JRNL        REF    ELIFE                         V.   3 03653 2014              
+JRNL        REFN                   ESSN 2050-084X                               
+JRNL        PMID   25097238                                                     
+JRNL        DOI    10.7554/ELIFE.03653                                          
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    7.50 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   SOFTWARE PACKAGES      : CTFFIND, FLEX-EM, SITUS, EMAN, EMAN,      
+REMARK   3                            FPM, IMAGIC, SPIDER                       
+REMARK   3   RECONSTRUCTION SCHEMA  : NULL                                      
+REMARK   3                                                                      
+REMARK   3 EM MAP-MODEL FITTING AND REFINEMENT                                  
+REMARK   3   PDB ENTRY                    : 3N75                                
+REMARK   3   REFINEMENT SPACE             : REAL                                
+REMARK   3   REFINEMENT PROTOCOL          : FLEXIBLE FIT                        
+REMARK   3   REFINEMENT TARGET            : CROSS-CORRELATION COEFFICIENT       
+REMARK   3   OVERALL ANISOTROPIC B VALUE  : NULL                                
+REMARK   3                                                                      
+REMARK   3 FITTING PROCEDURE : METHOD--FLEXIBLE FOR 3N75, RIGID FOR 3NBX        
+REMARK   3  REFINEMENT PROTOCOL--X-RAY                                          
+REMARK   3                                                                      
+REMARK   3 EM IMAGE RECONSTRUCTION STATISTICS                                   
+REMARK   3   NOMINAL PIXEL SIZE (ANGSTROMS)    : 1.464                          
+REMARK   3   ACTUAL PIXEL SIZE  (ANGSTROMS)    : NULL                           
+REMARK   3   EFFECTIVE RESOLUTION (ANGSTROMS)  : 7.500                          
+REMARK   3   NUMBER OF PARTICLES               : 23540                          
+REMARK   3   CTF CORRECTION METHOD             : NULL                           
+REMARK   3                                                                      
+REMARK   3 EM RECONSTRUCTION MAGNIFICATION CALIBRATION: NULL                    
+REMARK   3                                                                      
+REMARK   3 OTHER DETAILS: CROSS-COMMON LINE, PROJECTION MATCHING SUBMISSION     
+REMARK   3  BASED ON EXPERIMENTAL DATA FROM EMDB EMD-2681. (DEPOSITION ID:      
+REMARK   3  12595).                                                             
+REMARK   4                                                                      
+REMARK   4 4UPF COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE.                               
+REMARK 100 THE DEPOSITION ID IS D_1290060953.                                   
+REMARK 245                                                                      
+REMARK 245 EXPERIMENTAL DETAILS                                                 
+REMARK 245   RECONSTRUCTION METHOD          : SINGLE PARTICLE                   
+REMARK 245   SPECIMEN TYPE                  : VITREOUS ICE CRYO EM              
+REMARK 245                                                                      
+REMARK 245 ELECTRON MICROSCOPE SAMPLE                                           
+REMARK 245   SAMPLE TYPE                    : PARTICLE                          
+REMARK 245   PARTICLE TYPE                  : POINT                             
+REMARK 245   NAME OF SAMPLE                 : COMPLEX BETWEEN A DECAMER OF      
+REMARK 245                                    INDUCIBLE LYSINE DECARBOXYLASE    
+REMARK 245                                    LDCI AND TEN LARA DOMAINS OF      
+REMARK 245                                    THE ATPASE RAVA                   
+REMARK 245   SAMPLE CONCENTRATION (MG ML-1) : 0.60                              
+REMARK 245   SAMPLE SUPPORT DETAILS         : OTHER                             
+REMARK 245   SAMPLE VITRIFICATION DETAILS   : VITRIFICATION 1 -- CRYOGEN-       
+REMARK 245                                    ETHANE, HUMIDITY- 100,            
+REMARK 245                                    TEMPERATURE- 91, INSTRUMENT-      
+REMARK 245                                    FEI VITROBOT MARK III, METHOD-    
+REMARK 245                                    BLOT FOR 2 SECONDS BEFORE         
+REMARK 245                                    PLUNGING                          
+REMARK 245   SAMPLE BUFFER                  : 50MM MES PH 6.5, 100MM NACL,      
+REMARK 245                                    0.2MM PLP, 1MM DTT, 0.01%         
+REMARK 245                                    GLUTARALDEHYDE                    
+REMARK 245   PH                             : 6.50                              
+REMARK 245   SAMPLE DETAILS                 : NULL                              
+REMARK 245                                                                      
+REMARK 245 DATA ACQUISITION                                                     
+REMARK 245   DATE OF EXPERIMENT                : 14-SEP-12                      
+REMARK 245   NUMBER OF MICROGRAPHS-IMAGES      : NULL                           
+REMARK 245   TEMPERATURE (KELVIN)              : 91.00                          
+REMARK 245   MICROSCOPE MODEL                  : FEI TECNAI F30                 
+REMARK 245   DETECTOR TYPE                     : GATAN ULTRASCAN 4000 (4K X     
+REMARK 245                                       4K)                            
+REMARK 245   MINIMUM DEFOCUS (NM)              : 1500.00                        
+REMARK 245   MAXIMUM DEFOCUS (NM)              : 2700.00                        
+REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : -0.10                          
+REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : 0.00                           
+REMARK 245   NOMINAL CS                        : 2.00                           
+REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 20.00                          
+REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
+REMARK 245   NOMINAL MAGNIFICATION             : 51660                          
+REMARK 245   CALIBRATED MAGNIFICATION          : 51660                          
+REMARK 245   SOURCE                            : FIELD EMISSION GUN             
+REMARK 245   ACCELERATION VOLTAGE (KV)         : 300                            
+REMARK 245   IMAGING DETAILS                   : AUTOMATIC DATA ACQUISITION     
+REMARK 245  WITH FEI EPU SOFTWARE                                               
+REMARK 247                                                                      
+REMARK 247 ELECTRON MICROSCOPY                                                  
+REMARK 247  THE COORDINATES IN THIS ENTRY WERE GENERATED FROM ELECTRON          
+REMARK 247  MICROSCOPY DATA. PROTEIN DATA BANK CONVENTIONS REQUIRE              
+REMARK 247  THAT CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES           
+REMARK 247  ON THESE RECORDS ARE MEANINGLESS EXCEPT FOR THE CALCULATION         
+REMARK 247  OF THE STRUCTURE FACTORS.                                           
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, D                                  
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
+REMARK 465                                                                      
+REMARK 465   M RES C SSSEQI                                                     
+REMARK 465     LYS A   367                                                      
+REMARK 465     GLU A   712                                                      
+REMARK 465     SER A   713                                                      
+REMARK 465     LYS A   714                                                      
+REMARK 465     LYS A   715                                                      
+REMARK 465     GLY D   326                                                      
+REMARK 465     HIS D   327                                                      
+REMARK 465     MET D   328                                                      
+REMARK 465     GLN D   329                                                      
+REMARK 465     GLN D   330                                                      
+REMARK 465     SER D   331                                                      
+REMARK 465     ASP D   332                                                      
+REMARK 465     LYS D   333                                                      
+REMARK 465     THR D   334                                                      
+REMARK 465     ALA D   335                                                      
+REMARK 465     LEU D   336                                                      
+REMARK 465     THR D   337                                                      
+REMARK 465     VAL D   338                                                      
+REMARK 465     ILE D   339                                                      
+REMARK 465     ARG D   340                                                      
+REMARK 465     LEU D   341                                                      
+REMARK 465     GLY D   342                                                      
+REMARK 465     GLY D   343                                                      
+REMARK 465     ILE D   344                                                      
+REMARK 465     PHE D   345                                                      
+REMARK 465     SER D   346                                                      
+REMARK 465     ARG D   347                                                      
+REMARK 465     ARG D   348                                                      
+REMARK 465     GLN D   349                                                      
+REMARK 465     GLN D   350                                                      
+REMARK 465     TYR D   351                                                      
+REMARK 465     GLN D   352                                                      
+REMARK 465     LEU D   353                                                      
+REMARK 465     PRO D   354                                                      
+REMARK 465     VAL D   355                                                      
+REMARK 465     ASN D   356                                                      
+REMARK 465     VAL D   357                                                      
+REMARK 465     THR D   358                                                      
+REMARK 465     ALA D   359                                                      
+REMARK 465     SER D   360                                                      
+REMARK 465     PRO D   435                                                      
+REMARK 465     GLY D   436                                                      
+REMARK 465     SER D   437                                                      
+REMARK 465     SER D   438                                                      
+REMARK 465     ALA D   439                                                      
+REMARK 465     GLU D   440                                                      
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 4UPB   RELATED DB: PDB                                   
+REMARK 900 ELECTRON CRYO-MICROSCOPY OF THE COMPLEX FORMED BETWEEN THE           
+REMARK 900 HEXAMERIC ATPASE RAVA AND THE DECAMERIC INDUCIBLE DECARBOXYLASE LDCI 
+REMARK 900 RELATED ID: EMD-2681   RELATED DB: EMDB                              
+REMARK 999                                                                      
+REMARK 999 SEQUENCE                                                             
+REMARK 999 THE LARA DOMAIN (FROM GLN329 TO GLU440) WAS PCR AMPLIFIED            
+REMARK 999 FROM THE P11-RAVA PLASMID. THE PCR PRODUCT WAS DIGESTED              
+REMARK 999 WITH NDEI AND BAMHI (NEB) AND LIGATED INTO AN EMPTY P11              
+REMARK 999 VECTOR TO PRODUCE P11-LARA. THE RESULTING CONSTRUCT HAS AN           
+REMARK 999 N-TERMINAL HIS6-TAG FOLLOWED BY A TOBACCO ETCH VIRUS (TEV)           
+REMARK 999 CUT SITE THAT LEAVES THE THREE RESIDUES GHM AT THE                   
+REMARK 999 TERMINUS OF THE CONSTRUCT AFTER TEV CLEAVAGE.                        
+DBREF  4UPF A    1   715  UNP    P0A9H3   LDCI_ECOLI       1    715             
+DBREF  4UPF D  329   440  UNP    P31473   RAVA_ECOLI     329    440             
+SEQADV 4UPF GLY D  326  UNP  P31473              EXPRESSION TAG                 
+SEQADV 4UPF HIS D  327  UNP  P31473              EXPRESSION TAG                 
+SEQADV 4UPF MET D  328  UNP  P31473              EXPRESSION TAG                 
+SEQRES   1 A  715  MET ASN VAL ILE ALA ILE LEU ASN HIS MET GLY VAL TYR          
+SEQRES   2 A  715  PHE LYS GLU GLU PRO ILE ARG GLU LEU HIS ARG ALA LEU          
+SEQRES   3 A  715  GLU ARG LEU ASN PHE GLN ILE VAL TYR PRO ASN ASP ARG          
+SEQRES   4 A  715  ASP ASP LEU LEU LYS LEU ILE GLU ASN ASN ALA ARG LEU          
+SEQRES   5 A  715  CYS GLY VAL ILE PHE ASP TRP ASP LYS TYR ASN LEU GLU          
+SEQRES   6 A  715  LEU CYS GLU GLU ILE SER LYS MET ASN GLU ASN LEU PRO          
+SEQRES   7 A  715  LEU TYR ALA PHE ALA ASN THR TYR SER THR LEU ASP VAL          
+SEQRES   8 A  715  SER LEU ASN ASP LEU ARG LEU GLN ILE SER PHE PHE GLU          
+SEQRES   9 A  715  TYR ALA LEU GLY ALA ALA GLU ASP ILE ALA ASN LYS ILE          
+SEQRES  10 A  715  LYS GLN THR THR ASP GLU TYR ILE ASN THR ILE LEU PRO          
+SEQRES  11 A  715  PRO LEU THR LYS ALA LEU PHE LYS TYR VAL ARG GLU GLY          
+SEQRES  12 A  715  LYS TYR THR PHE CYS THR PRO GLY HIS MET GLY GLY THR          
+SEQRES  13 A  715  ALA PHE GLN LYS SER PRO VAL GLY SER LEU PHE TYR ASP          
+SEQRES  14 A  715  PHE PHE GLY PRO ASN THR MET LYS SER ASP ILE SER ILE          
+SEQRES  15 A  715  SER VAL SER GLU LEU GLY SER LEU LEU ASP HIS SER GLY          
+SEQRES  16 A  715  PRO HIS LYS GLU ALA GLU GLN TYR ILE ALA ARG VAL PHE          
+SEQRES  17 A  715  ASN ALA ASP ARG SER TYR MET VAL THR ASN GLY THR SER          
+SEQRES  18 A  715  THR ALA ASN LYS ILE VAL GLY MET TYR SER ALA PRO ALA          
+SEQRES  19 A  715  GLY SER THR ILE LEU ILE ASP ARG ASN CYS HIS LYS SER          
+SEQRES  20 A  715  LEU THR HIS LEU MET MET MET SER ASP VAL THR PRO ILE          
+SEQRES  21 A  715  TYR PHE ARG PRO THR ARG ASN ALA TYR GLY ILE LEU GLY          
+SEQRES  22 A  715  GLY ILE PRO GLN SER GLU PHE GLN HIS ALA THR ILE ALA          
+SEQRES  23 A  715  LYS ARG VAL LYS GLU THR PRO ASN ALA THR TRP PRO VAL          
+SEQRES  24 A  715  HIS ALA VAL ILE THR ASN SER THR TYR ASP GLY LEU LEU          
+SEQRES  25 A  715  TYR ASN THR ASP PHE ILE LYS LYS THR LEU ASP VAL LYS          
+SEQRES  26 A  715  SER ILE HIS PHE ASP SER ALA TRP VAL PRO TYR THR ASN          
+SEQRES  27 A  715  PHE SER PRO ILE TYR GLU GLY LYS CYS GLY MET SER GLY          
+SEQRES  28 A  715  GLY ARG VAL GLU GLY LYS VAL ILE TYR GLU THR GLN SER          
+SEQRES  29 A  715  THR HIS LYS LEU LEU ALA ALA PHE SER GLN ALA SER MET          
+SEQRES  30 A  715  ILE HIS VAL LYS GLY ASP VAL ASN GLU GLU THR PHE ASN          
+SEQRES  31 A  715  GLU ALA TYR MET MET HIS THR THR THR SER PRO HIS TYR          
+SEQRES  32 A  715  GLY ILE VAL ALA SER THR GLU THR ALA ALA ALA MET MET          
+SEQRES  33 A  715  LYS GLY ASN ALA GLY LYS ARG LEU ILE ASN GLY SER ILE          
+SEQRES  34 A  715  GLU ARG ALA ILE LYS PHE ARG LYS GLU ILE LYS ARG LEU          
+SEQRES  35 A  715  ARG THR GLU SER ASP GLY TRP PHE PHE ASP VAL TRP GLN          
+SEQRES  36 A  715  PRO ASP HIS ILE ASP THR THR GLU CYS TRP PRO LEU ARG          
+SEQRES  37 A  715  SER ASP SER THR TRP HIS GLY PHE LYS ASN ILE ASP ASN          
+SEQRES  38 A  715  GLU HIS MET TYR LEU ASP PRO ILE LYS VAL THR LEU LEU          
+SEQRES  39 A  715  THR PRO GLY MET GLU LYS ASP GLY THR MET SER ASP PHE          
+SEQRES  40 A  715  GLY ILE PRO ALA SER ILE VAL ALA LYS TYR LEU ASP GLU          
+SEQRES  41 A  715  HIS GLY ILE VAL VAL GLU LYS THR GLY PRO TYR ASN LEU          
+SEQRES  42 A  715  LEU PHE LEU PHE SER ILE GLY ILE ASP LYS THR LYS ALA          
+SEQRES  43 A  715  LEU SER LEU LEU ARG ALA LEU THR ASP PHE LYS ARG ALA          
+SEQRES  44 A  715  PHE ASP LEU ASN LEU ARG VAL LYS ASN MET LEU PRO SER          
+SEQRES  45 A  715  LEU TYR ARG GLU ASP PRO GLU PHE TYR GLU ASN MET ARG          
+SEQRES  46 A  715  ILE GLN GLU LEU ALA GLN ASN ILE HIS LYS LEU ILE VAL          
+SEQRES  47 A  715  HIS HIS ASN LEU PRO ASP LEU MET TYR ARG ALA PHE GLU          
+SEQRES  48 A  715  VAL LEU PRO THR MET VAL MET THR PRO TYR ALA ALA PHE          
+SEQRES  49 A  715  GLN LYS GLU LEU HIS GLY MET THR GLU GLU VAL TYR LEU          
+SEQRES  50 A  715  ASP GLU MET VAL GLY ARG ILE ASN ALA ASN MET ILE LEU          
+SEQRES  51 A  715  PRO TYR PRO PRO GLY VAL PRO LEU VAL MET PRO GLY GLU          
+SEQRES  52 A  715  MET ILE THR GLU GLU SER ARG PRO VAL LEU GLU PHE LEU          
+SEQRES  53 A  715  GLN MET LEU CYS GLU ILE GLY ALA HIS TYR PRO GLY PHE          
+SEQRES  54 A  715  GLU THR ASP ILE HIS GLY ALA TYR ARG GLN ALA ASP GLY          
+SEQRES  55 A  715  ARG TYR THR VAL LYS VAL LEU LYS GLU GLU SER LYS LYS          
+SEQRES   1 D  115  GLY HIS MET GLN GLN SER ASP LYS THR ALA LEU THR VAL          
+SEQRES   2 D  115  ILE ARG LEU GLY GLY ILE PHE SER ARG ARG GLN GLN TYR          
+SEQRES   3 D  115  GLN LEU PRO VAL ASN VAL THR ALA SER THR LEU THR LEU          
+SEQRES   4 D  115  LEU LEU GLN LYS PRO LEU LYS LEU HIS ASP MET GLU VAL          
+SEQRES   5 D  115  VAL HIS ILE SER PHE GLU ARG SER ALA LEU GLU GLN TRP          
+SEQRES   6 D  115  LEU SER LYS GLY GLY GLU ILE ARG GLY LYS LEU ASN GLY          
+SEQRES   7 D  115  ILE GLY PHE ALA GLN LYS LEU ASN LEU GLU VAL ASP SER          
+SEQRES   8 D  115  ALA GLN HIS LEU VAL VAL ARG ASP VAL SER LEU GLN GLY          
+SEQRES   9 D  115  SER THR LEU ALA LEU PRO GLY SER SER ALA GLU                  
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         
+TER     711      GLU A 711                                                      
+ATOM    712  CA  THR D 361     -24.210 -98.080  14.769  1.00 84.11           C  
+ATOM    713  CA  LEU D 362     -20.810 -97.987  13.048  1.00 85.40           C  
+ATOM    714  CA  THR D 363     -17.436 -98.709  14.631  1.00 76.62           C  
+ATOM    715  CA  LEU D 364     -14.306 -96.718  13.826  1.00 75.53           C  
+ATOM    716  CA  LEU D 365     -10.741 -97.945  14.300  1.00 75.51           C  
+ATOM    717  CA  LEU D 366      -7.885 -95.590  15.180  1.00 80.65           C  
+ATOM    718  CA  GLN D 367      -4.489 -95.299  13.434  1.00 87.50           C  
+ATOM    719  CA  LYS D 368      -2.786 -94.557  16.736  1.00 86.43           C  
+ATOM    720  CA  PRO D 369      -4.442 -96.478  19.601  1.00 83.94           C  
+ATOM    721  CA  LEU D 370      -4.893 -94.260  22.659  1.00 75.26           C  
+ATOM    722  CA  LYS D 371      -5.308 -94.577  26.423  1.00 76.79           C  
+ATOM    723  CA  LEU D 372      -8.908 -93.435  27.001  1.00 76.44           C  
+ATOM    724  CA  HIS D 373     -10.763 -93.766  30.327  1.00 79.19           C  
+ATOM    725  CA  ASP D 374      -7.903 -95.756  31.905  1.00 93.54           C  
+ATOM    726  CA  MET D 375      -7.754 -98.352  29.101  1.00 95.66           C  
+ATOM    727  CA  GLU D 376      -6.170 -98.651  25.660  1.00 90.47           C  
+ATOM    728  CA  VAL D 377      -8.747 -98.473  22.855  1.00 81.44           C  
+ATOM    729  CA  VAL D 378      -8.352 -99.674  19.253  1.00 83.74           C  
+ATOM    730  CA  HIS D 379     -11.937 -98.960  18.088  1.00 75.02           C  
+ATOM    731  CA  ILE D 380     -14.914 -96.777  19.071  1.00 71.54           C  
+ATOM    732  CA  SER D 381     -18.506 -97.543  18.097  1.00 71.92           C  
+ATOM    733  CA  PHE D 382     -20.925 -94.666  17.520  1.00 73.28           C  
+ATOM    734  CA  GLU D 383     -24.671 -94.611  17.150  1.00 82.13           C  
+ATOM    735  CA  ARG D 384     -24.747 -93.188  13.599  1.00 87.39           C  
+ATOM    736  CA  SER D 385     -27.709 -91.006  14.617  1.00 89.75           C  
+ATOM    737  CA  ALA D 386     -25.661 -89.386  17.419  1.00 89.08           C  
+ATOM    738  CA  LEU D 387     -22.682 -88.820  15.122  1.00 83.17           C  
+ATOM    739  CA  GLU D 388     -24.965 -87.067  12.601  1.00 96.57           C  
+ATOM    740  CA  GLN D 389     -26.222 -84.383  14.999  1.00 99.86           C  
+ATOM    741  CA  TRP D 390     -22.705 -83.766  16.319  1.00 90.17           C  
+ATOM    742  CA  LEU D 391     -21.395 -83.325  12.766  1.00 91.84           C  
+ATOM    743  CA  SER D 392     -24.186 -80.796  12.174  1.00 103.02           C 
+ATOM    744  CA  LYS D 393     -24.932 -79.025  15.479  1.00 100.96           C 
+ATOM    745  CA  GLY D 394     -21.663 -79.781  17.303  1.00 100.13           C 
+ATOM    746  CA  GLY D 395     -21.672 -79.907  21.103  1.00 95.98           C  
+ATOM    747  CA  GLU D 396     -20.684 -83.099  22.910  1.00 88.78           C  
+ATOM    748  CA  ILE D 397     -20.473 -86.640  21.539  1.00 80.20           C  
+ATOM    749  CA  ARG D 398     -20.384 -89.988  23.335  1.00 75.67           C  
+ATOM    750  CA  GLY D 399     -19.038 -93.310  22.050  1.00 71.18           C  
+ATOM    751  CA  LYS D 400     -18.597 -96.794  23.514  1.00 73.29           C  
+ATOM    752  CA  LEU D 401     -14.896 -97.617  23.790  1.00 71.62           C  
+ATOM    753  CA  ASN D 402     -13.812-100.882  22.141  1.00 65.13           C  
+ATOM    754  CA  GLY D 403     -17.494-101.391  21.266  1.00 68.88           C  
+ATOM    755  CA  ILE D 404     -18.423-102.280  24.853  1.00 71.99           C  
+ATOM    756  CA  GLY D 405     -19.597-100.593  28.060  1.00 77.46           C  
+ATOM    757  CA  PHE D 406     -21.283 -97.212  28.420  1.00 82.46           C  
+ATOM    758  CA  ALA D 407     -21.292 -94.480  25.772  1.00 79.92           C  
+ATOM    759  CA  GLN D 408     -18.439 -92.308  27.082  1.00 73.76           C  
+ATOM    760  CA  LYS D 409     -17.958 -88.616  26.262  1.00 73.79           C  
+ATOM    761  CA  LEU D 410     -15.089 -88.042  23.825  1.00 78.56           C  
+ATOM    762  CA  ASN D 411     -12.596 -85.344  22.904  1.00 78.21           C  
+ATOM    763  CA  LEU D 412     -13.475 -85.386  19.204  1.00 80.25           C  
+ATOM    764  CA  GLU D 413     -12.839 -82.786  16.494  1.00 81.39           C  
+ATOM    765  CA  VAL D 414     -13.256 -82.360  12.737  1.00 86.72           C  
+ATOM    766  CA  ASP D 415      -9.811 -82.154  11.114  1.00 88.70           C  
+ATOM    767  CA  SER D 416      -8.619 -79.671   8.467  1.00 97.00           C  
+ATOM    768  CA  ALA D 417      -8.144 -82.695   6.187  1.00 85.37           C  
+ATOM    769  CA  GLN D 418     -11.832 -83.391   7.014  1.00 90.71           C  
+ATOM    770  CA  HIS D 419     -11.007 -86.361   9.289  1.00 86.31           C  
+ATOM    771  CA  LEU D 420     -12.232 -87.236  12.786  1.00 76.80           C  
+ATOM    772  CA  VAL D 421      -9.604 -86.966  15.529  1.00 82.43           C  
+ATOM    773  CA  VAL D 422      -9.962 -88.284  19.101  1.00 78.42           C  
+ATOM    774  CA  ARG D 423      -7.682 -86.979  21.842  1.00 77.97           C  
+ATOM    775  CA  ASP D 424      -6.618 -88.320  25.238  1.00 79.02           C  
+ATOM    776  CA  VAL D 425      -5.746 -86.402  28.433  1.00 76.37           C  
+ATOM    777  CA  SER D 426      -2.262 -85.727  26.995  1.00 73.44           C  
+ATOM    778  CA  LEU D 427      -4.068 -84.165  23.985  1.00 77.62           C  
+ATOM    779  CA  GLN D 428      -2.499 -86.918  21.825  1.00 72.41           C  
+ATOM    780  CA  GLY D 429      -4.490 -87.154  18.596  1.00 77.15           C  
+ATOM    781  CA  SER D 430      -5.646 -90.144  16.567  1.00 73.06           C  
+ATOM    782  CA  THR D 431      -7.346 -90.282  13.174  1.00 83.82           C  
+ATOM    783  CA  LEU D 432     -10.445 -92.471  12.849  1.00 82.05           C  
+ATOM    784  CA  ALA D 433     -10.815 -95.003  10.032  1.00 90.07           C  
+ATOM    785  CA  LEU D 434     -13.709 -97.179   8.851  1.00 97.41           C  
+TER     786      LEU D 434                                                      
+MASTER      176    0    0    0    0    0    0    6  784    2    0   64          
+END                                                                             

@@ -1,0 +1,1700 @@
+--2020-09-21 09:24:46--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4083/map/emd_4083.map.gz
+           => ‘emd_4083.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4083/map ... done.
+==> SIZE emd_4083.map.gz ... 65568976
+==> PASV ... couldn't connect to 132.249.210.168 port 51185: Connection refused
+--2020-09-21 09:24:46--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4088/map/emd_4088.map.gz
+           => ‘emd_4088.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4088/map ... done.
+==> SIZE emd_4088.map.gz ... 2406312
+==> PASV ... couldn't connect to 132.249.210.168 port 51666: Connection refused
+--2020-09-21 09:24:47--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4147/map/emd_4147.map.gz
+           => ‘emd_4147.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4147/map ... done.
+==> SIZE emd_4147.map.gz ... 45133469
+==> PASV ... couldn't connect to 132.249.210.168 port 51011: Connection refused
+--2020-09-21 09:24:48--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4148/map/emd_4148.map.gz
+           => ‘emd_4148.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4148/map ... done.
+==> SIZE emd_4148.map.gz ... 45030560
+==> PASV ... couldn't connect to 132.249.210.168 port 51795: Connection refused
+--2020-09-21 09:24:48--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3449/map/emd_3449.map.gz
+           => ‘emd_3449.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3449/map ... done.
+==> SIZE emd_3449.map.gz ... 3008150
+==> PASV ... couldn't connect to 132.249.210.168 port 51398: Connection refused
+--2020-09-21 09:24:49--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3460/map/emd_3460.map.gz
+           => ‘emd_3460.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3460/map ... done.
+==> SIZE emd_3460.map.gz ... 20941477
+==> PASV ... couldn't connect to 132.249.210.168 port 51035: Connection refused
+--2020-09-21 09:24:51--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3488/map/emd_3488.map.gz
+           => ‘emd_3488.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3488/map ... done.
+==> SIZE emd_3488.map.gz ... 1279945
+==> PASV ... couldn't connect to 132.249.210.168 port 51809: Connection refused
+--2020-09-21 09:24:52--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3583/map/emd_3583.map.gz
+           => ‘emd_3583.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3583/map ... done.
+==> SIZE emd_3583.map.gz ... 1671253
+==> PASV ... couldn't connect to 132.249.210.168 port 51085: Connection refused
+--2020-09-21 09:24:52--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3611/map/emd_3611.map.gz
+           => ‘emd_3611.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3611/map ... done.
+==> SIZE emd_3611.map.gz ... 8728910
+==> PASV ... couldn't connect to 132.249.210.168 port 51426: Connection refused
+--2020-09-21 09:24:53--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3746/map/emd_3746.map.gz
+           => ‘emd_3746.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3746/map ... done.
+==> SIZE emd_3746.map.gz ... 6050909
+==> PASV ... couldn't connect to 132.249.210.168 port 51546: Connection refused
+--2020-09-21 09:24:54--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8313/map/emd_8313.map.gz
+           => ‘emd_8313.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8313/map ... done.
+==> SIZE emd_8313.map.gz ... 512027
+==> PASV ... couldn't connect to 132.249.210.168 port 51800: Connection refused
+--2020-09-21 09:24:54--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8357/map/emd_8357.map.gz
+           => ‘emd_8357.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8357/map ... done.
+==> SIZE emd_8357.map.gz ... 58365455
+==> PASV ... couldn't connect to 132.249.210.168 port 51837: Connection refused
+--2020-09-21 09:24:55--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8358/map/emd_8358.map.gz
+           => ‘emd_8358.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8358/map ... done.
+==> SIZE emd_8358.map.gz ... 55990672
+==> PASV ... couldn't connect to 132.249.210.168 port 51536: Connection refused
+--2020-09-21 09:24:55--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8359/map/emd_8359.map.gz
+           => ‘emd_8359.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8359/map ... done.
+==> SIZE emd_8359.map.gz ... 55941446
+==> PASV ... couldn't connect to 132.249.210.168 port 51946: Connection refused
+--2020-09-21 09:24:56--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8409/map/emd_8409.map.gz
+           => ‘emd_8409.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8409/map ... done.
+==> SIZE emd_8409.map.gz ... 28292769
+==> PASV ... couldn't connect to 132.249.210.168 port 51705: Connection refused
+--2020-09-21 09:24:56--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8410/map/emd_8410.map.gz
+           => ‘emd_8410.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8410/map ... done.
+==> SIZE emd_8410.map.gz ... 5098543
+==> PASV ... couldn't connect to 132.249.210.168 port 51075: Connection refused
+--2020-09-21 09:24:57--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8414/map/emd_8414.map.gz
+           => ‘emd_8414.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8414/map ... done.
+==> SIZE emd_8414.map.gz ... 5359916
+==> PASV ... couldn't connect to 132.249.210.168 port 51822: Connection refused
+--2020-09-21 09:24:57--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8518/map/emd_8518.map.gz
+           => ‘emd_8518.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8518/map ... done.
+==> SIZE emd_8518.map.gz ... 62705112
+==> PASV ... couldn't connect to 132.249.210.168 port 51663: Connection refused
+--2020-09-21 09:24:58--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8519/map/emd_8519.map.gz
+           => ‘emd_8519.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8519/map ... done.
+==> SIZE emd_8519.map.gz ... 62582220
+==> PASV ... couldn't connect to 132.249.210.168 port 51075: Connection refused
+--2020-09-21 09:24:59--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8561/map/emd_8561.map.gz
+           => ‘emd_8561.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8561/map ... done.
+==> SIZE emd_8561.map.gz ... 1737944
+==> PASV ... couldn't connect to 132.249.210.168 port 51251: Connection refused
+--2020-09-21 09:24:59--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8562/map/emd_8562.map.gz
+           => ‘emd_8562.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8562/map ... done.
+==> SIZE emd_8562.map.gz ... 1734847
+==> PASV ... couldn't connect to 132.249.210.168 port 51079: Connection refused
+--2020-09-21 09:25:00--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8563/map/emd_8563.map.gz
+           => ‘emd_8563.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8563/map ... done.
+==> SIZE emd_8563.map.gz ... 1593554
+==> PASV ... couldn't connect to 132.249.210.168 port 51432: Connection refused
+--2020-09-21 09:25:00--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8564/map/emd_8564.map.gz
+           => ‘emd_8564.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8564/map ... done.
+==> SIZE emd_8564.map.gz ... 1770963
+==> PASV ... couldn't connect to 132.249.210.168 port 51251: Connection refused
+--2020-09-21 09:25:02--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8584/map/emd_8584.map.gz
+           => ‘emd_8584.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8584/map ... done.
+==> SIZE emd_8584.map.gz ... 62829390
+==> PASV ... couldn't connect to 132.249.210.168 port 51504: Connection refused
+--2020-09-21 09:25:03--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8585/map/emd_8585.map.gz
+           => ‘emd_8585.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8585/map ... done.
+==> SIZE emd_8585.map.gz ... 62824471
+==> PASV ... couldn't connect to 132.249.210.168 port 51975: Connection refused
+--2020-09-21 09:25:03--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8586/map/emd_8586.map.gz
+           => ‘emd_8586.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8586/map ... done.
+==> SIZE emd_8586.map.gz ... 62780229
+==> PASV ... couldn't connect to 132.249.210.168 port 51109: Connection refused
+--2020-09-21 09:25:04--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8608/map/emd_8608.map.gz
+           => ‘emd_8608.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8608/map ... done.
+==> SIZE emd_8608.map.gz ... 2813219
+==> PASV ... couldn't connect to 132.249.210.168 port 51855: Connection refused
+--2020-09-21 09:25:05--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8623/map/emd_8623.map.gz
+           => ‘emd_8623.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8623/map ... done.
+==> SIZE emd_8623.map.gz ... 29891688
+==> PASV ... couldn't connect to 132.249.210.168 port 51486: Connection refused
+--2020-09-21 09:25:05--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8624/map/emd_8624.map.gz
+           => ‘emd_8624.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8624/map ... done.
+==> SIZE emd_8624.map.gz ... 5857490
+==> PASV ... couldn't connect to 132.249.210.168 port 51798: Connection refused
+--2020-09-21 09:25:06--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8632/map/emd_8632.map.gz
+           => ‘emd_8632.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8632/map ... done.
+==> SIZE emd_8632.map.gz ... 4030968
+==> PASV ... couldn't connect to 132.249.210.168 port 51276: Connection refused
+--2020-09-21 09:25:06--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8644/map/emd_8644.map.gz
+           => ‘emd_8644.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8644/map ... done.
+==> SIZE emd_8644.map.gz ... 62492068
+==> PASV ... couldn't connect to 132.249.210.168 port 51537: Connection refused
+--2020-09-21 09:25:07--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8653/map/emd_8653.map.gz
+           => ‘emd_8653.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8653/map ... done.
+==> SIZE emd_8653.map.gz ... 4650593
+==> PASV ... couldn't connect to 132.249.210.168 port 51584: Connection refused
+--2020-09-21 09:25:07--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8658/map/emd_8658.map.gz
+           => ‘emd_8658.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8658/map ... done.
+==> SIZE emd_8658.map.gz ... 62363835
+==> PASV ... couldn't connect to 132.249.210.168 port 51387: Connection refused
+--2020-09-21 09:25:08--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8659/map/emd_8659.map.gz
+           => ‘emd_8659.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8659/map ... done.
+==> SIZE emd_8659.map.gz ... 62465711
+==> PASV ... couldn't connect to 132.249.210.168 port 51935: Connection refused
+--2020-09-21 09:25:08--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8712/map/emd_8712.map.gz
+           => ‘emd_8712.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8712/map ... done.
+==> SIZE emd_8712.map.gz ... 7037451
+==> PASV ... couldn't connect to 132.249.210.168 port 51119: Connection refused
+--2020-09-21 09:25:09--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8741/map/emd_8741.map.gz
+           => ‘emd_8741.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8741/map ... done.
+==> SIZE emd_8741.map.gz ... 62409868
+==> PASV ... couldn't connect to 132.249.210.168 port 51204: Connection refused
+--2020-09-21 09:25:10--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8742/map/emd_8742.map.gz
+           => ‘emd_8742.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8742/map ... done.
+==> SIZE emd_8742.map.gz ... 62373594
+==> PASV ... couldn't connect to 132.249.210.168 port 51117: Connection refused
+--2020-09-21 09:25:10--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8743/map/emd_8743.map.gz
+           => ‘emd_8743.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8743/map ... done.
+==> SIZE emd_8743.map.gz ... 7788528
+==> PASV ... couldn't connect to 132.249.210.168 port 51943: Connection refused
+--2020-09-21 09:25:11--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8764/map/emd_8764.map.gz
+           => ‘emd_8764.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8764/map ... done.
+==> SIZE emd_8764.map.gz ... 62362961
+==> PASV ... couldn't connect to 132.249.210.168 port 51816: Connection refused
+--2020-09-21 09:25:11--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8771/map/emd_8771.map.gz
+           => ‘emd_8771.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8771/map ... done.
+==> SIZE emd_8771.map.gz ... 25134439
+==> PASV ... couldn't connect to 132.249.210.168 port 51788: Connection refused
+--2020-09-21 09:25:12--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8774/map/emd_8774.map.gz
+           => ‘emd_8774.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8774/map ... done.
+==> SIZE emd_8774.map.gz ... 25139925
+==> PASV ... couldn't connect to 132.249.210.168 port 51052: Connection refused
+--2020-09-21 09:25:12--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8775/map/emd_8775.map.gz
+           => ‘emd_8775.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8775/map ... done.
+==> SIZE emd_8775.map.gz ... 25178326
+==> PASV ... couldn't connect to 132.249.210.168 port 51280: Connection refused
+--2020-09-21 09:25:13--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8776/map/emd_8776.map.gz
+           => ‘emd_8776.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8776/map ... done.
+==> SIZE emd_8776.map.gz ... 25143241
+==> PASV ... couldn't connect to 132.249.210.168 port 51255: Connection refused
+--2020-09-21 09:25:13--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8881/map/emd_8881.map.gz
+           => ‘emd_8881.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8881/map ... done.
+==> SIZE emd_8881.map.gz ... 28656685
+==> PASV ... couldn't connect to 132.249.210.168 port 51725: Connection refused
+--2020-09-21 09:25:14--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8882/map/emd_8882.map.gz
+           => ‘emd_8882.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8882/map ... done.
+==> SIZE emd_8882.map.gz ... 28560774
+==> PASV ... couldn't connect to 132.249.210.168 port 51669: Connection refused
+--2020-09-21 09:25:14--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8883/map/emd_8883.map.gz
+           => ‘emd_8883.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8883/map ... done.
+==> SIZE emd_8883.map.gz ... 28523950
+==> PASV ... couldn't connect to 132.249.210.168 port 51347: Connection refused
+--2020-09-21 09:25:15--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6714/map/emd_6714.map.gz
+           => ‘emd_6714.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6714/map ... done.
+==> SIZE emd_6714.map.gz ... 2529850
+==> PASV ... couldn't connect to 132.249.210.168 port 51324: Connection refused
+--2020-09-21 09:25:15--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6810/map/emd_6810.map.gz
+           => ‘emd_6810.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6810/map ... done.
+==> SIZE emd_6810.map.gz ... 49204899
+==> PASV ... couldn't connect to 132.249.210.168 port 51356: Connection refused
+--2020-09-21 09:25:16--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6811/map/emd_6811.map.gz
+           => ‘emd_6811.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6811/map ... done.
+==> SIZE emd_6811.map.gz ... 49227243
+==> PASV ... couldn't connect to 132.249.210.168 port 51683: Connection refused
+--2020-09-21 09:25:16--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6812/map/emd_6812.map.gz
+           => ‘emd_6812.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6812/map ... done.
+==> SIZE emd_6812.map.gz ... 49200577
+==> PASV ... couldn't connect to 132.249.210.168 port 51348: Connection refused
+--2020-09-21 09:25:17--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6813/map/emd_6813.map.gz
+           => ‘emd_6813.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6813/map ... done.
+==> SIZE emd_6813.map.gz ... 49025481
+==> PASV ... couldn't connect to 132.249.210.168 port 51285: Connection refused
+--2020-09-21 09:25:18--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6822/map/emd_6822.map.gz
+           => ‘emd_6822.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6822/map ... done.
+==> SIZE emd_6822.map.gz ... 62308027
+==> PASV ... couldn't connect to 132.249.210.168 port 51999: Connection refused
+--2020-09-21 09:25:18--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6830/map/emd_6830.map.gz
+           => ‘emd_6830.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6830/map ... done.
+==> SIZE emd_6830.map.gz ... 2536831
+==> PASV ... couldn't connect to 132.249.210.168 port 51957: Connection refused
+--2020-09-21 09:25:19--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6875/map/emd_6875.map.gz
+           => ‘emd_6875.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6875/map ... done.
+==> SIZE emd_6875.map.gz ... 5080683
+==> PASV ... couldn't connect to 132.249.210.168 port 51660: Connection refused
+--2020-09-21 09:25:19--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6879/map/emd_6879.map.gz
+           => ‘emd_6879.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6879/map ... done.
+==> SIZE emd_6879.map.gz ... 2273579
+==> PASV ... couldn't connect to 132.249.210.168 port 51355: Connection refused
+--2020-09-21 09:25:20--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6880/map/emd_6880.map.gz
+           => ‘emd_6880.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6880/map ... done.
+==> SIZE emd_6880.map.gz ... 3064715
+==> PASV ... couldn't connect to 132.249.210.168 port 51321: Connection refused
+--2020-09-21 09:25:20--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6881/map/emd_6881.map.gz
+           => ‘emd_6881.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6881/map ... 
+No such directory ‘pub/emdb/structures/EMD-6881/map’.
+
+--2020-09-21 09:25:21--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6882/map/emd_6882.map.gz
+           => ‘emd_6882.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6882/map ... done.
+==> SIZE emd_6882.map.gz ... 15294641
+==> PASV ... couldn't connect to 132.249.210.168 port 51353: Connection refused
+--2020-09-21 09:25:21--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6883/map/emd_6883.map.gz
+           => ‘emd_6883.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6883/map ... done.
+==> SIZE emd_6883.map.gz ... 15294690
+==> PASV ... couldn't connect to 132.249.210.168 port 51263: Connection refused
+--2020-09-21 09:25:22--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-6991/map/emd_6991.map.gz
+           => ‘emd_6991.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-6991/map ... done.
+==> SIZE emd_6991.map.gz ... 61522288
+==> PASV ... couldn't connect to 132.249.210.168 port 51785: Connection refused
+--2020-09-21 09:25:22--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7009/map/emd_7009.map.gz
+           => ‘emd_7009.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7009/map ... done.
+==> SIZE emd_7009.map.gz ... 24639640
+==> PASV ... couldn't connect to 132.249.210.168 port 51172: Connection refused
+--2020-09-21 09:25:23--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7023/map/emd_7023.map.gz
+           => ‘emd_7023.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7023/map ... done.
+==> SIZE emd_7023.map.gz ... 12529520
+==> PASV ... couldn't connect to 132.249.210.168 port 51883: Connection refused
+--2020-09-21 09:25:24--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7031/map/emd_7031.map.gz
+           => ‘emd_7031.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7031/map ... done.
+==> SIZE emd_7031.map.gz ... 42018407
+==> PASV ... couldn't connect to 132.249.210.168 port 51508: Connection refused
+--2020-09-21 09:25:24--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7039/map/emd_7039.map.gz
+           => ‘emd_7039.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7039/map ... done.
+==> SIZE emd_7039.map.gz ... 5038753
+==> PASV ... couldn't connect to 132.249.210.168 port 51465: Connection refused
+--2020-09-21 09:25:25--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7046/map/emd_7046.map.gz
+           => ‘emd_7046.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7046/map ... done.
+==> SIZE emd_7046.map.gz ... 21269372
+==> PASV ... couldn't connect to 132.249.210.168 port 51313: Connection refused
+--2020-09-21 09:25:25--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7048/map/emd_7048.map.gz
+           => ‘emd_7048.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7048/map ... done.
+==> SIZE emd_7048.map.gz ... 50080912
+==> PASV ... couldn't connect to 132.249.210.168 port 51599: Connection refused
+--2020-09-21 09:25:26--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7049/map/emd_7049.map.gz
+           => ‘emd_7049.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7049/map ... done.
+==> SIZE emd_7049.map.gz ... 50113719
+==> PASV ... couldn't connect to 132.249.210.168 port 51537: Connection refused
+--2020-09-21 09:25:26--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7050/map/emd_7050.map.gz
+           => ‘emd_7050.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7050/map ... done.
+==> SIZE emd_7050.map.gz ... 49997541
+==> PASV ... couldn't connect to 132.249.210.168 port 51933: Connection refused
+--2020-09-21 09:25:27--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7051/map/emd_7051.map.gz
+           => ‘emd_7051.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7051/map ... done.
+==> SIZE emd_7051.map.gz ... 2845315
+==> PASV ... couldn't connect to 132.249.210.168 port 51411: Connection refused
+--2020-09-21 09:25:27--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7052/map/emd_7052.map.gz
+           => ‘emd_7052.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7052/map ... done.
+==> SIZE emd_7052.map.gz ... 50142006
+==> PASV ... couldn't connect to 132.249.210.168 port 51218: Connection refused
+--2020-09-21 09:25:28--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7059/map/emd_7059.map.gz
+           => ‘emd_7059.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7059/map ... done.
+==> SIZE emd_7059.map.gz ... 4554882
+==> PASV ... couldn't connect to 132.249.210.168 port 51797: Connection refused
+--2020-09-21 09:25:28--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7075/map/emd_7075.map.gz
+           => ‘emd_7075.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7075/map ... done.
+==> SIZE emd_7075.map.gz ... 1683479
+==> PASV ... couldn't connect to 132.249.210.168 port 51762: Connection refused
+--2020-09-21 09:25:29--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7118/map/emd_7118.map.gz
+           => ‘emd_7118.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7118/map ... done.
+==> SIZE emd_7118.map.gz ... 15187556
+==> PASV ... couldn't connect to 132.249.210.168 port 51697: Connection refused
+--2020-09-21 09:25:29--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7119/map/emd_7119.map.gz
+           => ‘emd_7119.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7119/map ... done.
+==> SIZE emd_7119.map.gz ... 39589003
+==> PASV ... couldn't connect to 132.249.210.168 port 51032: Connection refused
+--2020-09-21 09:25:30--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7326/map/emd_7326.map.gz
+           => ‘emd_7326.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7326/map ... done.
+==> SIZE emd_7326.map.gz ... 13080543
+==> PASV ... couldn't connect to 132.249.210.168 port 51479: Connection refused
+--2020-09-21 09:25:31--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7349/map/emd_7349.map.gz
+           => ‘emd_7349.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7349/map ... done.
+==> SIZE emd_7349.map.gz ... 62818378
+==> PASV ... couldn't connect to 132.249.210.168 port 51003: Connection refused
+--2020-09-21 09:25:31--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7350/map/emd_7350.map.gz
+           => ‘emd_7350.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7350/map ... done.
+==> SIZE emd_7350.map.gz ... 62840824
+==> PASV ... couldn't connect to 132.249.210.168 port 51061: Connection refused
+--2020-09-21 09:25:32--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7464/map/emd_7464.map.gz
+           => ‘emd_7464.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7464/map ... done.
+==> SIZE emd_7464.map.gz ... 3016013
+==> PASV ... couldn't connect to 132.249.210.168 port 51637: Connection refused
+--2020-09-21 09:25:32--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7465/map/emd_7465.map.gz
+           => ‘emd_7465.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7465/map ... done.
+==> SIZE emd_7465.map.gz ... 3132577
+==> PASV ... couldn't connect to 132.249.210.168 port 51807: Connection refused
+--2020-09-21 09:25:33--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7457/map/emd_7457.map.gz
+           => ‘emd_7457.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7457/map ... done.
+==> SIZE emd_7457.map.gz ... 42044939
+==> PASV ... couldn't connect to 132.249.210.168 port 51052: Connection refused
+--2020-09-21 09:25:33--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7526/map/emd_7526.map.gz
+           => ‘emd_7526.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7526/map ... done.
+==> SIZE emd_7526.map.gz ... 65897465
+==> PASV ... couldn't connect to 132.249.210.168 port 51725: Connection refused
+--2020-09-21 09:25:34--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7535/map/emd_7535.map.gz
+           => ‘emd_7535.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7535/map ... done.
+==> SIZE emd_7535.map.gz ... 57902318
+==> PASV ... couldn't connect to 132.249.210.168 port 51499: Connection refused
+--2020-09-21 09:25:34--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7536/map/emd_7536.map.gz
+           => ‘emd_7536.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7536/map ... done.
+==> SIZE emd_7536.map.gz ... 57818823
+==> PASV ... couldn't connect to 132.249.210.168 port 51146: Connection refused
+--2020-09-21 09:25:35--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7816/map/emd_7816.map.gz
+           => ‘emd_7816.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7816/map ... done.
+==> SIZE emd_7816.map.gz ... 5194858
+==> PASV ... couldn't connect to 132.249.210.168 port 51402: Connection refused
+--2020-09-21 09:25:35--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7817/map/emd_7817.map.gz
+           => ‘emd_7817.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7817/map ... done.
+==> SIZE emd_7817.map.gz ... 6096402
+==> PASV ... couldn't connect to 132.249.210.168 port 51561: Connection refused
+--2020-09-21 09:25:36--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7453/map/emd_7453.map.gz
+           => ‘emd_7453.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7453/map ... done.
+==> SIZE emd_7453.map.gz ... 62663889
+==> PASV ... couldn't connect to 132.249.210.168 port 51896: Connection refused
+--2020-09-21 09:25:37--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7868/map/emd_7868.map.gz
+           => ‘emd_7868.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7868/map ... done.
+==> SIZE emd_7868.map.gz ... 51202838
+==> PASV ... couldn't connect to 132.249.210.168 port 51545: Connection refused
+--2020-09-21 09:25:37--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7869/map/emd_7869.map.gz
+           => ‘emd_7869.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7869/map ... done.
+==> SIZE emd_7869.map.gz ... 51199614
+==> PASV ... couldn't connect to 132.249.210.168 port 51543: Connection refused
+--2020-09-21 09:25:38--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-7939/map/emd_7939.map.gz
+           => ‘emd_7939.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-7939/map ... done.
+==> SIZE emd_7939.map.gz ... 2882180
+==> PASV ... couldn't connect to 132.249.210.168 port 51810: Connection refused
+--2020-09-21 09:25:38--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-8912/map/emd_8912.map.gz
+           => ‘emd_8912.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-8912/map ... done.
+==> SIZE emd_8912.map.gz ... 62341538
+==> PASV ... couldn't connect to 132.249.210.168 port 51325: Connection refused
+--2020-09-21 09:25:39--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9013/map/emd_9013.map.gz
+           => ‘emd_9013.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9013/map ... done.
+==> SIZE emd_9013.map.gz ... 59218501
+==> PASV ... couldn't connect to 132.249.210.168 port 51768: Connection refused
+--2020-09-21 09:25:39--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9014/map/emd_9014.map.gz
+           => ‘emd_9014.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9014/map ... done.
+==> SIZE emd_9014.map.gz ... 62329523
+==> PASV ... couldn't connect to 132.249.210.168 port 51108: Connection refused
+--2020-09-21 09:25:40--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3907/map/emd_3907.map.gz
+           => ‘emd_3907.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3907/map ... done.
+==> SIZE emd_3907.map.gz ... 9334020
+==> PASV ... couldn't connect to 132.249.210.168 port 51442: Connection refused
+--2020-09-21 09:25:40--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3908/map/emd_3908.map.gz
+           => ‘emd_3908.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3908/map ... done.
+==> SIZE emd_3908.map.gz ... 15328600
+==> PASV ... couldn't connect to 132.249.210.168 port 51191: Connection refused
+--2020-09-21 09:25:41--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3983/map/emd_3983.map.gz
+           => ‘emd_3983.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3983/map ... done.
+==> SIZE emd_3983.map.gz ... 3183536
+==> PASV ... couldn't connect to 132.249.210.168 port 51849: Connection refused
+--2020-09-21 09:25:41--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-3999/map/emd_3999.map.gz
+           => ‘emd_3999.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-3999/map ... done.
+==> SIZE emd_3999.map.gz ... 22042666
+==> PASV ... couldn't connect to 132.249.210.168 port 51057: Connection refused
+--2020-09-21 09:25:42--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4163/map/emd_4163.map.gz
+           => ‘emd_4163.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4163/map ... done.
+==> SIZE emd_4163.map.gz ... 51669114
+==> PASV ... couldn't connect to 132.249.210.168 port 51983: Connection refused
+--2020-09-21 09:25:42--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4179/map/emd_4179.map.gz
+           => ‘emd_4179.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4179/map ... done.
+==> SIZE emd_4179.map.gz ... 12884088
+==> PASV ... couldn't connect to 132.249.210.168 port 51587: Connection refused
+--2020-09-21 09:25:43--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4192/map/emd_4192.map.gz
+           => ‘emd_4192.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4192/map ... done.
+==> SIZE emd_4192.map.gz ... 3249546
+==> PASV ... couldn't connect to 132.249.210.168 port 51413: Connection refused
+--2020-09-21 09:25:44--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4241/map/emd_4241.map.gz
+           => ‘emd_4241.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4241/map ... done.
+==> SIZE emd_4241.map.gz ... 29971789
+==> PASV ... couldn't connect to 132.249.210.168 port 51486: Connection refused
+--2020-09-21 09:25:44--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4282/map/emd_4282.map.gz
+           => ‘emd_4282.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4282/map ... done.
+==> SIZE emd_4282.map.gz ... 29977768
+==> PASV ... couldn't connect to 132.249.210.168 port 51246: Connection refused
+--2020-09-21 09:25:45--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-4339/map/emd_4339.map.gz
+           => ‘emd_4339.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-4339/map ... done.
+==> SIZE emd_4339.map.gz ... 4979231
+==> PASV ... couldn't connect to 132.249.210.168 port 51779: Connection refused
+--2020-09-21 09:25:45--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0043/map/emd_0043.map.gz
+           => ‘emd_0043.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0043/map ... done.
+==> SIZE emd_0043.map.gz ... 4105870
+==> PASV ... couldn't connect to 132.249.210.168 port 51963: Connection refused
+--2020-09-21 09:25:46--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0051/map/emd_0051.map.gz
+           => ‘emd_0051.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0051/map ... done.
+==> SIZE emd_0051.map.gz ... 62840070
+==> PASV ... couldn't connect to 132.249.210.168 port 51547: Connection refused
+--2020-09-21 09:25:46--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0200/map/emd_0200.map.gz
+           => ‘emd_0200.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0200/map ... done.
+==> SIZE emd_0200.map.gz ... 8504148
+==> PASV ... couldn't connect to 132.249.210.168 port 51216: Connection refused
+--2020-09-21 09:25:47--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0257/map/emd_0257.map.gz
+           => ‘emd_0257.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0257/map ... done.
+==> SIZE emd_0257.map.gz ... 51738550
+==> PASV ... couldn't connect to 132.249.210.168 port 51474: Connection refused
+--2020-09-21 09:25:47--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0258/map/emd_0258.map.gz
+           => ‘emd_0258.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0258/map ... done.
+==> SIZE emd_0258.map.gz ... 51056346
+==> PASV ... couldn't connect to 132.249.210.168 port 51820: Connection refused
+--2020-09-21 09:25:48--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0310/map/emd_0310.map.gz
+           => ‘emd_0310.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0310/map ... done.
+==> SIZE emd_0310.map.gz ... 6345437
+==> PASV ... couldn't connect to 132.249.210.168 port 51264: Connection refused
+--2020-09-21 09:25:48--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0311/map/emd_0311.map.gz
+           => ‘emd_0311.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0311/map ... done.
+==> SIZE emd_0311.map.gz ... 7952365
+==> PASV ... couldn't connect to 132.249.210.168 port 51663: Connection refused
+--2020-09-21 09:25:49--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0312/map/emd_0312.map.gz
+           => ‘emd_0312.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0312/map ... done.
+==> SIZE emd_0312.map.gz ... 7942000
+==> PASV ... couldn't connect to 132.249.210.168 port 51822: Connection refused
+--2020-09-21 09:25:49--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0313/map/emd_0313.map.gz
+           => ‘emd_0313.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0313/map ... done.
+==> SIZE emd_0313.map.gz ... 7994556
+==> PASV ... couldn't connect to 132.249.210.168 port 51054: Connection refused
+--2020-09-21 09:25:50--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0314/map/emd_0314.map.gz
+           => ‘emd_0314.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0314/map ... done.
+==> SIZE emd_0314.map.gz ... 7963020
+==> PASV ... couldn't connect to 132.249.210.168 port 51292: Connection refused
+--2020-09-21 09:25:50--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0315/map/emd_0315.map.gz
+           => ‘emd_0315.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0315/map ... done.
+==> SIZE emd_0315.map.gz ... 7899659
+==> PASV ... couldn't connect to 132.249.210.168 port 51952: Connection refused
+--2020-09-21 09:25:51--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0326/map/emd_0326.map.gz
+           => ‘emd_0326.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0326/map ... done.
+==> SIZE emd_0326.map.gz ... 7464517
+==> PASV ... couldn't connect to 132.249.210.168 port 51101: Connection refused
+--2020-09-21 09:25:51--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0327/map/emd_0327.map.gz
+           => ‘emd_0327.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0327/map ... done.
+==> SIZE emd_0327.map.gz ... 10601993
+==> PASV ... couldn't connect to 132.249.210.168 port 51109: Connection refused
+--2020-09-21 09:25:52--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9653/map/emd_9653.map.gz
+           => ‘emd_9653.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9653/map ... done.
+==> SIZE emd_9653.map.gz ... 29785840
+==> PASV ... couldn't connect to 132.249.210.168 port 51712: Connection refused
+--2020-09-21 09:25:53--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9660/map/emd_9660.map.gz
+           => ‘emd_9660.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9660/map ... done.
+==> SIZE emd_9660.map.gz ... 29841678
+==> PASV ... couldn't connect to 132.249.210.168 port 51252: Connection refused
+--2020-09-21 09:25:53--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9714/map/emd_9714.map.gz
+           => ‘emd_9714.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9714/map ... done.
+==> SIZE emd_9714.map.gz ... 51281466
+==> PASV ... couldn't connect to 132.249.210.168 port 51423: Connection refused
+--2020-09-21 09:25:54--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9715/map/emd_9715.map.gz
+           => ‘emd_9715.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9715/map ... done.
+==> SIZE emd_9715.map.gz ... 49167390
+==> PASV ... couldn't connect to 132.249.210.168 port 51790: Connection refused
+--2020-09-21 09:25:54--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9716/map/emd_9716.map.gz
+           => ‘emd_9716.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9716/map ... done.
+==> SIZE emd_9716.map.gz ... 49245104
+==> PASV ... couldn't connect to 132.249.210.168 port 51276: Connection refused
+--2020-09-21 09:25:55--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9717/map/emd_9717.map.gz
+           => ‘emd_9717.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9717/map ... done.
+==> SIZE emd_9717.map.gz ... 49414142
+==> PASV ... couldn't connect to 132.249.210.168 port 51259: Connection refused
+--2020-09-21 09:25:55--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9721/map/emd_9721.map.gz
+           => ‘emd_9721.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9721/map ... done.
+==> SIZE emd_9721.map.gz ... 62399409
+==> PASV ... couldn't connect to 132.249.210.168 port 51639: Connection refused
+--2020-09-21 09:25:56--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9722/map/emd_9722.map.gz
+           => ‘emd_9722.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9722/map ... done.
+==> SIZE emd_9722.map.gz ... 62424321
+==> PASV ... couldn't connect to 132.249.210.168 port 51399: Connection refused
+--2020-09-21 09:25:57--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9748/map/emd_9748.map.gz
+           => ‘emd_9748.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9748/map ... done.
+==> SIZE emd_9748.map.gz ... 29981933
+==> PASV ... couldn't connect to 132.249.210.168 port 51483: Connection refused
+--2020-09-21 09:25:57--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9749/map/emd_9749.map.gz
+           => ‘emd_9749.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9749/map ... done.
+==> SIZE emd_9749.map.gz ... 29980889
+==> PASV ... couldn't connect to 132.249.210.168 port 51595: Connection refused
+--2020-09-21 09:25:58--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9792/map/emd_9792.map.gz
+           => ‘emd_9792.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9792/map ... done.
+==> SIZE emd_9792.map.gz ... 10126783
+==> PASV ... couldn't connect to 132.249.210.168 port 51689: Connection refused
+--2020-09-21 09:25:58--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9843/map/emd_9843.map.gz
+           => ‘emd_9843.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9843/map ... done.
+==> SIZE emd_9843.map.gz ... 30015521
+==> PASV ... couldn't connect to 132.249.210.168 port 51861: Connection refused
+--2020-09-21 09:25:59--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9844/map/emd_9844.map.gz
+           => ‘emd_9844.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9844/map ... done.
+==> SIZE emd_9844.map.gz ... 39752982
+==> PASV ... couldn't connect to 132.249.210.168 port 51105: Connection refused
+--2020-09-21 09:26:00--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9101/map/emd_9101.map.gz
+           => ‘emd_9101.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9101/map ... done.
+==> SIZE emd_9101.map.gz ... 37422050
+==> PASV ... couldn't connect to 132.249.210.168 port 51753: Connection refused
+--2020-09-21 09:26:00--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9104/map/emd_9104.map.gz
+           => ‘emd_9104.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9104/map ... done.
+==> SIZE emd_9104.map.gz ... 42001029
+==> PASV ... couldn't connect to 132.249.210.168 port 51690: Connection refused
+--2020-09-21 09:26:01--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9112/map/emd_9112.map.gz
+           => ‘emd_9112.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9112/map ... done.
+==> SIZE emd_9112.map.gz ... 29914335
+==> PASV ... couldn't connect to 132.249.210.168 port 51256: Connection refused
+--2020-09-21 09:26:01--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9113/map/emd_9113.map.gz
+           => ‘emd_9113.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9113/map ... done.
+==> SIZE emd_9113.map.gz ... 28822891
+==> PASV ... couldn't connect to 132.249.210.168 port 51404: Connection refused
+--2020-09-21 09:26:02--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9139/map/emd_9139.map.gz
+           => ‘emd_9139.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9139/map ... done.
+==> SIZE emd_9139.map.gz ... 62391727
+==> PASV ... couldn't connect to 132.249.210.168 port 51460: Connection refused
+--2020-09-21 09:26:02--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9147/map/emd_9147.map.gz
+           => ‘emd_9147.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9147/map ... done.
+==> SIZE emd_9147.map.gz ... 26292481
+==> PASV ... couldn't connect to 132.249.210.168 port 51932: Connection refused
+--2020-09-21 09:26:03--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9148/map/emd_9148.map.gz
+           => ‘emd_9148.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9148/map ... done.
+==> SIZE emd_9148.map.gz ... 26296007
+==> PASV ... couldn't connect to 132.249.210.168 port 51290: Connection refused
+--2020-09-21 09:26:04--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9150/map/emd_9150.map.gz
+           => ‘emd_9150.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9150/map ... done.
+==> SIZE emd_9150.map.gz ... 58028392
+==> PASV ... couldn't connect to 132.249.210.168 port 51045: Connection refused
+--2020-09-21 09:26:04--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9151/map/emd_9151.map.gz
+           => ‘emd_9151.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9151/map ... done.
+==> SIZE emd_9151.map.gz ... 26290202
+==> PASV ... couldn't connect to 132.249.210.168 port 51563: Connection refused
+--2020-09-21 09:26:05--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9152/map/emd_9152.map.gz
+           => ‘emd_9152.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9152/map ... done.
+==> SIZE emd_9152.map.gz ... 25958845
+==> PASV ... couldn't connect to 132.249.210.168 port 51327: Connection refused
+--2020-09-21 09:26:06--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9154/map/emd_9154.map.gz
+           => ‘emd_9154.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9154/map ... done.
+==> SIZE emd_9154.map.gz ... 26291803
+==> PASV ... couldn't connect to 132.249.210.168 port 51835: Connection refused
+--2020-09-21 09:26:06--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9155/map/emd_9155.map.gz
+           => ‘emd_9155.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9155/map ... done.
+==> SIZE emd_9155.map.gz ... 26296282
+==> PASV ... couldn't connect to 132.249.210.168 port 51373: Connection refused
+--2020-09-21 09:26:07--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9156/map/emd_9156.map.gz
+           => ‘emd_9156.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9156/map ... done.
+==> SIZE emd_9156.map.gz ... 26289269
+==> PASV ... couldn't connect to 132.249.210.168 port 51862: Connection refused
+--2020-09-21 09:26:07--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9157/map/emd_9157.map.gz
+           => ‘emd_9157.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9157/map ... done.
+==> SIZE emd_9157.map.gz ... 26306821
+==> PASV ... couldn't connect to 132.249.210.168 port 51868: Connection refused
+--2020-09-21 09:26:08--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9158/map/emd_9158.map.gz
+           => ‘emd_9158.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9158/map ... done.
+==> SIZE emd_9158.map.gz ... 26288678
+==> PASV ... couldn't connect to 132.249.210.168 port 51945: Connection refused
+--2020-09-21 09:26:08--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9159/map/emd_9159.map.gz
+           => ‘emd_9159.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9159/map ... done.
+==> SIZE emd_9159.map.gz ... 26283542
+==> PASV ... couldn't connect to 132.249.210.168 port 51952: Connection refused
+--2020-09-21 09:26:09--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9160/map/emd_9160.map.gz
+           => ‘emd_9160.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9160/map ... done.
+==> SIZE emd_9160.map.gz ... 26280638
+==> PASV ... couldn't connect to 132.249.210.168 port 51689: Connection refused
+--2020-09-21 09:26:09--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9161/map/emd_9161.map.gz
+           => ‘emd_9161.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9161/map ... done.
+==> SIZE emd_9161.map.gz ... 26289670
+==> PASV ... couldn't connect to 132.249.210.168 port 51129: Connection refused
+--2020-09-21 09:26:10--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9162/map/emd_9162.map.gz
+           => ‘emd_9162.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9162/map ... done.
+==> SIZE emd_9162.map.gz ... 26281904
+==> PASV ... couldn't connect to 132.249.210.168 port 51228: Connection refused
+--2020-09-21 09:26:10--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9163/map/emd_9163.map.gz
+           => ‘emd_9163.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9163/map ... done.
+==> SIZE emd_9163.map.gz ... 62289757
+==> PASV ... couldn't connect to 132.249.210.168 port 51065: Connection refused
+--2020-09-21 09:26:11--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9164/map/emd_9164.map.gz
+           => ‘emd_9164.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9164/map ... done.
+==> SIZE emd_9164.map.gz ... 26282256
+==> PASV ... couldn't connect to 132.249.210.168 port 51159: Connection refused
+--2020-09-21 09:26:12--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9165/map/emd_9165.map.gz
+           => ‘emd_9165.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9165/map ... done.
+==> SIZE emd_9165.map.gz ... 26289097
+==> PASV ... couldn't connect to 132.249.210.168 port 51710: Connection refused
+--2020-09-21 09:26:12--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9191/map/emd_9191.map.gz
+           => ‘emd_9191.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9191/map ... done.
+==> SIZE emd_9191.map.gz ... 11594977
+==> PASV ... couldn't connect to 132.249.210.168 port 51034: Connection refused
+--2020-09-21 09:26:13--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9317/map/emd_9317.map.gz
+           => ‘emd_9317.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9317/map ... done.
+==> SIZE emd_9317.map.gz ... 29931754
+==> PASV ... couldn't connect to 132.249.210.168 port 51162: Connection refused
+--2020-09-21 09:26:13--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9318/map/emd_9318.map.gz
+           => ‘emd_9318.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9318/map ... done.
+==> SIZE emd_9318.map.gz ... 76893153
+==> PASV ... couldn't connect to 132.249.210.168 port 51804: Connection refused
+--2020-09-21 09:26:14--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0335/map/emd_0335.map.gz
+           => ‘emd_0335.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0335/map ... done.
+==> SIZE emd_0335.map.gz ... 26539551
+==> PASV ... couldn't connect to 132.249.210.168 port 51912: Connection refused
+--2020-09-21 09:26:15--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0345/map/emd_0345.map.gz
+           => ‘emd_0345.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0345/map ... done.
+==> SIZE emd_0345.map.gz ... 62798001
+==> PASV ... couldn't connect to 132.249.210.168 port 51587: Connection refused
+--2020-09-21 09:26:15--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0346/map/emd_0346.map.gz
+           => ‘emd_0346.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0346/map ... done.
+==> SIZE emd_0346.map.gz ... 62787813
+==> PASV ... couldn't connect to 132.249.210.168 port 51961: Connection refused
+--2020-09-21 09:26:16--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0407/map/emd_0407.map.gz
+           => ‘emd_0407.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0407/map ... done.
+==> SIZE emd_0407.map.gz ... 62478046
+==> PASV ... couldn't connect to 132.249.210.168 port 51657: Connection refused
+--2020-09-21 09:26:16--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0408/map/emd_0408.map.gz
+           => ‘emd_0408.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0408/map ... done.
+==> SIZE emd_0408.map.gz ... 62583454
+==> PASV ... couldn't connect to 132.249.210.168 port 51464: Connection refused
+--2020-09-21 09:26:17--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-9382/map/emd_9382.map.gz
+           => ‘emd_9382.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-9382/map ... done.
+==> SIZE emd_9382.map.gz ... 2178209
+==> PASV ... couldn't connect to 132.249.210.168 port 51620: Connection refused
+--2020-09-21 09:26:17--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0452/map/emd_0452.map.gz
+           => ‘emd_0452.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0452/map ... done.
+==> SIZE emd_0452.map.gz ... 62510594
+==> PASV ... couldn't connect to 132.249.210.168 port 51538: Connection refused
+--2020-09-21 09:26:18--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0500/map/emd_0500.map.gz
+           => ‘emd_0500.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0500/map ... done.
+==> SIZE emd_0500.map.gz ... 57987904
+==> PASV ... couldn't connect to 132.249.210.168 port 51496: Connection refused
+--2020-09-21 09:26:18--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0501/map/emd_0501.map.gz
+           => ‘emd_0501.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0501/map ... done.
+==> SIZE emd_0501.map.gz ... 58041735
+==> PASV ... couldn't connect to 132.249.210.168 port 51418: Connection refused
+--2020-09-21 09:26:19--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0520/map/emd_0520.map.gz
+           => ‘emd_0520.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0520/map ... done.
+==> SIZE emd_0520.map.gz ... 62918195
+==> PASV ... couldn't connect to 132.249.210.168 port 51957: Connection refused
+--2020-09-21 09:26:20--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0521/map/emd_0521.map.gz
+           => ‘emd_0521.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0521/map ... done.
+==> SIZE emd_0521.map.gz ... 62847301
+==> PASV ... couldn't connect to 132.249.210.168 port 51071: Connection refused
+--2020-09-21 09:26:20--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0552/map/emd_0552.map.gz
+           => ‘emd_0552.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0552/map ... done.
+==> SIZE emd_0552.map.gz ... 5878411
+==> PASV ... couldn't connect to 132.249.210.168 port 51328: Connection refused
+--2020-09-21 09:26:21--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-0650/map/emd_0650.map.gz
+           => ‘emd_0650.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-0650/map ... done.
+==> SIZE emd_0650.map.gz ... 21145185
+==> PASV ... couldn't connect to 132.249.210.168 port 51676: Connection refused
+--2020-09-21 09:26:21--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-20143/map/emd_20143.map.gz
+           => ‘emd_20143.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-20143/map ... done.
+==> SIZE emd_20143.map.gz ... 62244589
+==> PASV ... couldn't connect to 132.249.210.168 port 51121: Connection refused
+--2020-09-21 09:26:22--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-20145/map/emd_20145.map.gz
+           => ‘emd_20145.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-20145/map ... done.
+==> SIZE emd_20145.map.gz ... 62384296
+==> PASV ... couldn't connect to 132.249.210.168 port 51349: Connection refused
+--2020-09-21 09:26:22--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-20146/map/emd_20146.map.gz
+           => ‘emd_20146.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-20146/map ... done.
+==> SIZE emd_20146.map.gz ... 62156527
+==> PASV ... couldn't connect to 132.249.210.168 port 51995: Connection refused
+--2020-09-21 09:26:23--  ftp://ftp.wwpdb.org/pub/emdb/structures/EMD-20148/map/emd_20148.map.gz
+           => ‘emd_20148.map.gz’
+Resolving ftp.wwpdb.org (ftp.wwpdb.org)... 132.249.210.234
+Connecting to ftp.wwpdb.org (ftp.wwpdb.org)|132.249.210.234|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/emdb/structures/EMD-20148/map ... done.
+==> SIZE emd_20148.map.gz ... 62748386
+==> PASV ... couldn't connect to 132.249.210.168 port 51755: Connection refused
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
+error flag: emdb not found
