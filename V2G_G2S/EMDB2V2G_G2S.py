@@ -1,6 +1,6 @@
 import os
 import subprocess
-infile = open("0203_input.txt","r")
+infile = open("gmm_input.txt","r")
 for line in infile:
 	#parse emd id from input file
 	line = line.strip()

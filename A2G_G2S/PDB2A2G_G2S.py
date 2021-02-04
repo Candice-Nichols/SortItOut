@@ -1,6 +1,6 @@
 import os
 import subprocess
-infile = open("pdb_1006.txt","r")
+infile = open("gmm_input.txt","r")
 for line in infile:
 	#parse pdb id from input file
 	line = line.strip()
