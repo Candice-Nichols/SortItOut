@@ -10,7 +10,7 @@ Matching atomic protein subunit structure into protein complex EM maps
 cd V2G_G2S
 ```
 
-### Create input file "gmminput.txt", and edit with EMDB ids, format as following
+### Create input file "gmm_input.txt", and edit with EMDB ids, format as following
 ```
 EMDB_3488
 EMDB_3204
@@ -19,9 +19,13 @@ EMDB_3204
 
 ### Run program
 ```
-python EMDBV2G_G2S.py
+nohup python EMDB2V2G_G2S.py > gmm_output.txt &
 ```
 
+### to edit Ngauss edit in V2G_G2S.sh
+```
+./gmconvert V2G -imap $input -ogmm $2 -ng 100 -zth $contour -max_memory 90000
+```
 
 
 
@@ -32,7 +36,7 @@ python EMDBV2G_G2S.py
 cd A2G_G2S
 ```
 
-### Create input file "gmminput.txt", and edit with PDB ids, format as following
+### Create input file "gmm_input.txt", and edit with PDB ids, format as following
 ```
 5jwl
 3b8k
@@ -41,5 +45,10 @@ cd A2G_G2S
 
 ### Run program
 ```
-python PDBA2G_G2S.py
+nohup python PDBA2G_G2S.py > gmm_output.txt &
 ```
+### to edit Ngauss edit in A2G_G2S.sh
+```
+./gmconvert A2G -ipdb $input -ng 100
+```
+
