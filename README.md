@@ -52,3 +52,19 @@ nohup python PDBA2G_G2S.py > gmm_output.txt &
 ./gmconvert A2G -ipdb $input -ng 100
 ```
 
+## subunit volume calculation
+
+### Navigate to corresponding directory
+```
+cd subunit_vol
+```
+### Create input file "subunit_input.txt", and edit with PDB ids and chain, format as following
+```
+6e14 H
+6e14 D
+...
+```
+### Run program. (Resulting pdb files will be written in results folder)
+```
+python subunit.py
+```
