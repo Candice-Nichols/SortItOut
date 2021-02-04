@@ -8,7 +8,8 @@ for line in pdbvol:
     res=line2[2]
     #apply lr new
     #linear_vol=float(line2[1])*1.07938533+23172.3787*float(res)-228522.066547639
-    linear_vol=float(line2[1])*1.09226442-121000.18327867
+    #apply lr new 0204
+    linear_vol=float(line2[1])*1.14708135-159785.52734952
     #apply linear regression to membrane proteins
     #linear_vol=float(line2[1])*0.658359617+23528.3482*float(res)-30957.365008784633
     #linear_vol=float(line2[1])

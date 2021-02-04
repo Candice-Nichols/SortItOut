@@ -10,8 +10,8 @@ for line in pdbvol:
         key=line2[0]
 	#parse resolution
 	res=line2[2]
-	#apply non membrane multi linear regression
-	linear_vol=float(line2[1])*0.992639271+float(res)*15270.2314-157623.73611530545
+	#apply non membrane multi linear regression new 0204
+	linear_vol=float(line2[1])*1.14708135-159785.52734952
 	#apply linear regression for membrane protein
         #parse pdb id and volume into a dictionary
         pdbvoldict[key]=linear_vol
