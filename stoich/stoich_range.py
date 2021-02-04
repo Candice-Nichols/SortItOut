@@ -62,7 +62,6 @@ def recursion_stoich_r(targ,vols,cutoff_st,cutoff_en,increment):
                 for i in range(0, len(item)): 
                     res_list.append(item[i] * vols[i])
                 if sum(res_list)>targ*(1-cutoff) and sum(res_list)<targ*(1+cutoff):
-                    print(item)
                     res.append(item)
             res_dict[cutoff]=res
             cutoff+=increment

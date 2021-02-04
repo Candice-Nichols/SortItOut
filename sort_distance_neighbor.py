@@ -1,6 +1,6 @@
 import numpy as np
 import scipy
-pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_groupd.txt","r")
+pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_overall.txt","r")
 pdbvoldict={}
 pdbvollst=[]
 pdbarr=[]
@@ -10,12 +10,13 @@ for line in pdbvol:
         key=line2[0]
 	#parse resolution
         res=line2[2]
-        #apply non membrane multi linear regression
-        linear_vol=float(line2[1])*0.992639271+float(res)*15270.2314-157623.73611530545
-	#linear_vol=float(line2[1])
+        #apply lr new
+        #linear_vol=float(line2[1])*1.07938533+23172.3787*float(res)-228522.066547639
+        linear_vol=float(line2[1])*1.09226442-121000.18327867
 	#apply linear regression for membrane proteins
-        #linear_vol= float(line2[1])*1.38947903+138918.8
-        #parse pdb id and volume into a dictionary
+        #linear_vol= float(line2[1])*0.658359617+23528.3482*float(res)-30957.365008784633
+        #linear_vol=float(line2[1])
+	#parse pdb id and volume into a dictionary
         pdbvoldict[key]=linear_vol
         #create a list of volumes
         pdbvollst.append(linear_vol)
@@ -35,7 +36,7 @@ for item in pdbvollst:
 #print(pdbarr)
 pdbvol.close()
 
-emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_groupd.txt","r")
+emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_overall.txt","r")
 emvoldict={}
 emvollst=[]
 emarr=[]
@@ -83,8 +84,8 @@ for i in range (len(res)):
 	ilst=list(res[i])
 	plst=list(res[i])
 	plst.sort()
-	#find smallest 4 distances
-	for j in range (0,4):
+	#find smallest 2 distances
+	for j in range (0,2):
 		dist_diff=plst[j]
 		idx=ilst.index(dist_diff)
 		idxem=sortedem[idx]

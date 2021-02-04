@@ -1,0 +1,6529 @@
+#COMMAND  ./gmconvert A2G -ipdb 2ynj_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 2ynj_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3855
+NCHAIN 1
+#Natom 3855 nCA 524 nP 0 rCA_P 0.135927 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 25.932555 RG_Atom_Points 25.898893
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 7902337.854010
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3855 50) 1542000.00 byte -> 1.47 Mbyte
+step 0 dParm 3.725638
+step 10 dParm 0.504304
+step 20 dParm 0.421679
+step 30 dParm 0.385805
+step 40 dParm 0.340422
+step 50 dParm 0.225100
+step 60 dParm 0.232412
+step 70 dParm 0.197811
+step 80 dParm 0.143205
+step 90 dParm 0.105494
+step 100 dParm 0.171121
+step 110 dParm 0.076240
+step 120 dParm 0.071488
+step 130 dParm 0.070936
+step 140 dParm 0.072331
+step 150 dParm 0.069026
+step 160 dParm 0.057850
+step 170 dParm 0.046967
+step 180 dParm 0.039989
+step 190 dParm 0.035770
+step 200 dParm 0.032933
+step 210 dParm 0.032814
+step 220 dParm 0.036754
+step 230 dParm 0.043530
+step 240 dParm 0.050801
+step 250 dParm 0.055920
+step 260 dParm 0.057958
+step 270 dParm 0.060590
+step 280 dParm 0.078897
+step 290 dParm 0.139073
+step 300 dParm 0.082425
+step 310 dParm 0.113298
+step 320 dParm 0.153272
+step 330 dParm 0.106189
+step 340 dParm 0.054937
+step 350 dParm 0.037500
+step 360 dParm 0.030616
+step 370 dParm 0.026603
+step 380 dParm 0.024031
+step 390 dParm 0.022545
+step 400 dParm 0.022068
+step 410 dParm 0.022711
+step 420 dParm 0.024817
+step 430 dParm 0.028999
+step 440 dParm 0.035537
+step 450 dParm 0.040125
+step 460 dParm 0.033063
+step 470 dParm 0.031306
+step 480 dParm 0.036349
+step 490 dParm 0.026149
+step 500 dParm 0.019367
+step 510 dParm 0.016197
+step 520 dParm 0.014593
+step 530 dParm 0.013961
+step 540 dParm 0.013846
+step 550 dParm 0.013945
+step 560 dParm 0.014068
+step 570 dParm 0.014102
+step 580 dParm 0.013980
+step 590 dParm 0.013668
+step 600 dParm 0.013158
+step 610 dParm 0.012468
+step 620 dParm 0.011631
+step 630 dParm 0.010690
+step 640 dParm 0.009692
+step 650 dParm 0.008683
+step 660 dParm 0.007698
+step 670 dParm 0.006766
+step 680 dParm 0.005906
+step 690 dParm 0.005132
+step 700 dParm 0.004449
+step 710 dParm 0.003858
+step 720 dParm 0.003361
+step 730 dParm 0.002958
+step 740 dParm 0.002649
+step 750 dParm 0.002438
+step 760 dParm 0.002329
+step 770 dParm 0.002322
+step 780 dParm 0.002414
+step 790 dParm 0.002592
+step 800 dParm 0.002831
+step 810 dParm 0.003086
+step 820 dParm 0.003288
+step 830 dParm 0.003351
+step 840 dParm 0.003201
+step 850 dParm 0.002827
+step 860 dParm 0.002304
+step 870 dParm 0.001748
+step 880 dParm 0.001256
+#Free_DOUBLE2DMAP(3855 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"2ynj_chainA_50.gmm" (FileType G)
+logLike -584156.988448
+Nrepeat_fin 887
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:44:55
+COMP_TIME_SEC_FINAL  5.435147
+#COMMAND  ./gmconvert G2S -igmm 2ynj_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 2ynj_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('2ynj_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("2ynj_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 12.952890 MIN -16.449474 MAX 113.079428 N 33
+#g 1 SD 11.430974 MIN -63.081005 MAX 51.228732 N 29
+#g 2 SD 19.340447 MIN -60.221207 MAX 133.183261 N 49
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     25.932555
+Rg_map_pnt 25.925685
+Rg_map_box 26.002714
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 33.478785 Vsphe_eff_gmm 157180.135368 threshold 9.155107e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000036 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000007 6.742154e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 6.742154e-06
+#Malloc_MIDMAP_YZ(29 49) 0.29 Mbyte
+#Malloc_MIDMAP_YZ(29 49) 0.29 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8  9 #9  66 
+#10  170 #11  357 #12  639 #13  892 #14  1130 
+#15  1406 #16  1700 #17  1996 #18  2318 #19  2696 
+#20  3061 #21  3305 #22  3480 #23  3513 #24  3519 
+#25  3519 #26  3519 #27  3519 #28  3519 #29  3519 
+#30  3519 #31  3519 
+#Surface_Model: Volume 60896.47 (A^3) Area 16222.63 (A^2) Rg 25.34 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3520
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3c9v_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3c9v_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 526
+NCHAIN 1
+#Natom 526 nCA 526 nP 0 rCA_P 1.000000 ==> Judged AtmResType 'R'
+#Assign_Radius_by_Residue()
+#Assign_Weight_by_Residue()
+#RG_Atoms 25.669699 RG_Atom_Points 25.533864
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 6643793.503584
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(526 50) 210400.00 byte -> 0.20 Mbyte
+step 0 dParm 3.580079
+step 10 dParm 0.923533
+step 20 dParm 0.519311
+step 30 dParm 0.340606
+step 40 dParm 0.144450
+step 50 dParm 0.293437
+step 60 dParm 0.112162
+step 70 dParm 0.074908
+step 80 dParm 0.047614
+step 90 dParm 0.036935
+step 100 dParm 0.033337
+step 110 dParm 0.030975
+step 120 dParm 0.031580
+step 130 dParm 0.047336
+step 140 dParm 0.094053
+step 150 dParm 0.095552
+step 160 dParm 0.112663
+step 170 dParm 0.055790
+step 180 dParm 0.151992
+step 190 dParm 0.062969
+step 200 dParm 0.074351
+step 210 dParm 0.078411
+step 220 dParm 0.065819
+step 230 dParm 0.051605
+step 240 dParm 0.041257
+step 250 dParm 0.026046
+step 260 dParm 0.011125
+step 270 dParm 0.004209
+step 280 dParm 0.001693
+#Free_DOUBLE2DMAP(526 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3c9v_chainA_50.gmm" (FileType G)
+logLike -805042.243010
+Nrepeat_fin 287
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:44:55
+COMP_TIME_SEC_FINAL  0.252953
+#COMMAND  ./gmconvert G2S -igmm 3c9v_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3c9v_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3c9v_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3c9v_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 11.331609 MIN -54.416004 MAX 58.900085 N 29
+#g 1 SD 12.279619 MIN -13.987314 MAX 108.808877 N 31
+#g 2 SD 19.486894 MIN -131.666733 MAX 63.202210 N 49
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     25.669699
+Rg_map_pnt 25.650597
+Rg_map_box 25.728450
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 33.139439 Vsphe_eff_gmm 152448.824643 threshold 1.439150e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000060 sd 0.000003
+#Marching_Cube_Tetrahedral(0.000008 8.308038e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 8.308038e-06
+#Malloc_MIDMAP_YZ(31 49) 0.31 Mbyte
+#Malloc_MIDMAP_YZ(31 49) 0.31 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9  118 
+#10  382 #11  698 #12  1081 #13  1491 #14  1889 
+#15  2271 #16  2612 #17  2891 #18  3133 #19  3332 
+#20  3440 #21  3476 #22  3490 #23  3491 #24  3491 
+#25  3491 #26  3491 #27  3491 
+#Surface_Model: Volume 44814.89 (A^3) Area 17243.69 (A^2) Rg 25.35 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3492
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3g37_chainO.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3g37_chainO.pdb
+ng 50
+#MODE:A2G
+NATOM 3054
+NCHAIN 12
+#Natom 3054 nCA 386 nP 0 rCA_P 0.126392 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 42.292048 RG_Atom_Points 42.271329
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 21003385.721304
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3054 50) 1221600.00 byte -> 1.17 Mbyte
+step 0 dParm 4.979268
+step 10 dParm 2.882356
+step 20 dParm 0.437448
+step 30 dParm 0.372689
+step 40 dParm 0.270123
+step 50 dParm 0.233776
+step 60 dParm 0.217039
+step 70 dParm 0.153521
+step 80 dParm 0.105563
+step 90 dParm 0.111667
+step 100 dParm 0.103320
+step 110 dParm 0.077678
+step 120 dParm 0.059259
+step 130 dParm 0.048182
+step 140 dParm 0.043722
+step 150 dParm 0.044845
+step 160 dParm 0.047562
+step 170 dParm 0.048357
+step 180 dParm 0.052998
+step 190 dParm 0.035422
+step 200 dParm 0.020364
+step 210 dParm 0.015332
+step 220 dParm 0.013972
+step 230 dParm 0.014366
+step 240 dParm 0.015589
+step 250 dParm 0.017083
+step 260 dParm 0.018354
+step 270 dParm 0.018824
+step 280 dParm 0.018003
+step 290 dParm 0.015871
+step 300 dParm 0.013004
+step 310 dParm 0.010132
+step 320 dParm 0.007698
+step 330 dParm 0.005816
+step 340 dParm 0.004425
+step 350 dParm 0.003417
+step 360 dParm 0.002688
+step 370 dParm 0.002158
+step 380 dParm 0.001767
+step 390 dParm 0.001471
+step 400 dParm 0.001243
+step 410 dParm 0.001062
+#Free_DOUBLE2DMAP(3054 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3g37_chainO_50.gmm" (FileType G)
+logLike -456096.256094
+Nrepeat_fin 415
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:44:57
+COMP_TIME_SEC_FINAL  2.052521
+#COMMAND  ./gmconvert G2S -igmm 3g37_chainO_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3g37_chainO_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3g37_chainO_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3g37_chainO_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 14.007706 MIN 53.476593 MAX 193.553649 N 36
+#g 1 SD 10.660127 MIN 76.587959 MAX 183.189232 N 27
+#g 2 SD 38.454690 MIN 69.459030 MAX 454.005936 N 97
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     42.292048
+Rg_map_pnt 29.368729
+Rg_map_box 29.436750
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 54.598800 Vsphe_eff_gmm 681770.006430 threshold -1.000000e+00
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000051 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000005 5.222728e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.222728e-06
+#Malloc_MIDMAP_YZ(27 97) 0.54 Mbyte
+#Malloc_MIDMAP_YZ(27 97) 0.54 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10  32 #11  175 #12  308 #13  417 #14  576 
+#15  783 #16  994 #17  1224 #18  1523 #19  1772 
+#20  2010 #21  2249 #22  2418 #23  2629 #24  2743 
+#25  2791 #26  2815 #27  2815 #28  2815 #29  2815 
+#30  2815 #31  2815 #32  2815 #33  2815 #34  2815 
+
+#Surface_Model: Volume 61446.95 (A^3) Area 12773.60 (A^2) Rg 23.18 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 2816
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3izi_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3izi_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3840
+NCHAIN 1
+#Natom 3840 nCA 513 nP 0 rCA_P 0.133594 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 28.932082 RG_Atom_Points 28.901881
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 7112636.460482
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3840 50) 1536000.00 byte -> 1.46 Mbyte
+step 0 dParm 3.505439
+step 10 dParm 0.713727
+step 20 dParm 0.597032
+step 30 dParm 0.405721
+step 40 dParm 0.265100
+step 50 dParm 0.206405
+step 60 dParm 0.228744
+step 70 dParm 0.171351
+step 80 dParm 0.242392
+step 90 dParm 0.229037
+step 100 dParm 0.124523
+step 110 dParm 0.089402
+step 120 dParm 0.080020
+step 130 dParm 0.094950
+step 140 dParm 0.142346
+step 150 dParm 0.144011
+step 160 dParm 0.147631
+step 170 dParm 0.146831
+step 180 dParm 0.138367
+step 190 dParm 0.130816
+step 200 dParm 0.099079
+step 210 dParm 0.058605
+step 220 dParm 0.041837
+step 230 dParm 0.041349
+step 240 dParm 0.049641
+step 250 dParm 0.077482
+step 260 dParm 0.464769
+step 270 dParm 0.036259
+step 280 dParm 0.032178
+step 290 dParm 0.030714
+step 300 dParm 0.030675
+step 310 dParm 0.031300
+step 320 dParm 0.032253
+step 330 dParm 0.034120
+step 340 dParm 0.039363
+step 350 dParm 0.052514
+step 360 dParm 0.069131
+step 370 dParm 0.070061
+step 380 dParm 0.059680
+step 390 dParm 0.049665
+step 400 dParm 0.043092
+step 410 dParm 0.037873
+step 420 dParm 0.030720
+step 430 dParm 0.022963
+step 440 dParm 0.017187
+step 450 dParm 0.013632
+step 460 dParm 0.011593
+step 470 dParm 0.010445
+step 480 dParm 0.009814
+step 490 dParm 0.009521
+step 500 dParm 0.009499
+step 510 dParm 0.009738
+step 520 dParm 0.010271
+step 530 dParm 0.011173
+step 540 dParm 0.012576
+step 550 dParm 0.014717
+step 560 dParm 0.018025
+step 570 dParm 0.023327
+step 580 dParm 0.032293
+step 590 dParm 0.048128
+step 600 dParm 0.073962
+step 610 dParm 0.115341
+step 620 dParm 0.206645
+step 630 dParm 0.089263
+step 640 dParm 0.077236
+step 650 dParm 0.050702
+step 660 dParm 0.039628
+step 670 dParm 0.034503
+step 680 dParm 0.029730
+step 690 dParm 0.025293
+step 700 dParm 0.021420
+step 710 dParm 0.018224
+step 720 dParm 0.015715
+step 730 dParm 0.013845
+step 740 dParm 0.012534
+step 750 dParm 0.011697
+step 760 dParm 0.011250
+step 770 dParm 0.011119
+step 780 dParm 0.011244
+step 790 dParm 0.011578
+step 800 dParm 0.012078
+step 810 dParm 0.012706
+step 820 dParm 0.013421
+step 830 dParm 0.014183
+step 840 dParm 0.014971
+step 850 dParm 0.015785
+step 860 dParm 0.016651
+step 870 dParm 0.017577
+step 880 dParm 0.018511
+step 890 dParm 0.019345
+step 900 dParm 0.020018
+step 910 dParm 0.020679
+step 920 dParm 0.021731
+step 930 dParm 0.023674
+step 940 dParm 0.026763
+step 950 dParm 0.030650
+step 960 dParm 0.034335
+step 970 dParm 0.036858
+step 980 dParm 0.037940
+step 990 dParm 0.037653
+step 1000 dParm 0.036079
+step 1010 dParm 0.033419
+step 1020 dParm 0.030037
+step 1030 dParm 0.026345
+step 1040 dParm 0.022690
+step 1050 dParm 0.019306
+step 1060 dParm 0.016314
+step 1070 dParm 0.013751
+step 1080 dParm 0.011597
+step 1090 dParm 0.009808
+step 1100 dParm 0.008331
+step 1110 dParm 0.007113
+step 1120 dParm 0.006109
+step 1130 dParm 0.005279
+step 1140 dParm 0.004590
+step 1150 dParm 0.004017
+step 1160 dParm 0.003539
+step 1170 dParm 0.003136
+step 1180 dParm 0.002796
+step 1190 dParm 0.002506
+step 1200 dParm 0.002258
+step 1210 dParm 0.002045
+step 1220 dParm 0.001859
+step 1230 dParm 0.001696
+step 1240 dParm 0.001553
+step 1250 dParm 0.001427
+step 1260 dParm 0.001314
+step 1270 dParm 0.001213
+step 1280 dParm 0.001122
+step 1290 dParm 0.001039
+#Free_DOUBLE2DMAP(3840 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3izi_chainA_50.gmm" (FileType G)
+logLike -578540.558805
+Nrepeat_fin 1296
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:45:5
+COMP_TIME_SEC_FINAL  7.862768
+#COMMAND  ./gmconvert G2S -igmm 3izi_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3izi_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3izi_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3izi_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 14.349709 MIN -25.137911 MAX 118.359180 N 36
+#g 1 SD 13.546174 MIN -75.335449 MAX 60.126285 N 34
+#g 2 SD 21.157798 MIN -72.695770 MAX 138.882210 N 53
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     28.932082
+Rg_map_pnt 28.878396
+Rg_map_box 28.947569
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 37.351158 Vsphe_eff_gmm 218273.401420 threshold 2.638164e-09
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000041 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000006 5.872180e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.872180e-06
+#Malloc_MIDMAP_YZ(34 53) 0.37 Mbyte
+#Malloc_MIDMAP_YZ(34 53) 0.37 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8  58 #9  120 
+#10  230 #11  329 #12  423 #13  564 #14  754 
+#15  979 #16  1231 #17  1575 #18  1865 #19  2120 
+#20  2382 #21  2659 #22  2853 #23  3032 #24  3174 
+#25  3265 #26  3289 #27  3289 #28  3289 #29  3289 
+#30  3289 #31  3289 #32  3289 #33  3289 #34  3289 
+
+#Surface_Model: Volume 65966.82 (A^3) Area 14791.75 (A^2) Rg 28.30 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3290
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3j95_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3j95_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3513
+NCHAIN 1
+#Natom 3513 nCA 483 nP 0 rCA_P 0.137489 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 31.348917 RG_Atom_Points 31.320939
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 9122895.156307
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3513 50) 1405200.00 byte -> 1.34 Mbyte
+step 0 dParm 3.297018
+step 10 dParm 0.650099
+step 20 dParm 0.493373
+step 30 dParm 0.374124
+step 40 dParm 0.408107
+step 50 dParm 0.251128
+step 60 dParm 0.193064
+step 70 dParm 0.171325
+step 80 dParm 0.150700
+step 90 dParm 0.145609
+step 100 dParm 0.119091
+step 110 dParm 0.203652
+step 120 dParm 0.190865
+step 130 dParm 0.101310
+step 140 dParm 0.063180
+step 150 dParm 0.062831
+step 160 dParm 0.078132
+step 170 dParm 0.093928
+step 180 dParm 0.089724
+step 190 dParm 0.064086
+step 200 dParm 0.040627
+step 210 dParm 0.029196
+step 220 dParm 0.023482
+step 230 dParm 0.019254
+step 240 dParm 0.015667
+step 250 dParm 0.012680
+step 260 dParm 0.010273
+step 270 dParm 0.008369
+step 280 dParm 0.006870
+step 290 dParm 0.005685
+step 300 dParm 0.004740
+step 310 dParm 0.003977
+step 320 dParm 0.003355
+step 330 dParm 0.002843
+step 340 dParm 0.002417
+step 350 dParm 0.002060
+step 360 dParm 0.001761
+step 370 dParm 0.001507
+step 380 dParm 0.001293
+step 390 dParm 0.001110
+#Free_DOUBLE2DMAP(3513 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3j95_chainA_50.gmm" (FileType G)
+logLike -523545.084016
+Nrepeat_fin 397
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:45:7
+COMP_TIME_SEC_FINAL  2.336261
+#COMMAND  ./gmconvert G2S -igmm 3j95_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3j95_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3j95_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3j95_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 19.065858 MIN -92.783463 MAX 97.875118 N 48
+#g 1 SD 12.519410 MIN -25.239584 MAX 99.954515 N 32
+#g 2 SD 21.506093 MIN -98.905922 MAX 116.155011 N 54
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     31.348917
+Rg_map_pnt 31.335536
+Rg_map_box 31.399296
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 40.471278 Vsphe_eff_gmm 277670.264585 threshold 2.634182e-10
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000052 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000005 5.494173e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.494173e-06
+#Malloc_MIDMAP_YZ(32 54) 0.36 Mbyte
+#Malloc_MIDMAP_YZ(32 54) 0.36 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12  24 #13  64 #14  131 
+#15  206 #16  313 #17  419 #18  528 #19  640 
+#20  800 #21  1016 #22  1204 #23  1463 #24  1737 
+#25  2106 #26  2480 #27  2778 #28  3039 #29  3218 
+#30  3387 #31  3545 #32  3645 #33  3723 #34  3766 
+#35  3796 #36  3803 #37  3803 #38  3803 #39  3803 
+#40  3803 #41  3803 #42  3803 #43  3803 #44  3803 
+#45  3803 #46  3803 
+#Surface_Model: Volume 64306.61 (A^3) Area 17841.58 (A^2) Rg 30.91 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3804
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3los_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3los_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3982
+NCHAIN 1
+#Natom 3982 nCA 532 nP 0 rCA_P 0.133601 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 30.496815 RG_Atom_Points 30.468168
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 10505976.273337
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3982 50) 1592800.00 byte -> 1.52 Mbyte
+step 0 dParm 3.777257
+step 10 dParm 0.601578
+step 20 dParm 0.442225
+step 30 dParm 0.481700
+step 40 dParm 0.290127
+step 50 dParm 0.284358
+step 60 dParm 0.264913
+step 70 dParm 0.274165
+step 80 dParm 0.236780
+step 90 dParm 0.171612
+step 100 dParm 0.135346
+step 110 dParm 0.194037
+step 120 dParm 0.164310
+step 130 dParm 0.172396
+step 140 dParm 0.167097
+step 150 dParm 0.223816
+step 160 dParm 0.175010
+step 170 dParm 0.114760
+step 180 dParm 0.090400
+step 190 dParm 0.065239
+step 200 dParm 0.046437
+step 210 dParm 0.035848
+step 220 dParm 0.033051
+step 230 dParm 0.042662
+step 240 dParm 0.053361
+step 250 dParm 0.062667
+step 260 dParm 0.016868
+step 270 dParm 0.010037
+step 280 dParm 0.007745
+step 290 dParm 0.006172
+step 300 dParm 0.005005
+step 310 dParm 0.004114
+step 320 dParm 0.003416
+step 330 dParm 0.002855
+step 340 dParm 0.002396
+step 350 dParm 0.002017
+step 360 dParm 0.001701
+step 370 dParm 0.001435
+step 380 dParm 0.001211
+step 390 dParm 0.001023
+#Free_DOUBLE2DMAP(3982 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3los_chainA_50.gmm" (FileType G)
+logLike -605586.324644
+Nrepeat_fin 392
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:45:10
+COMP_TIME_SEC_FINAL  2.500803
+#COMMAND  ./gmconvert G2S -igmm 3los_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3los_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3los_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3los_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 16.546916 MIN -59.167751 MAX 106.301408 N 42
+#g 1 SD 14.040559 MIN -28.239424 MAX 112.166171 N 36
+#g 2 SD 21.427039 MIN -75.202850 MAX 139.067536 N 54
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     30.496815
+Rg_map_pnt 30.481809
+Rg_map_box 30.547351
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 39.371219 Vsphe_eff_gmm 255637.872855 threshold 2.205752e-09
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000039 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000005 5.108754e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.108754e-06
+#Malloc_MIDMAP_YZ(36 54) 0.40 Mbyte
+#Malloc_MIDMAP_YZ(36 54) 0.40 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12  29 #13  149 #14  336 
+#15  522 #16  814 #17  1103 #18  1370 #19  1640 
+#20  2008 #21  2371 #22  2717 #23  3048 #24  3321 
+#25  3542 #26  3746 #27  3904 #28  4031 #29  4106 
+#30  4147 #31  4163 #32  4163 #33  4163 #34  4163 
+#35  4163 #36  4163 #37  4163 #38  4163 #39  4163 
+#40  4163 
+#Surface_Model: Volume 72531.02 (A^3) Area 18757.13 (A^2) Rg 29.94 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 4164
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 4aaq_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 4aaq_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3846
+NCHAIN 1
+#Natom 3846 nCA 523 nP 0 rCA_P 0.135985 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 26.298151 RG_Atom_Points 26.264955
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 7102021.720339
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3846 50) 1538400.00 byte -> 1.47 Mbyte
+step 0 dParm 3.489309
+step 10 dParm 0.556140
+step 20 dParm 0.395994
+step 30 dParm 0.433045
+step 40 dParm 0.642580
+step 50 dParm 0.333518
+step 60 dParm 0.234804
+step 70 dParm 0.190486
+step 80 dParm 0.177322
+step 90 dParm 0.121471
+step 100 dParm 0.094453
+step 110 dParm 0.087058
+step 120 dParm 0.103771
+step 130 dParm 0.127828
+step 140 dParm 0.294201
+step 150 dParm 0.143119
+step 160 dParm 0.166032
+step 170 dParm 0.170363
+step 180 dParm 0.111312
+step 190 dParm 0.185194
+step 200 dParm 0.055703
+step 210 dParm 0.040180
+step 220 dParm 0.036476
+step 230 dParm 0.034564
+step 240 dParm 0.032995
+step 250 dParm 0.031594
+step 260 dParm 0.030540
+step 270 dParm 0.029907
+step 280 dParm 0.029504
+step 290 dParm 0.028990
+step 300 dParm 0.028037
+step 310 dParm 0.026435
+step 320 dParm 0.024154
+step 330 dParm 0.021355
+step 340 dParm 0.018362
+step 350 dParm 0.015598
+step 360 dParm 0.013519
+step 370 dParm 0.012554
+step 380 dParm 0.012976
+step 390 dParm 0.014867
+step 400 dParm 0.018354
+step 410 dParm 0.023891
+step 420 dParm 0.032043
+step 430 dParm 0.041270
+step 440 dParm 0.044103
+step 450 dParm 0.038130
+step 460 dParm 0.031760
+step 470 dParm 0.026611
+step 480 dParm 0.021867
+step 490 dParm 0.017568
+step 500 dParm 0.013865
+step 510 dParm 0.010829
+step 520 dParm 0.008461
+step 530 dParm 0.006707
+step 540 dParm 0.005479
+step 550 dParm 0.004668
+step 560 dParm 0.004164
+step 570 dParm 0.003867
+step 580 dParm 0.003696
+step 590 dParm 0.003597
+step 600 dParm 0.003536
+step 610 dParm 0.003493
+step 620 dParm 0.003457
+step 630 dParm 0.003422
+step 640 dParm 0.003385
+step 650 dParm 0.003344
+step 660 dParm 0.003299
+step 670 dParm 0.003249
+step 680 dParm 0.003194
+step 690 dParm 0.003134
+step 700 dParm 0.003068
+step 710 dParm 0.002999
+step 720 dParm 0.002924
+step 730 dParm 0.002846
+step 740 dParm 0.002765
+step 750 dParm 0.002680
+step 760 dParm 0.002593
+step 770 dParm 0.002503
+step 780 dParm 0.002412
+step 790 dParm 0.002320
+step 800 dParm 0.002227
+step 810 dParm 0.002134
+step 820 dParm 0.002041
+step 830 dParm 0.001949
+step 840 dParm 0.001857
+step 850 dParm 0.001768
+step 860 dParm 0.001680
+step 870 dParm 0.001594
+step 880 dParm 0.001510
+step 890 dParm 0.001429
+step 900 dParm 0.001350
+step 910 dParm 0.001274
+step 920 dParm 0.001201
+step 930 dParm 0.001131
+step 940 dParm 0.001064
+step 950 dParm 0.001000
+#Free_DOUBLE2DMAP(3846 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"4aaq_chainA_50.gmm" (FileType G)
+logLike -576489.311838
+Nrepeat_fin 951
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:45:16
+COMP_TIME_SEC_FINAL  5.818708
+#COMMAND  ./gmconvert G2S -igmm 4aaq_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 4aaq_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('4aaq_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("4aaq_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 12.000531 MIN -78.374901 MAX 41.630410 N 31
+#g 1 SD 12.043775 MIN -20.562740 MAX 99.875014 N 31
+#g 2 SD 20.063088 MIN -66.430748 MAX 134.200128 N 51
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     26.298151
+Rg_map_pnt 26.268108
+Rg_map_box 26.344136
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 33.950767 Vsphe_eff_gmm 163922.051282 threshold 1.506245e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000042 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000007 6.990013e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 6.990013e-06
+#Malloc_MIDMAP_YZ(31 51) 0.33 Mbyte
+#Malloc_MIDMAP_YZ(31 51) 0.33 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9  38 
+#10  194 #11  460 #12  762 #13  1144 #14  1524 
+#15  1938 #16  2301 #17  2635 #18  2924 #19  3121 
+#20  3260 #21  3366 #22  3471 #23  3483 #24  3483 
+#25  3483 #26  3483 #27  3483 #28  3483 #29  3483 
+
+#Surface_Model: Volume 58045.08 (A^3) Area 15632.05 (A^2) Rg 25.87 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3484
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5a22_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5a22_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 19802
+NCHAIN 1
+#Natom 19802 nCA 2002 nP 0 rCA_P 0.101101 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 38.861470 RG_Atom_Points 38.839820
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 92105816.981212
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(19802 50) 7920800.00 byte -> 7.55 Mbyte
+step 0 dParm 9.679718
+step 10 dParm 1.096391
+step 20 dParm 0.784690
+step 30 dParm 0.666662
+step 40 dParm 0.621518
+step 50 dParm 0.554261
+step 60 dParm 0.539377
+step 70 dParm 0.535257
+step 80 dParm 0.522777
+step 90 dParm 0.440817
+step 100 dParm 0.429529
+step 110 dParm 0.361996
+step 120 dParm 0.311771
+step 130 dParm 0.275104
+step 140 dParm 0.271528
+step 150 dParm 0.278935
+step 160 dParm 0.290254
+step 170 dParm 0.276074
+step 180 dParm 0.245651
+step 190 dParm 0.252203
+step 200 dParm 0.271858
+step 210 dParm 0.296996
+step 220 dParm 0.289379
+step 230 dParm 0.301491
+step 240 dParm 0.351222
+step 250 dParm 0.321310
+step 260 dParm 0.239907
+step 270 dParm 0.174294
+step 280 dParm 0.131597
+step 290 dParm 0.115011
+step 300 dParm 0.110724
+step 310 dParm 0.112650
+step 320 dParm 0.119422
+step 330 dParm 0.130214
+step 340 dParm 0.143017
+step 350 dParm 0.154549
+step 360 dParm 0.162951
+step 370 dParm 0.167238
+step 380 dParm 0.162872
+step 390 dParm 0.147892
+step 400 dParm 0.129103
+step 410 dParm 0.121726
+step 420 dParm 0.148485
+step 430 dParm 0.186975
+step 440 dParm 0.184923
+step 450 dParm 0.175042
+step 460 dParm 0.173412
+step 470 dParm 0.176655
+step 480 dParm 0.180366
+step 490 dParm 0.175487
+step 500 dParm 0.156267
+step 510 dParm 0.132413
+step 520 dParm 0.114311
+step 530 dParm 0.102748
+step 540 dParm 0.094858
+step 550 dParm 0.088312
+step 560 dParm 0.082583
+step 570 dParm 0.078323
+step 580 dParm 0.075277
+step 590 dParm 0.072553
+step 600 dParm 0.069601
+step 610 dParm 0.066177
+step 620 dParm 0.062063
+step 630 dParm 0.057030
+step 640 dParm 0.051004
+step 650 dParm 0.044295
+step 660 dParm 0.037572
+step 670 dParm 0.031535
+step 680 dParm 0.026595
+step 690 dParm 0.022814
+step 700 dParm 0.020049
+step 710 dParm 0.018100
+step 720 dParm 0.016787
+step 730 dParm 0.015970
+step 740 dParm 0.015552
+step 750 dParm 0.015462
+step 760 dParm 0.015652
+step 770 dParm 0.016088
+step 780 dParm 0.016744
+step 790 dParm 0.017602
+step 800 dParm 0.018649
+step 810 dParm 0.019871
+step 820 dParm 0.021254
+step 830 dParm 0.022780
+step 840 dParm 0.024427
+step 850 dParm 0.026163
+step 860 dParm 0.027949
+step 870 dParm 0.029736
+step 880 dParm 0.031464
+step 890 dParm 0.033070
+step 900 dParm 0.034489
+step 910 dParm 0.035658
+step 920 dParm 0.036529
+step 930 dParm 0.037065
+step 940 dParm 0.037252
+step 950 dParm 0.037093
+step 960 dParm 0.036610
+step 970 dParm 0.035837
+step 980 dParm 0.034816
+step 990 dParm 0.033592
+step 1000 dParm 0.032212
+step 1010 dParm 0.030716
+step 1020 dParm 0.029144
+step 1030 dParm 0.027527
+step 1040 dParm 0.025894
+step 1050 dParm 0.024270
+step 1060 dParm 0.022674
+step 1070 dParm 0.021122
+step 1080 dParm 0.019628
+step 1090 dParm 0.018200
+step 1100 dParm 0.016846
+step 1110 dParm 0.015570
+step 1120 dParm 0.014376
+step 1130 dParm 0.013262
+step 1140 dParm 0.012229
+step 1150 dParm 0.011274
+step 1160 dParm 0.010396
+step 1170 dParm 0.009592
+step 1180 dParm 0.008859
+step 1190 dParm 0.008193
+step 1200 dParm 0.007593
+step 1210 dParm 0.007055
+step 1220 dParm 0.006578
+step 1230 dParm 0.006160
+step 1240 dParm 0.005800
+step 1250 dParm 0.005497
+step 1260 dParm 0.005252
+step 1270 dParm 0.005064
+step 1280 dParm 0.004933
+step 1290 dParm 0.004862
+step 1300 dParm 0.004850
+step 1310 dParm 0.004898
+step 1320 dParm 0.005009
+step 1330 dParm 0.005184
+step 1340 dParm 0.005426
+step 1350 dParm 0.005739
+step 1360 dParm 0.006128
+step 1370 dParm 0.006600
+step 1380 dParm 0.007165
+step 1390 dParm 0.007836
+step 1400 dParm 0.008626
+step 1410 dParm 0.009553
+step 1420 dParm 0.010637
+step 1430 dParm 0.011899
+step 1440 dParm 0.013358
+step 1450 dParm 0.015028
+step 1460 dParm 0.016910
+step 1470 dParm 0.018980
+step 1480 dParm 0.021175
+step 1490 dParm 0.023380
+step 1500 dParm 0.025425
+step 1510 dParm 0.027099
+step 1520 dParm 0.028200
+step 1530 dParm 0.028594
+step 1540 dParm 0.028272
+step 1550 dParm 0.027354
+step 1560 dParm 0.026041
+step 1570 dParm 0.024545
+step 1580 dParm 0.023032
+step 1590 dParm 0.021611
+step 1600 dParm 0.020335
+step 1610 dParm 0.019227
+step 1620 dParm 0.018288
+step 1630 dParm 0.017516
+step 1640 dParm 0.016903
+step 1650 dParm 0.016446
+step 1660 dParm 0.016140
+step 1670 dParm 0.015982
+step 1680 dParm 0.015970
+step 1690 dParm 0.016103
+step 1700 dParm 0.016379
+step 1710 dParm 0.016793
+step 1720 dParm 0.017339
+step 1730 dParm 0.018010
+step 1740 dParm 0.018791
+step 1750 dParm 0.019663
+step 1760 dParm 0.020596
+step 1770 dParm 0.021551
+step 1780 dParm 0.022476
+step 1790 dParm 0.023304
+step 1800 dParm 0.023957
+step 1810 dParm 0.024355
+step 1820 dParm 0.024427
+step 1830 dParm 0.024131
+step 1840 dParm 0.023472
+step 1850 dParm 0.022518
+step 1860 dParm 0.021388
+step 1870 dParm 0.020234
+step 1880 dParm 0.019192
+step 1890 dParm 0.018357
+step 1900 dParm 0.017764
+step 1910 dParm 0.017395
+step 1920 dParm 0.017204
+step 1930 dParm 0.017132
+step 1940 dParm 0.017125
+step 1950 dParm 0.017130
+step 1960 dParm 0.017105
+step 1970 dParm 0.017009
+step 1980 dParm 0.016808
+step 1990 dParm 0.016473
+step 2000 dParm 0.015987
+step 2010 dParm 0.015343
+step 2020 dParm 0.014549
+step 2030 dParm 0.013628
+step 2040 dParm 0.012610
+step 2050 dParm 0.011532
+step 2060 dParm 0.010433
+step 2070 dParm 0.009348
+step 2080 dParm 0.008306
+step 2090 dParm 0.007328
+step 2100 dParm 0.006429
+step 2110 dParm 0.005617
+step 2120 dParm 0.004894
+step 2130 dParm 0.004257
+step 2140 dParm 0.003703
+step 2150 dParm 0.003225
+step 2160 dParm 0.002814
+step 2170 dParm 0.002463
+step 2180 dParm 0.002165
+step 2190 dParm 0.001912
+step 2200 dParm 0.001698
+step 2210 dParm 0.001516
+step 2220 dParm 0.001362
+step 2230 dParm 0.001231
+step 2240 dParm 0.001119
+step 2250 dParm 0.001023
+#Free_DOUBLE2DMAP(19802 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5a22_chainA_50.gmm" (FileType G)
+logLike -3310032.411917
+Nrepeat_fin 2253
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:46:30
+COMP_TIME_SEC_FINAL  74.764596
+#COMMAND  ./gmconvert G2S -igmm 5a22_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5a22_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5a22_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5a22_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 22.830418 MIN -41.205986 MAX 187.098192 N 58
+#g 1 SD 26.174573 MIN -54.859577 MAX 206.886156 N 66
+#g 2 SD 17.432086 MIN -10.795447 MAX 163.525411 N 44
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     38.861471
+Rg_map_pnt 38.813348
+Rg_map_box 38.864843
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 50.169943 Vsphe_eff_gmm 528955.850065 threshold 9.406811e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000007 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000002 1.655549e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 1.655549e-06
+#Malloc_MIDMAP_YZ(66 44) 0.60 Mbyte
+#Malloc_MIDMAP_YZ(66 44) 0.60 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12 #13 #14 
+#15 #16 #17  139 #18  322 #19  569 
+#20  858 #21  1143 #22  1502 #23  1933 #24  2396 
+#25  2893 #26  3384 #27  3872 #28  4380 #29  4841 
+#30  5332 #31  5870 #32  6369 #33  6728 #34  7087 
+#35  7317 #36  7532 #37  7775 #38  7986 #39  8203 
+#40  8373 #41  8526 #42  8551 #43  8551 #44  8551 
+#45  8551 #46  8551 #47  8551 #48  8551 #49  8551 
+#50  8551 #51  8551 #52  8551 #53  8551 #54  8551 
+#55  8551 #56  8551 
+#Surface_Model: Volume 260964.78 (A^3) Area 38536.72 (A^2) Rg 37.82 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 8552
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5g2x_chainC.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5g2x_chainC.pdb
+ng 50
+#MODE:A2G
+NATOM 3997
+NCHAIN 1
+#Natom 3997 nCA 486 nP 0 rCA_P 0.121591 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 27.557576 RG_Atom_Points 27.525749
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 9570762.243721
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3997 50) 1598800.00 byte -> 1.52 Mbyte
+step 0 dParm 3.863871
+step 10 dParm 0.530381
+step 20 dParm 0.406007
+step 30 dParm 0.416056
+step 40 dParm 0.585279
+step 50 dParm 0.347223
+step 60 dParm 0.229148
+step 70 dParm 0.258582
+step 80 dParm 0.170077
+step 90 dParm 0.112805
+step 100 dParm 0.108784
+step 110 dParm 0.166931
+step 120 dParm 0.154786
+step 130 dParm 0.203764
+step 140 dParm 0.107690
+step 150 dParm 0.063354
+step 160 dParm 0.044111
+step 170 dParm 0.033134
+step 180 dParm 0.026772
+step 190 dParm 0.022765
+step 200 dParm 0.020011
+step 210 dParm 0.018035
+step 220 dParm 0.016628
+step 230 dParm 0.015674
+step 240 dParm 0.015057
+step 250 dParm 0.014643
+step 260 dParm 0.014276
+step 270 dParm 0.013813
+step 280 dParm 0.013163
+step 290 dParm 0.012321
+step 300 dParm 0.011361
+step 310 dParm 0.010387
+step 320 dParm 0.009472
+step 330 dParm 0.008646
+step 340 dParm 0.007908
+step 350 dParm 0.007249
+step 360 dParm 0.006663
+step 370 dParm 0.006142
+step 380 dParm 0.005681
+step 390 dParm 0.005272
+step 400 dParm 0.004908
+step 410 dParm 0.004582
+step 420 dParm 0.004288
+step 430 dParm 0.004020
+step 440 dParm 0.003774
+step 450 dParm 0.003546
+step 460 dParm 0.003336
+step 470 dParm 0.003139
+step 480 dParm 0.002955
+step 490 dParm 0.002782
+step 500 dParm 0.002618
+step 510 dParm 0.002464
+step 520 dParm 0.002317
+step 530 dParm 0.002177
+step 540 dParm 0.002043
+step 550 dParm 0.001916
+step 560 dParm 0.001794
+step 570 dParm 0.001677
+step 580 dParm 0.001566
+step 590 dParm 0.001460
+step 600 dParm 0.001359
+step 610 dParm 0.001263
+step 620 dParm 0.001172
+step 630 dParm 0.001086
+step 640 dParm 0.001006
+#Free_DOUBLE2DMAP(3997 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5g2x_chainC_50.gmm" (FileType G)
+logLike -606541.904729
+Nrepeat_fin 641
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:46:34
+COMP_TIME_SEC_FINAL  4.067481
+#COMMAND  ./gmconvert G2S -igmm 5g2x_chainC_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5g2x_chainC_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5g2x_chainC_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5g2x_chainC_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 17.093157 MIN 20.289520 MAX 191.221094 N 43
+#g 1 SD 18.957668 MIN 48.987156 MAX 238.563835 N 48
+#g 2 SD 10.385122 MIN 104.667297 MAX 208.518512 N 26
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     27.557575
+Rg_map_pnt 27.528522
+Rg_map_box 27.601078
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 35.576677 Vsphe_eff_gmm 188618.699666 threshold 2.487049e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000037 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000006 5.982668e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.982668e-06
+#Malloc_MIDMAP_YZ(48 26) 0.26 Mbyte
+#Malloc_MIDMAP_YZ(48 26) 0.26 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12 #13  75 #14  207 
+#15  364 #16  558 #17  824 #18  1105 #19  1386 
+#20  1651 #21  2018 #22  2380 #23  2694 #24  2938 
+#25  3135 #26  3322 #27  3510 #28  3661 #29  3810 
+#30  3940 #31  3999 #32  4021 #33  4021 #34  4021 
+#35  4021 #36  4021 #37  4021 #38  4021 #39  4021 
+#40  4021 #41  4021 
+#Surface_Model: Volume 70200.70 (A^3) Area 18468.25 (A^2) Rg 26.96 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 4022
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5g4f_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5g4f_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 7106
+NCHAIN 1
+#Natom 7106 nCA 726 nP 0 rCA_P 0.102167 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 31.283742 RG_Atom_Points 31.256955
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 21257404.855568
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(7106 50) 2842400.00 byte -> 2.71 Mbyte
+step 0 dParm 5.127580
+step 10 dParm 0.849482
+step 20 dParm 0.572695
+step 30 dParm 0.416603
+step 40 dParm 0.328805
+step 50 dParm 0.290738
+step 60 dParm 0.290929
+step 70 dParm 0.286378
+step 80 dParm 0.214128
+step 90 dParm 0.195103
+step 100 dParm 0.193775
+step 110 dParm 0.178998
+step 120 dParm 0.215468
+step 130 dParm 0.291604
+step 140 dParm 0.223630
+step 150 dParm 0.173206
+step 160 dParm 0.146047
+step 170 dParm 0.263316
+step 180 dParm 0.083110
+step 190 dParm 0.079677
+step 200 dParm 0.086494
+step 210 dParm 0.089969
+step 220 dParm 0.108414
+step 230 dParm 0.099246
+step 240 dParm 0.062040
+step 250 dParm 0.052055
+step 260 dParm 0.056367
+step 270 dParm 0.065892
+step 280 dParm 0.078948
+step 290 dParm 0.095231
+step 300 dParm 0.113822
+step 310 dParm 0.132352
+step 320 dParm 0.146890
+step 330 dParm 0.152928
+step 340 dParm 0.146805
+step 350 dParm 0.124859
+step 360 dParm 0.089662
+step 370 dParm 0.079275
+step 380 dParm 0.068503
+step 390 dParm 0.063690
+step 400 dParm 0.089982
+step 410 dParm 0.086537
+step 420 dParm 0.060118
+step 430 dParm 0.043527
+step 440 dParm 0.033390
+step 450 dParm 0.026838
+step 460 dParm 0.022317
+step 470 dParm 0.018965
+step 480 dParm 0.016307
+step 490 dParm 0.014096
+step 500 dParm 0.012206
+step 510 dParm 0.010570
+step 520 dParm 0.009153
+step 530 dParm 0.007928
+step 540 dParm 0.006873
+step 550 dParm 0.005970
+step 560 dParm 0.005199
+step 570 dParm 0.004544
+step 580 dParm 0.003989
+step 590 dParm 0.003519
+step 600 dParm 0.003122
+step 610 dParm 0.002787
+step 620 dParm 0.002505
+step 630 dParm 0.002267
+step 640 dParm 0.002067
+step 650 dParm 0.001898
+step 660 dParm 0.001756
+step 670 dParm 0.001636
+step 680 dParm 0.001534
+step 690 dParm 0.001447
+step 700 dParm 0.001373
+step 710 dParm 0.001309
+step 720 dParm 0.001253
+step 730 dParm 0.001204
+step 740 dParm 0.001161
+step 750 dParm 0.001123
+step 760 dParm 0.001088
+step 770 dParm 0.001055
+step 780 dParm 0.001026
+step 790 dParm 0.000998
+#Free_DOUBLE2DMAP(7106 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5g4f_chainA_50.gmm" (FileType G)
+logLike -1091586.275161
+Nrepeat_fin 790
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:46:43
+COMP_TIME_SEC_FINAL  8.817044
+#COMMAND  ./gmconvert G2S -igmm 5g4f_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5g4f_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5g4f_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5g4f_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 15.372111 MIN 66.062073 MAX 219.783182 N 39
+#g 1 SD 16.373147 MIN 92.728409 MAX 256.459878 N 41
+#g 2 SD 21.778217 MIN 71.085129 MAX 288.867302 N 55
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     31.283741
+Rg_map_pnt 31.260443
+Rg_map_box 31.324356
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 40.387137 Vsphe_eff_gmm 275941.994177 threshold 1.323829e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000023 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000004 3.889134e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 3.889134e-06
+#Malloc_MIDMAP_YZ(41 55) 0.46 Mbyte
+#Malloc_MIDMAP_YZ(41 55) 0.46 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10  25 #11  170 #12  291 #13  409 #14  523 
+#15  655 #16  851 #17  1115 #18  1644 #19  2108 
+#20  2511 #21  2860 #22  3208 #23  3558 #24  3822 
+#25  4033 #26  4185 #27  4301 #28  4350 #29  4363 
+#30  4363 #31  4363 #32  4363 #33  4363 #34  4363 
+#35  4363 #36  4363 #37  4363 
+#Surface_Model: Volume 100542.87 (A^3) Area 20049.20 (A^2) Rg 30.69 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 4364
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5sv9_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5sv9_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3806
+NCHAIN 1
+#Natom 3806 nCA 476 nP 0 rCA_P 0.125066 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 22.702659 RG_Atom_Points 22.663755
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 4509304.989011
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3806 50) 1522400.00 byte -> 1.45 Mbyte
+step 0 dParm 3.801810
+step 10 dParm 0.855620
+step 20 dParm 0.450438
+step 30 dParm 0.281872
+step 40 dParm 0.207271
+step 50 dParm 0.153749
+step 60 dParm 0.138846
+step 70 dParm 0.133103
+step 80 dParm 0.140637
+step 90 dParm 0.097220
+step 100 dParm 0.093128
+step 110 dParm 0.101137
+step 120 dParm 0.128599
+step 130 dParm 0.175443
+step 140 dParm 0.185226
+step 150 dParm 0.150912
+step 160 dParm 0.137663
+step 170 dParm 0.162380
+step 180 dParm 0.113701
+step 190 dParm 0.123021
+step 200 dParm 0.173564
+step 210 dParm 0.396140
+step 220 dParm 0.138157
+step 230 dParm 0.111367
+step 240 dParm 0.079398
+step 250 dParm 0.064341
+step 260 dParm 0.092207
+step 270 dParm 0.036757
+step 280 dParm 0.020114
+step 290 dParm 0.015681
+step 300 dParm 0.014755
+step 310 dParm 0.015258
+step 320 dParm 0.016460
+step 330 dParm 0.018506
+step 340 dParm 0.023187
+step 350 dParm 0.037922
+step 360 dParm 0.058786
+step 370 dParm 0.017574
+step 380 dParm 0.008505
+step 390 dParm 0.006961
+step 400 dParm 0.006301
+step 410 dParm 0.005796
+step 420 dParm 0.005343
+step 430 dParm 0.004923
+step 440 dParm 0.004529
+step 450 dParm 0.004161
+step 460 dParm 0.003817
+step 470 dParm 0.003496
+step 480 dParm 0.003198
+step 490 dParm 0.002922
+step 500 dParm 0.002666
+step 510 dParm 0.002430
+step 520 dParm 0.002213
+step 530 dParm 0.002014
+step 540 dParm 0.001831
+step 550 dParm 0.001663
+step 560 dParm 0.001510
+step 570 dParm 0.001370
+step 580 dParm 0.001242
+step 590 dParm 0.001126
+step 600 dParm 0.001020
+#Free_DOUBLE2DMAP(3806 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5sv9_chainA_50.gmm" (FileType G)
+logLike -558288.246845
+Nrepeat_fin 602
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:46:47
+COMP_TIME_SEC_FINAL  3.597779
+#COMMAND  ./gmconvert G2S -igmm 5sv9_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5sv9_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5sv9_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5sv9_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 14.178552 MIN -44.524662 MAX 97.260856 N 36
+#g 1 SD 13.774488 MIN -66.129791 MAX 71.615089 N 35
+#g 2 SD 11.164357 MIN -57.677464 MAX 53.966105 N 28
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     22.702659
+Rg_map_pnt 22.655565
+Rg_map_box 22.743672
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 29.309007 Vsphe_eff_gmm 105461.007556 threshold 4.381286e-07
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000051 sd 0.000003
+#Marching_Cube_Tetrahedral(0.000009 8.842462e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 8.842462e-06
+#Malloc_MIDMAP_YZ(35 28) 0.20 Mbyte
+#Malloc_MIDMAP_YZ(35 28) 0.20 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10  25 #11  112 #12  261 #13  501 #14  807 
+#15  1111 #16  1446 #17  1783 #18  2109 #19  2438 
+#20  2755 #21  3032 #22  3278 #23  3453 #24  3579 
+#25  3659 #26  3682 #27  3683 #28  3683 #29  3683 
+#30  3683 #31  3683 #32  3683 #33  3683 #34  3683 
+
+#Surface_Model: Volume 46330.42 (A^3) Area 18578.41 (A^2) Rg 22.16 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3684
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5uvn_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5uvn_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 2817
+NCHAIN 1
+#Natom 2817 nCA 416 nP 0 rCA_P 0.147675 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 36.997696 RG_Atom_Points 36.974005
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 11105532.027590
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(2817 50) 1126800.00 byte -> 1.07 Mbyte
+step 0 dParm 2.717818
+step 10 dParm 0.343044
+step 20 dParm 0.230724
+step 30 dParm 0.265029
+step 40 dParm 0.453683
+step 50 dParm 0.163338
+step 60 dParm 0.121744
+step 70 dParm 0.097969
+step 80 dParm 0.093775
+step 90 dParm 0.096827
+step 100 dParm 0.088819
+step 110 dParm 0.092508
+step 120 dParm 0.081274
+step 130 dParm 0.070452
+step 140 dParm 0.061917
+step 150 dParm 0.036592
+step 160 dParm 0.023878
+step 170 dParm 0.018519
+step 180 dParm 0.015883
+step 190 dParm 0.014564
+step 200 dParm 0.014028
+step 210 dParm 0.014217
+step 220 dParm 0.015493
+step 230 dParm 0.019082
+step 240 dParm 0.028902
+step 250 dParm 0.058435
+step 260 dParm 0.081303
+step 270 dParm 0.026490
+step 280 dParm 0.039971
+step 290 dParm 0.064906
+step 300 dParm 0.023692
+step 310 dParm 0.016685
+step 320 dParm 0.013263
+step 330 dParm 0.011526
+step 340 dParm 0.010974
+step 350 dParm 0.011548
+step 360 dParm 0.013733
+step 370 dParm 0.019226
+step 380 dParm 0.033250
+step 390 dParm 0.060003
+step 400 dParm 0.045055
+step 410 dParm 0.022806
+step 420 dParm 0.015103
+step 430 dParm 0.012781
+step 440 dParm 0.011956
+step 450 dParm 0.011567
+step 460 dParm 0.011356
+step 470 dParm 0.011257
+step 480 dParm 0.011257
+step 490 dParm 0.011358
+step 500 dParm 0.011565
+step 510 dParm 0.011888
+step 520 dParm 0.012333
+step 530 dParm 0.012911
+step 540 dParm 0.013635
+step 550 dParm 0.014518
+step 560 dParm 0.015582
+step 570 dParm 0.016859
+step 580 dParm 0.018409
+step 590 dParm 0.020331
+step 600 dParm 0.022771
+step 610 dParm 0.025865
+step 620 dParm 0.029584
+step 630 dParm 0.033486
+step 640 dParm 0.036566
+step 650 dParm 0.037607
+step 660 dParm 0.035916
+step 670 dParm 0.031217
+step 680 dParm 0.023926
+step 690 dParm 0.016977
+step 700 dParm 0.012989
+step 710 dParm 0.011609
+step 720 dParm 0.011485
+step 730 dParm 0.011880
+step 740 dParm 0.012601
+step 750 dParm 0.013677
+step 760 dParm 0.015211
+step 770 dParm 0.017323
+step 780 dParm 0.020078
+step 790 dParm 0.023342
+step 800 dParm 0.026607
+step 810 dParm 0.029040
+step 820 dParm 0.030095
+step 830 dParm 0.029871
+step 840 dParm 0.028594
+step 850 dParm 0.026454
+step 860 dParm 0.023752
+step 870 dParm 0.020867
+step 880 dParm 0.018138
+step 890 dParm 0.015772
+step 900 dParm 0.013844
+step 910 dParm 0.012340
+step 920 dParm 0.011209
+step 930 dParm 0.010399
+step 940 dParm 0.009871
+step 950 dParm 0.009601
+step 960 dParm 0.009586
+step 970 dParm 0.009844
+step 980 dParm 0.010418
+step 990 dParm 0.011380
+step 1000 dParm 0.012835
+step 1010 dParm 0.014923
+step 1020 dParm 0.017816
+step 1030 dParm 0.021788
+step 1040 dParm 0.027711
+step 1050 dParm 0.038428
+step 1060 dParm 0.047132
+step 1070 dParm 0.025695
+step 1080 dParm 0.012279
+step 1090 dParm 0.006953
+step 1100 dParm 0.004609
+step 1110 dParm 0.003457
+step 1120 dParm 0.002799
+step 1130 dParm 0.002364
+step 1140 dParm 0.002044
+step 1150 dParm 0.001791
+step 1160 dParm 0.001583
+step 1170 dParm 0.001408
+step 1180 dParm 0.001259
+step 1190 dParm 0.001131
+step 1200 dParm 0.001020
+#Free_DOUBLE2DMAP(2817 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5uvn_chainA_50.gmm" (FileType G)
+logLike -408524.592293
+Nrepeat_fin 1202
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:46:53
+COMP_TIME_SEC_FINAL  5.698376
+#COMMAND  ./gmconvert G2S -igmm 5uvn_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5uvn_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5uvn_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5uvn_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 12.249467 MIN 90.712959 MAX 213.207632 N 31
+#g 1 SD 9.829032 MIN 96.248627 MAX 194.538946 N 25
+#g 2 SD 33.498808 MIN -33.763851 MAX 301.224230 N 84
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     36.997695
+Rg_map_pnt 37.101188
+Rg_map_box 37.155055
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 47.763819 Vsphe_eff_gmm 456442.158971 threshold -1.000000e+00
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000065 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000007 7.054597e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 7.054597e-06
+#Malloc_MIDMAP_YZ(25 84) 0.43 Mbyte
+#Malloc_MIDMAP_YZ(25 84) 0.43 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6  12 #7  96 #8  189 #9  237 
+#10  261 #11  292 #12  397 #13  757 #14  1162 
+#15  1550 #16  1864 #17  2153 #18  2461 #19  2727 
+#20  2941 #21  3059 #22  3077 #23  3077 #24  3077 
+#25  3077 #26  3077 #27  3077 #28  3077 #29  3077 
+
+#Surface_Model: Volume 49101.76 (A^3) Area 15451.74 (A^2) Rg 36.78 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3078
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5vc7_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5vc7_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3821
+NCHAIN 1
+#Natom 3821 nCA 544 nP 0 rCA_P 0.142371 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 28.968090 RG_Atom_Points 28.937761
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 11050531.571960
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3821 50) 1528400.00 byte -> 1.46 Mbyte
+step 0 dParm 3.717857
+step 10 dParm 0.829801
+step 20 dParm 0.453851
+step 30 dParm 0.637639
+step 40 dParm 0.510245
+step 50 dParm 0.354760
+step 60 dParm 0.279118
+step 70 dParm 0.206130
+step 80 dParm 0.148999
+step 90 dParm 0.114769
+step 100 dParm 0.091029
+step 110 dParm 0.074966
+step 120 dParm 0.068845
+step 130 dParm 0.064492
+step 140 dParm 0.060195
+step 150 dParm 0.065336
+step 160 dParm 0.056836
+step 170 dParm 0.034589
+step 180 dParm 0.026484
+step 190 dParm 0.022184
+step 200 dParm 0.019352
+step 210 dParm 0.018142
+step 220 dParm 0.019291
+step 230 dParm 0.024529
+step 240 dParm 0.039014
+step 250 dParm 0.083720
+step 260 dParm 0.285703
+step 270 dParm 0.049217
+step 280 dParm 0.026543
+step 290 dParm 0.032612
+step 300 dParm 0.141613
+step 310 dParm 0.017357
+step 320 dParm 0.022858
+step 330 dParm 0.037341
+step 340 dParm 0.070483
+step 350 dParm 0.117471
+step 360 dParm 0.105129
+step 370 dParm 0.067295
+step 380 dParm 0.036938
+step 390 dParm 0.019285
+step 400 dParm 0.010879
+step 410 dParm 0.007738
+step 420 dParm 0.007102
+step 430 dParm 0.007361
+step 440 dParm 0.007740
+step 450 dParm 0.007750
+step 460 dParm 0.007086
+step 470 dParm 0.005810
+step 480 dParm 0.004319
+step 490 dParm 0.003008
+step 500 dParm 0.002051
+step 510 dParm 0.001436
+step 520 dParm 0.001072
+#Free_DOUBLE2DMAP(3821 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5vc7_chainA_50.gmm" (FileType G)
+logLike -570946.597241
+Nrepeat_fin 523
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:46:56
+COMP_TIME_SEC_FINAL  3.195713
+#COMMAND  ./gmconvert G2S -igmm 5vc7_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5vc7_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5vc7_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5vc7_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 14.120528 MIN 118.654495 MAX 259.859773 N 36
+#g 1 SD 12.152598 MIN 90.234306 MAX 211.760291 N 31
+#g 2 SD 22.182770 MIN 74.956055 MAX 296.783762 N 56
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     28.968090
+Rg_map_pnt 28.953943
+Rg_map_box 29.022936
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 37.397644 Vsphe_eff_gmm 219089.383903 threshold 3.690453e-09
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000046 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000006 6.054995e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 6.054995e-06
+#Malloc_MIDMAP_YZ(31 56) 0.36 Mbyte
+#Malloc_MIDMAP_YZ(31 56) 0.36 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8  18 #9  98 
+#10  203 #11  315 #12  468 #13  639 #14  871 
+#15  1100 #16  1361 #17  1821 #18  2256 #19  2645 
+#20  3036 #21  3356 #22  3618 #23  3804 #24  3915 
+#25  4001 #26  4031 #27  4031 #28  4031 #29  4031 
+#30  4031 #31  4031 #32  4031 #33  4031 #34  4031 
+
+#Surface_Model: Volume 63561.34 (A^3) Area 19061.96 (A^2) Rg 28.58 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 4032
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5yd1_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5yd1_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 4699
+NCHAIN 1
+#Natom 4699 nCA 602 nP 0 rCA_P 0.128112 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 26.069290 RG_Atom_Points 26.035368
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 8501870.485675
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(4699 50) 1879600.00 byte -> 1.79 Mbyte
+step 0 dParm 4.501642
+step 10 dParm 0.822877
+step 20 dParm 0.689357
+step 30 dParm 0.686690
+step 40 dParm 0.585285
+step 50 dParm 0.406696
+step 60 dParm 0.318237
+step 70 dParm 0.306740
+step 80 dParm 0.325521
+step 90 dParm 0.305088
+step 100 dParm 0.238513
+step 110 dParm 0.189104
+step 120 dParm 0.165820
+step 130 dParm 0.136401
+step 140 dParm 0.104071
+step 150 dParm 0.081667
+step 160 dParm 0.070803
+step 170 dParm 0.066282
+step 180 dParm 0.062106
+step 190 dParm 0.055779
+step 200 dParm 0.048427
+step 210 dParm 0.042600
+step 220 dParm 0.040891
+step 230 dParm 0.047139
+step 240 dParm 0.069135
+step 250 dParm 0.091565
+step 260 dParm 0.128971
+step 270 dParm 0.086236
+step 280 dParm 0.048065
+step 290 dParm 0.032134
+step 300 dParm 0.025832
+step 310 dParm 0.023546
+step 320 dParm 0.023056
+step 330 dParm 0.023460
+step 340 dParm 0.024412
+step 350 dParm 0.025791
+step 360 dParm 0.027583
+step 370 dParm 0.029838
+step 380 dParm 0.032676
+step 390 dParm 0.036313
+step 400 dParm 0.041105
+step 410 dParm 0.047616
+step 420 dParm 0.056677
+step 430 dParm 0.069224
+step 440 dParm 0.085154
+step 450 dParm 0.100034
+step 460 dParm 0.104586
+step 470 dParm 0.096999
+step 480 dParm 0.084390
+step 490 dParm 0.073240
+step 500 dParm 0.065657
+step 510 dParm 0.061297
+step 520 dParm 0.059617
+step 530 dParm 0.060120
+step 540 dParm 0.062334
+step 550 dParm 0.065675
+step 560 dParm 0.069286
+step 570 dParm 0.072018
+step 580 dParm 0.072485
+step 590 dParm 0.068686
+step 600 dParm 0.058617
+step 610 dParm 0.043926
+step 620 dParm 0.030458
+step 630 dParm 0.022330
+step 640 dParm 0.018626
+step 650 dParm 0.016587
+step 660 dParm 0.014787
+step 670 dParm 0.012940
+step 680 dParm 0.011114
+step 690 dParm 0.009415
+step 700 dParm 0.007905
+step 710 dParm 0.006608
+step 720 dParm 0.005516
+step 730 dParm 0.004611
+step 740 dParm 0.003866
+step 750 dParm 0.003256
+step 760 dParm 0.002755
+step 770 dParm 0.002344
+step 780 dParm 0.002006
+step 790 dParm 0.001726
+step 800 dParm 0.001493
+step 810 dParm 0.001298
+step 820 dParm 0.001134
+step 830 dParm 0.000996
+#Free_DOUBLE2DMAP(4699 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5yd1_chainA_50.gmm" (FileType G)
+logLike -708168.749708
+Nrepeat_fin 830
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:47:2
+COMP_TIME_SEC_FINAL  6.134052
+#COMMAND  ./gmconvert G2S -igmm 5yd1_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5yd1_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5yd1_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5yd1_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 13.209876 MIN 44.395103 MAX 176.493861 N 34
+#g 1 SD 14.538262 MIN 41.282295 MAX 186.664918 N 37
+#g 2 SD 17.139019 MIN 51.605988 MAX 222.996174 N 43
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     26.069290
+Rg_map_pnt 26.029414
+Rg_map_box 26.106137
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 33.655308 Vsphe_eff_gmm 159679.557110 threshold 1.093015e-07
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000034 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000006 5.914458e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.914458e-06
+#Malloc_MIDMAP_YZ(37 43) 0.33 Mbyte
+#Malloc_MIDMAP_YZ(37 43) 0.33 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9  37 
+#10  134 #11  258 #12  480 #13  804 #14  1079 
+#15  1361 #16  1752 #17  2103 #18  2497 #19  2870 
+#20  3099 #21  3260 #22  3391 #23  3520 #24  3607 
+#25  3641 #26  3647 #27  3647 #28  3647 #29  3647 
+#30  3647 #31  3647 #32  3647 
+#Surface_Model: Volume 71666.69 (A^3) Area 16977.94 (A^2) Rg 25.19 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3648
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5yi5_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5yi5_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 1409
+NCHAIN 1
+#Natom 1409 nCA 172 nP 0 rCA_P 0.122072 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 18.976863 RG_Atom_Points 18.930982
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 542251.522833
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(1409 50) 563600.00 byte -> 0.54 Mbyte
+step 0 dParm 1.706145
+step 10 dParm 0.307303
+step 20 dParm 0.218628
+step 30 dParm 0.156982
+step 40 dParm 0.137268
+step 50 dParm 0.143919
+step 60 dParm 0.123786
+step 70 dParm 0.114526
+step 80 dParm 0.111542
+step 90 dParm 0.121905
+step 100 dParm 0.130075
+step 110 dParm 0.137443
+step 120 dParm 0.145278
+step 130 dParm 0.055323
+step 140 dParm 0.041789
+step 150 dParm 0.041261
+step 160 dParm 0.047236
+step 170 dParm 0.053665
+step 180 dParm 0.046868
+step 190 dParm 0.036744
+step 200 dParm 0.036435
+step 210 dParm 0.046537
+step 220 dParm 0.059454
+step 230 dParm 0.058249
+step 240 dParm 0.056817
+step 250 dParm 0.064236
+step 260 dParm 0.046904
+step 270 dParm 0.053907
+step 280 dParm 0.060075
+step 290 dParm 0.050517
+step 300 dParm 0.052993
+step 310 dParm 0.070290
+step 320 dParm 0.068875
+step 330 dParm 0.016412
+step 340 dParm 0.016749
+step 350 dParm 0.035278
+step 360 dParm 0.111430
+step 370 dParm 0.024149
+step 380 dParm 0.011540
+step 390 dParm 0.007350
+step 400 dParm 0.005089
+step 410 dParm 0.003697
+step 420 dParm 0.002828
+step 430 dParm 0.002298
+step 440 dParm 0.001987
+step 450 dParm 0.001805
+step 460 dParm 0.001687
+step 470 dParm 0.001590
+step 480 dParm 0.001494
+step 490 dParm 0.001393
+step 500 dParm 0.001290
+step 510 dParm 0.001187
+step 520 dParm 0.001088
+step 530 dParm 0.000996
+#Free_DOUBLE2DMAP(1409 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5yi5_chainA_50.gmm" (FileType G)
+logLike -191555.001065
+Nrepeat_fin 530
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:47:3
+COMP_TIME_SEC_FINAL  1.197092
+#COMMAND  ./gmconvert G2S -igmm 5yi5_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5yi5_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5yi5_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5yi5_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 13.515862 MIN -10.852037 MAX 124.306584 N 34
+#g 1 SD 9.601518 MIN 1.024932 MAX 97.040110 N 25
+#g 2 SD 9.233292 MIN 37.303890 MAX 129.636806 N 24
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     18.976863
+Rg_map_pnt 18.976804
+Rg_map_box 19.081905
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 24.499025 Vsphe_eff_gmm 61593.521460 threshold 2.037683e-08
+#Voxel_Statistics()
+#ave 0.000001 min 0.000000 max 0.000120 sd 0.000006
+#Marching_Cube_Tetrahedral(0.000018 1.844266e-05,midpnttype:C)
+MC_THRESHOLD_DENSITY 1.844266e-05
+#Malloc_MIDMAP_YZ(25 24) 0.12 Mbyte
+#Malloc_MIDMAP_YZ(25 24) 0.12 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10  12 #11  80 #12  206 #13  347 #14  477 
+#15  605 #16  768 #17  901 #18  1036 #19  1156 
+#20  1285 #21  1400 #22  1511 #23  1587 #24  1624 
+#25  1635 #26  1635 #27  1635 #28  1635 #29  1635 
+#30  1635 #31  1635 #32  1635 
+#Surface_Model: Volume 21088.83 (A^3) Area 8008.98 (A^2) Rg 18.83 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 1636
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6bbj_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6bbj_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 4874
+NCHAIN 1
+#Natom 4874 nCA 608 nP 0 rCA_P 0.124744 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 37.168993 RG_Atom_Points 37.145277
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 26122776.351255
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(4874 50) 1949600.00 byte -> 1.86 Mbyte
+step 0 dParm 4.256042
+step 10 dParm 1.004452
+step 20 dParm 0.851394
+step 30 dParm 0.523686
+step 40 dParm 0.330209
+step 50 dParm 0.366971
+step 60 dParm 0.612553
+step 70 dParm 0.201518
+step 80 dParm 0.135894
+step 90 dParm 0.113135
+step 100 dParm 0.106076
+step 110 dParm 0.107672
+step 120 dParm 0.118440
+step 130 dParm 0.141090
+step 140 dParm 0.168569
+step 150 dParm 0.180419
+step 160 dParm 0.174306
+step 170 dParm 0.162387
+step 180 dParm 0.148652
+step 190 dParm 0.138597
+step 200 dParm 0.139879
+step 210 dParm 0.162942
+step 220 dParm 0.204494
+step 230 dParm 0.225463
+step 240 dParm 0.205956
+step 250 dParm 0.151243
+step 260 dParm 0.101528
+step 270 dParm 0.079802
+step 280 dParm 0.072186
+step 290 dParm 0.067926
+step 300 dParm 0.071216
+step 310 dParm 0.065555
+step 320 dParm 0.039674
+step 330 dParm 0.032199
+step 340 dParm 0.030794
+step 350 dParm 0.030410
+step 360 dParm 0.031238
+step 370 dParm 0.033136
+step 380 dParm 0.035428
+step 390 dParm 0.038338
+step 400 dParm 0.042935
+step 410 dParm 0.049269
+step 420 dParm 0.055788
+step 430 dParm 0.059525
+step 440 dParm 0.057482
+step 450 dParm 0.050168
+step 460 dParm 0.041376
+step 470 dParm 0.033530
+step 480 dParm 0.026659
+step 490 dParm 0.020900
+step 500 dParm 0.016639
+step 510 dParm 0.013484
+step 520 dParm 0.010987
+step 530 dParm 0.009034
+step 540 dParm 0.007598
+step 550 dParm 0.006589
+step 560 dParm 0.005885
+step 570 dParm 0.005374
+step 580 dParm 0.004977
+step 590 dParm 0.004644
+step 600 dParm 0.004348
+step 610 dParm 0.004078
+step 620 dParm 0.003831
+step 630 dParm 0.003612
+step 640 dParm 0.003432
+step 650 dParm 0.003304
+step 660 dParm 0.003245
+step 670 dParm 0.003278
+step 680 dParm 0.003428
+step 690 dParm 0.003724
+step 700 dParm 0.004211
+step 710 dParm 0.004949
+step 720 dParm 0.006040
+step 730 dParm 0.007656
+step 740 dParm 0.010088
+step 750 dParm 0.013835
+step 760 dParm 0.019663
+step 770 dParm 0.028271
+step 780 dParm 0.038324
+step 790 dParm 0.044406
+step 800 dParm 0.042765
+step 810 dParm 0.034612
+step 820 dParm 0.025553
+step 830 dParm 0.018255
+step 840 dParm 0.012874
+step 850 dParm 0.009145
+step 860 dParm 0.006615
+step 870 dParm 0.004892
+step 880 dParm 0.003698
+step 890 dParm 0.002855
+step 900 dParm 0.002245
+step 910 dParm 0.001793
+step 920 dParm 0.001452
+step 930 dParm 0.001189
+step 940 dParm 0.000982
+#Free_DOUBLE2DMAP(4874 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6bbj_chainA_50.gmm" (FileType G)
+logLike -748620.980985
+Nrepeat_fin 940
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:47:11
+COMP_TIME_SEC_FINAL  7.472911
+#COMMAND  ./gmconvert G2S -igmm 6bbj_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6bbj_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6bbj_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6bbj_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 11.890805 MIN 106.926514 MAX 225.834564 N 30
+#g 1 SD 18.783022 MIN 60.804588 MAX 248.634807 N 47
+#g 2 SD 29.788268 MIN -17.281418 MAX 280.601264 N 75
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     37.168994
+Rg_map_pnt 37.133078
+Rg_map_box 37.186900
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 47.984964 Vsphe_eff_gmm 462811.500499 threshold -1.000000e+00
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000031 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000004 3.952274e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 3.952274e-06
+#Malloc_MIDMAP_YZ(47 75) 0.73 Mbyte
+#Malloc_MIDMAP_YZ(47 75) 0.73 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6  26 #7  97 #8  208 #9  360 
+#10  557 #11  751 #12  1064 #13  1526 #14  2060 
+#15  2505 #16  2952 #17  3425 #18  3831 #19  4217 
+#20  4465 #21  4586 #22  4605 #23  4605 #24  4605 
+#25  4605 #26  4605 #27  4605 #28  4605 
+#Surface_Model: Volume 91621.51 (A^3) Area 20894.46 (A^2) Rg 36.60 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 4606
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6e9e_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6e9e_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 7074
+NCHAIN 1
+#Natom 7074 nCA 863 nP 0 rCA_P 0.121996 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 30.356623 RG_Atom_Points 30.327894
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 24624463.008629
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(7074 50) 2829600.00 byte -> 2.70 Mbyte
+step 0 dParm 6.303402
+step 10 dParm 1.186089
+step 20 dParm 1.019597
+step 30 dParm 0.625041
+step 40 dParm 0.568389
+step 50 dParm 0.461076
+step 60 dParm 0.414608
+step 70 dParm 0.478613
+step 80 dParm 0.475459
+step 90 dParm 0.309637
+step 100 dParm 0.243983
+step 110 dParm 0.304365
+step 120 dParm 0.185450
+step 130 dParm 0.157714
+step 140 dParm 0.172544
+step 150 dParm 0.203698
+step 160 dParm 0.244852
+step 170 dParm 0.324896
+step 180 dParm 0.231000
+step 190 dParm 0.161955
+step 200 dParm 0.166382
+step 210 dParm 0.158761
+step 220 dParm 0.128060
+step 230 dParm 0.118502
+step 240 dParm 0.123136
+step 250 dParm 0.124086
+step 260 dParm 0.123229
+step 270 dParm 0.135804
+step 280 dParm 0.163528
+step 290 dParm 0.182916
+step 300 dParm 0.192729
+step 310 dParm 0.192137
+step 320 dParm 0.183720
+step 330 dParm 0.172443
+step 340 dParm 0.133615
+step 350 dParm 0.115448
+step 360 dParm 0.114518
+step 370 dParm 0.129601
+step 380 dParm 0.177403
+step 390 dParm 0.263130
+step 400 dParm 0.249181
+step 410 dParm 0.221329
+step 420 dParm 0.209168
+step 430 dParm 0.239433
+step 440 dParm 0.385808
+step 450 dParm 0.251918
+step 460 dParm 0.116267
+step 470 dParm 0.079817
+step 480 dParm 0.070105
+step 490 dParm 0.068505
+step 500 dParm 0.069033
+step 510 dParm 0.069508
+step 520 dParm 0.067737
+step 530 dParm 0.061928
+step 540 dParm 0.053945
+step 550 dParm 0.048366
+step 560 dParm 0.045659
+step 570 dParm 0.041661
+step 580 dParm 0.034165
+step 590 dParm 0.025422
+step 600 dParm 0.018314
+step 610 dParm 0.013644
+step 620 dParm 0.010818
+step 630 dParm 0.009065
+step 640 dParm 0.007907
+step 650 dParm 0.007120
+step 660 dParm 0.006601
+step 670 dParm 0.006295
+step 680 dParm 0.006167
+step 690 dParm 0.006197
+step 700 dParm 0.006382
+step 710 dParm 0.006730
+step 720 dParm 0.007271
+step 730 dParm 0.008057
+step 740 dParm 0.009178
+step 750 dParm 0.010791
+step 760 dParm 0.013164
+step 770 dParm 0.016790
+step 780 dParm 0.022598
+step 790 dParm 0.032360
+step 800 dParm 0.048884
+step 810 dParm 0.070949
+step 820 dParm 0.068335
+step 830 dParm 0.040404
+step 840 dParm 0.029054
+step 850 dParm 0.025731
+step 860 dParm 0.023148
+step 870 dParm 0.018880
+step 880 dParm 0.014015
+step 890 dParm 0.009960
+step 900 dParm 0.007085
+step 910 dParm 0.005159
+step 920 dParm 0.003875
+step 930 dParm 0.003019
+step 940 dParm 0.002467
+step 950 dParm 0.002141
+step 960 dParm 0.001985
+step 970 dParm 0.001952
+step 980 dParm 0.002007
+step 990 dParm 0.002126
+step 1000 dParm 0.002295
+step 1010 dParm 0.002511
+step 1020 dParm 0.002776
+step 1030 dParm 0.003096
+step 1040 dParm 0.003480
+step 1050 dParm 0.003943
+step 1060 dParm 0.004499
+step 1070 dParm 0.005168
+step 1080 dParm 0.005967
+step 1090 dParm 0.006911
+step 1100 dParm 0.007999
+step 1110 dParm 0.009199
+step 1120 dParm 0.010420
+step 1130 dParm 0.011492
+step 1140 dParm 0.012162
+step 1150 dParm 0.012168
+step 1160 dParm 0.011377
+step 1170 dParm 0.009898
+step 1180 dParm 0.008053
+step 1190 dParm 0.006200
+step 1200 dParm 0.004586
+step 1210 dParm 0.003304
+step 1220 dParm 0.002346
+step 1230 dParm 0.001656
+step 1240 dParm 0.001168
+#Free_DOUBLE2DMAP(7074 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6e9e_chainA_50.gmm" (FileType G)
+logLike -1127257.867674
+Nrepeat_fin 1245
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:47:25
+COMP_TIME_SEC_FINAL  13.915294
+#COMMAND  ./gmconvert G2S -igmm 6e9e_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6e9e_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6e9e_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6e9e_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 19.367814 MIN 4.933978 MAX 198.612121 N 49
+#g 1 SD 14.059149 MIN 24.961905 MAX 165.553397 N 36
+#g 2 SD 18.674920 MIN 8.938291 MAX 195.687490 N 47
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     30.356623
+Rg_map_pnt 30.315152
+Rg_map_box 30.381054
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 39.190231 Vsphe_eff_gmm 252128.589968 threshold 1.716156e-07
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000019 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000004 3.607461e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 3.607461e-06
+#Malloc_MIDMAP_YZ(36 47) 0.35 Mbyte
+#Malloc_MIDMAP_YZ(36 47) 0.35 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12 #13 #14  57 
+#15  182 #16  337 #17  607 #18  858 #19  1177 
+#20  1491 #21  1794 #22  2156 #23  2514 #24  2850 
+#25  3207 #26  3580 #27  3946 #28  4253 #29  4504 
+#30  4775 #31  5012 #32  5200 #33  5351 #34  5440 
+#35  5511 #36  5551 #37  5551 #38  5551 #39  5551 
+#40  5551 #41  5551 #42  5551 #43  5551 #44  5551 
+#45  5551 #46  5551 #47  5551 
+#Surface_Model: Volume 118367.08 (A^3) Area 24815.43 (A^2) Rg 29.35 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 5552
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6g1k_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6g1k_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 5298
+NCHAIN 1
+#Natom 5298 nCA 648 nP 0 rCA_P 0.122310 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 37.335901 RG_Atom_Points 37.312332
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 26218894.088973
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(5298 50) 2119200.00 byte -> 2.02 Mbyte
+step 0 dParm 4.390389
+step 10 dParm 1.024464
+step 20 dParm 0.654008
+step 30 dParm 0.678751
+step 40 dParm 0.490048
+step 50 dParm 0.481893
+step 60 dParm 0.786732
+step 70 dParm 0.463206
+step 80 dParm 0.320069
+step 90 dParm 0.282006
+step 100 dParm 0.219436
+step 110 dParm 0.140406
+step 120 dParm 0.119798
+step 130 dParm 0.137289
+step 140 dParm 0.123604
+step 150 dParm 0.122566
+step 160 dParm 0.115797
+step 170 dParm 0.106844
+step 180 dParm 0.112207
+step 190 dParm 0.107826
+step 200 dParm 0.097061
+step 210 dParm 0.121387
+step 220 dParm 0.235691
+step 230 dParm 0.133041
+step 240 dParm 0.118401
+step 250 dParm 0.068242
+step 260 dParm 0.047435
+step 270 dParm 0.040150
+step 280 dParm 0.032282
+step 290 dParm 0.024167
+step 300 dParm 0.018534
+step 310 dParm 0.015245
+step 320 dParm 0.013377
+step 330 dParm 0.012371
+step 340 dParm 0.011971
+step 350 dParm 0.012080
+step 360 dParm 0.012718
+step 370 dParm 0.014070
+step 380 dParm 0.016725
+step 390 dParm 0.022716
+step 400 dParm 0.040260
+step 410 dParm 0.083205
+step 420 dParm 0.087994
+step 430 dParm 0.140121
+step 440 dParm 0.424730
+step 450 dParm 0.055438
+step 460 dParm 0.024937
+step 470 dParm 0.014496
+step 480 dParm 0.010487
+step 490 dParm 0.009833
+step 500 dParm 0.010996
+step 510 dParm 0.013423
+step 520 dParm 0.017526
+step 530 dParm 0.025104
+step 540 dParm 0.038405
+step 550 dParm 0.048773
+step 560 dParm 0.053808
+step 570 dParm 0.052695
+step 580 dParm 0.047018
+step 590 dParm 0.039567
+step 600 dParm 0.031667
+step 610 dParm 0.024551
+step 620 dParm 0.018677
+step 630 dParm 0.014051
+step 640 dParm 0.010505
+step 650 dParm 0.007831
+step 660 dParm 0.005835
+step 670 dParm 0.004355
+step 680 dParm 0.003261
+step 690 dParm 0.002454
+step 700 dParm 0.001857
+step 710 dParm 0.001416
+step 720 dParm 0.001089
+#Free_DOUBLE2DMAP(5298 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6g1k_chainA_50.gmm" (FileType G)
+logLike -819401.904068
+Nrepeat_fin 724
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:47:31
+COMP_TIME_SEC_FINAL  6.131132
+#COMMAND  ./gmconvert G2S -igmm 6g1k_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6g1k_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6g1k_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6g1k_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 16.989428 MIN 57.938019 MAX 227.832299 N 43
+#g 1 SD 12.789214 MIN 68.147102 MAX 196.039248 N 32
+#g 2 SD 30.688188 MIN -38.785786 MAX 268.096094 N 77
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     37.335901
+Rg_map_pnt 37.310490
+Rg_map_box 37.364055
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 48.200441 Vsphe_eff_gmm 469074.319833 threshold 8.666084e-11
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000029 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000004 3.801848e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 3.801848e-06
+#Malloc_MIDMAP_YZ(32 77) 0.51 Mbyte
+#Malloc_MIDMAP_YZ(32 77) 0.51 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9  18 
+#10  43 #11  68 #12  103 #13  184 #14  338 
+#15  545 #16  785 #17  1133 #18  1533 #19  2001 
+#20  2386 #21  2650 #22  2940 #23  3362 #24  3791 
+#25  4143 #26  4477 #27  4742 #28  4981 #29  5076 
+#30  5149 #31  5189 #32  5195 #33  5195 #34  5195 
+#35  5195 #36  5195 #37  5195 #38  5195 #39  5195 
+#40  5195 #41  5195 
+#Surface_Model: Volume 93543.29 (A^3) Area 24051.78 (A^2) Rg 36.70 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 5196
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6i1y_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6i1y_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3768
+NCHAIN 1
+#Natom 3768 nCA 496 nP 0 rCA_P 0.131635 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 54.564376 RG_Atom_Points 54.548363
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 53196197.882571
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3768 50) 1507200.00 byte -> 1.44 Mbyte
+step 0 dParm 3.260512
+step 10 dParm 0.655141
+step 20 dParm 0.510197
+step 30 dParm 0.363014
+step 40 dParm 0.327597
+step 50 dParm 0.308234
+step 60 dParm 0.227839
+step 70 dParm 0.173686
+step 80 dParm 0.167020
+step 90 dParm 0.248757
+step 100 dParm 0.276357
+step 110 dParm 0.142667
+step 120 dParm 0.124423
+step 130 dParm 0.121966
+step 140 dParm 0.128020
+step 150 dParm 0.141580
+step 160 dParm 0.173184
+step 170 dParm 0.162390
+step 180 dParm 0.159787
+step 190 dParm 0.134048
+step 200 dParm 0.115639
+step 210 dParm 0.115695
+step 220 dParm 0.188031
+step 230 dParm 0.138498
+step 240 dParm 0.080489
+step 250 dParm 0.057053
+step 260 dParm 0.045387
+step 270 dParm 0.038569
+step 280 dParm 0.034191
+step 290 dParm 0.031431
+step 300 dParm 0.029867
+step 310 dParm 0.029166
+step 320 dParm 0.029159
+step 330 dParm 0.029396
+step 340 dParm 0.029432
+step 350 dParm 0.029124
+step 360 dParm 0.028498
+step 370 dParm 0.027611
+step 380 dParm 0.026513
+step 390 dParm 0.025244
+step 400 dParm 0.023838
+step 410 dParm 0.022332
+step 420 dParm 0.020757
+step 430 dParm 0.019148
+step 440 dParm 0.017538
+step 450 dParm 0.015957
+step 460 dParm 0.014429
+step 470 dParm 0.012975
+step 480 dParm 0.011609
+step 490 dParm 0.010341
+step 500 dParm 0.009176
+step 510 dParm 0.008115
+step 520 dParm 0.007156
+step 530 dParm 0.006296
+step 540 dParm 0.005528
+step 550 dParm 0.004846
+step 560 dParm 0.004243
+step 570 dParm 0.003712
+step 580 dParm 0.003246
+step 590 dParm 0.002837
+step 600 dParm 0.002481
+step 610 dParm 0.002171
+step 620 dParm 0.001902
+step 630 dParm 0.001669
+step 640 dParm 0.001467
+step 650 dParm 0.001294
+step 660 dParm 0.001145
+step 670 dParm 0.001017
+#Free_DOUBLE2DMAP(3768 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6i1y_chainA_50.gmm" (FileType G)
+logLike -566858.716337
+Nrepeat_fin 672
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:47:36
+COMP_TIME_SEC_FINAL  4.498323
+#COMMAND  ./gmconvert G2S -igmm 6i1y_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6i1y_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6i1y_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6i1y_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 18.694119 MIN -59.459202 MAX 127.481987 N 47
+#g 1 SD 21.568979 MIN -134.042313 MAX 81.647483 N 54
+#g 2 SD 46.503550 MIN -237.825195 MAX 227.210305 N 117
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     54.564376
+Rg_map_pnt 54.581142
+Rg_map_box 54.617772
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 70.442306 Vsphe_eff_gmm 1464162.587360 threshold -1.000000e+00
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000039 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000003 2.728221e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 2.728221e-06
+#Malloc_MIDMAP_YZ(54 117) 1.30 Mbyte
+#Malloc_MIDMAP_YZ(54 117) 1.30 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12 #13  43 #14  154 
+#15  296 #16  469 #17  672 #18  915 #19  1155 
+#20  1365 #21  1521 #22  1717 #23  1927 #24  2249 
+#25  2577 #26  2928 #27  3344 #28  3687 #29  4023 
+#30  4292 #31  4387 #32  4430 #33  4470 #34  4504 
+#35  4531 #36  4543 #37  4543 #38  4543 #39  4543 
+#40  4543 #41  4543 #42  4543 #43  4543 #44  4543 
+#45  4543 
+#Surface_Model: Volume 88376.67 (A^3) Area 21855.90 (A^2) Rg 54.46 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 4544
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6n1q_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6n1q_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3782
+NCHAIN 1
+#Natom 3782 nCA 476 nP 0 rCA_P 0.125859 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 30.979472 RG_Atom_Points 30.951199
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 10288923.769613
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3782 50) 1512800.00 byte -> 1.44 Mbyte
+step 0 dParm 3.641504
+step 10 dParm 0.636206
+step 20 dParm 0.391677
+step 30 dParm 0.285440
+step 40 dParm 0.216144
+step 50 dParm 0.179338
+step 60 dParm 0.222098
+step 70 dParm 0.266918
+step 80 dParm 0.158045
+step 90 dParm 0.129392
+step 100 dParm 0.114508
+step 110 dParm 0.111111
+step 120 dParm 0.141226
+step 130 dParm 0.141107
+step 140 dParm 0.060271
+step 150 dParm 0.045847
+step 160 dParm 0.038033
+step 170 dParm 0.031497
+step 180 dParm 0.027417
+step 190 dParm 0.029451
+step 200 dParm 0.050164
+step 210 dParm 0.132525
+step 220 dParm 0.144717
+step 230 dParm 0.054462
+step 240 dParm 0.032253
+step 250 dParm 0.024962
+step 260 dParm 0.022016
+step 270 dParm 0.021151
+step 280 dParm 0.021816
+step 290 dParm 0.024031
+step 300 dParm 0.028210
+step 310 dParm 0.035308
+step 320 dParm 0.047313
+step 330 dParm 0.068420
+step 340 dParm 0.108551
+step 350 dParm 0.192434
+step 360 dParm 0.126687
+step 370 dParm 0.056740
+step 380 dParm 0.035397
+step 390 dParm 0.024707
+step 400 dParm 0.018546
+step 410 dParm 0.014731
+step 420 dParm 0.012230
+step 430 dParm 0.010542
+step 440 dParm 0.009460
+step 450 dParm 0.008967
+step 460 dParm 0.009200
+step 470 dParm 0.010428
+step 480 dParm 0.012950
+step 490 dParm 0.016648
+step 500 dParm 0.019961
+step 510 dParm 0.021108
+step 520 dParm 0.024255
+step 530 dParm 0.029622
+step 540 dParm 0.031698
+step 550 dParm 0.031188
+step 560 dParm 0.028301
+step 570 dParm 0.024554
+step 580 dParm 0.021851
+step 590 dParm 0.021034
+step 600 dParm 0.021920
+step 610 dParm 0.024148
+step 620 dParm 0.028250
+step 630 dParm 0.037711
+step 640 dParm 0.060587
+step 650 dParm 0.078375
+step 660 dParm 0.046375
+step 670 dParm 0.028563
+step 680 dParm 0.023560
+step 690 dParm 0.021999
+step 700 dParm 0.021470
+step 710 dParm 0.021371
+step 720 dParm 0.021491
+step 730 dParm 0.021704
+step 740 dParm 0.021900
+step 750 dParm 0.021964
+step 760 dParm 0.021798
+step 770 dParm 0.021339
+step 780 dParm 0.020588
+step 790 dParm 0.019612
+step 800 dParm 0.018525
+step 810 dParm 0.017448
+step 820 dParm 0.016480
+step 830 dParm 0.015677
+step 840 dParm 0.015059
+step 850 dParm 0.014622
+step 860 dParm 0.014351
+step 870 dParm 0.014227
+step 880 dParm 0.014235
+step 890 dParm 0.014366
+step 900 dParm 0.014615
+step 910 dParm 0.014983
+step 920 dParm 0.015473
+step 930 dParm 0.016095
+step 940 dParm 0.016860
+step 950 dParm 0.017786
+step 960 dParm 0.018892
+step 970 dParm 0.020202
+step 980 dParm 0.021743
+step 990 dParm 0.023544
+step 1000 dParm 0.025635
+step 1010 dParm 0.028040
+step 1020 dParm 0.030776
+step 1030 dParm 0.033836
+step 1040 dParm 0.037182
+step 1050 dParm 0.040721
+step 1060 dParm 0.044297
+step 1070 dParm 0.047677
+step 1080 dParm 0.050565
+step 1090 dParm 0.052642
+step 1100 dParm 0.053629
+step 1110 dParm 0.053358
+step 1120 dParm 0.051819
+step 1130 dParm 0.049164
+step 1140 dParm 0.045662
+step 1150 dParm 0.041630
+step 1160 dParm 0.037375
+step 1170 dParm 0.033147
+step 1180 dParm 0.029124
+step 1190 dParm 0.025416
+step 1200 dParm 0.022077
+step 1210 dParm 0.019121
+step 1220 dParm 0.016536
+step 1230 dParm 0.014295
+step 1240 dParm 0.012364
+step 1250 dParm 0.010706
+step 1260 dParm 0.009286
+step 1270 dParm 0.008072
+step 1280 dParm 0.007033
+step 1290 dParm 0.006145
+step 1300 dParm 0.005384
+step 1310 dParm 0.004731
+step 1320 dParm 0.004170
+step 1330 dParm 0.003686
+step 1340 dParm 0.003269
+step 1350 dParm 0.002908
+step 1360 dParm 0.002594
+step 1370 dParm 0.002321
+step 1380 dParm 0.002083
+step 1390 dParm 0.001874
+step 1400 dParm 0.001691
+step 1410 dParm 0.001530
+step 1420 dParm 0.001387
+step 1430 dParm 0.001261
+step 1440 dParm 0.001150
+step 1450 dParm 0.001050
+#Free_DOUBLE2DMAP(3782 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6n1q_chainA_50.gmm" (FileType G)
+logLike -569169.990369
+Nrepeat_fin 1456
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:47:44
+COMP_TIME_SEC_FINAL  8.896682
+#COMMAND  ./gmconvert G2S -igmm 6n1q_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6n1q_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6n1q_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6n1q_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 26.544103 MIN -12.484927 MAX 252.956100 N 67
+#g 1 SD 10.873401 MIN 44.466812 MAX 153.200817 N 28
+#g 2 SD 11.700747 MIN 120.667786 MAX 237.675254 N 30
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     30.979472
+Rg_map_pnt 30.957173
+Rg_map_box 31.021711
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 39.994327 Vsphe_eff_gmm 267968.522445 threshold 9.412449e-10
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000046 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000006 6.352095e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 6.352095e-06
+#Malloc_MIDMAP_YZ(28 30) 0.17 Mbyte
+#Malloc_MIDMAP_YZ(28 30) 0.17 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12 #13 #14 
+#15 #16 #17 #18 #19 
+#20 #21  60 #22  128 #23  245 #24  357 
+#25  461 #26  568 #27  679 #28  835 #29  1012 
+#30  1197 #31  1510 #32  1814 #33  2109 #34  2357 
+#35  2592 #36  2779 #37  2922 #38  3018 #39  3084 
+#40  3140 #41  3191 #42  3241 #43  3311 #44  3408 
+#45  3514 #46  3637 #47  3743 #48  3810 #49  3853 
+#50  3865 #51  3865 #52  3865 #53  3865 #54  3865 
+#55  3865 #56  3865 #57  3865 #58  3865 #59  3865 
+#60  3865 #61  3865 #62  3865 #63  3865 #64  3865 
+#65  3865 
+#Surface_Model: Volume 62243.70 (A^3) Area 18245.89 (A^2) Rg 30.45 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3866
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6oo3_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6oo3_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 4513
+NCHAIN 1
+#Natom 4513 nCA 601 nP 0 rCA_P 0.133171 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 35.440887 RG_Atom_Points 35.415909
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 29250543.084052
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(4513 50) 1805200.00 byte -> 1.72 Mbyte
+step 0 dParm 3.821642
+step 10 dParm 0.970729
+step 20 dParm 1.029142
+step 30 dParm 0.544469
+step 40 dParm 0.447447
+step 50 dParm 0.381847
+step 60 dParm 0.399494
+step 70 dParm 0.321929
+step 80 dParm 0.297603
+step 90 dParm 0.256197
+step 100 dParm 0.215276
+step 110 dParm 0.189866
+step 120 dParm 0.311328
+step 130 dParm 0.145881
+step 140 dParm 0.108560
+step 150 dParm 0.095308
+step 160 dParm 0.118284
+step 170 dParm 0.091897
+step 180 dParm 0.103080
+step 190 dParm 0.099000
+step 200 dParm 0.087912
+step 210 dParm 0.083708
+step 220 dParm 0.078439
+step 230 dParm 0.075575
+step 240 dParm 0.083603
+step 250 dParm 0.097266
+step 260 dParm 0.097662
+step 270 dParm 0.090256
+step 280 dParm 0.088422
+step 290 dParm 0.094927
+step 300 dParm 0.102673
+step 310 dParm 0.116562
+step 320 dParm 0.142519
+step 330 dParm 0.166347
+step 340 dParm 0.137547
+step 350 dParm 0.098595
+step 360 dParm 0.065069
+step 370 dParm 0.068414
+step 380 dParm 0.085011
+step 390 dParm 0.092096
+step 400 dParm 0.087264
+step 410 dParm 0.064858
+step 420 dParm 0.043376
+step 430 dParm 0.029397
+step 440 dParm 0.021265
+step 450 dParm 0.016594
+step 460 dParm 0.013847
+step 470 dParm 0.012164
+step 480 dParm 0.011074
+step 490 dParm 0.010319
+step 500 dParm 0.009753
+step 510 dParm 0.009297
+step 520 dParm 0.008906
+step 530 dParm 0.008553
+step 540 dParm 0.008225
+step 550 dParm 0.007913
+step 560 dParm 0.007612
+step 570 dParm 0.007320
+step 580 dParm 0.007035
+step 590 dParm 0.006757
+step 600 dParm 0.006484
+step 610 dParm 0.006216
+step 620 dParm 0.005954
+step 630 dParm 0.005697
+step 640 dParm 0.005445
+step 650 dParm 0.005199
+step 660 dParm 0.004959
+step 670 dParm 0.004724
+step 680 dParm 0.004495
+step 690 dParm 0.004273
+step 700 dParm 0.004057
+step 710 dParm 0.003848
+step 720 dParm 0.003645
+step 730 dParm 0.003450
+step 740 dParm 0.003262
+step 750 dParm 0.003081
+step 760 dParm 0.002907
+step 770 dParm 0.002740
+step 780 dParm 0.002581
+step 790 dParm 0.002429
+step 800 dParm 0.002283
+step 810 dParm 0.002145
+step 820 dParm 0.002014
+step 830 dParm 0.001890
+step 840 dParm 0.001772
+step 850 dParm 0.001660
+step 860 dParm 0.001554
+step 870 dParm 0.001455
+step 880 dParm 0.001361
+step 890 dParm 0.001272
+step 900 dParm 0.001189
+step 910 dParm 0.001111
+step 920 dParm 0.001037
+#Free_DOUBLE2DMAP(4513 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6oo3_chainA_50.gmm" (FileType G)
+logLike -687105.184376
+Nrepeat_fin 926
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:47:51
+COMP_TIME_SEC_FINAL  6.786490
+#COMMAND  ./gmconvert G2S -igmm 6oo3_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6oo3_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6oo3_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6oo3_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 17.385091 MIN 60.492695 MAX 234.343608 N 44
+#g 1 SD 15.535367 MIN 90.931900 MAX 246.285571 N 39
+#g 2 SD 26.692086 MIN -2.444581 MAX 264.476277 N 67
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     35.440887
+Rg_map_pnt 35.404018
+Rg_map_box 35.460464
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 45.753988 Vsphe_eff_gmm 401213.446528 threshold 3.306339e-10
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000037 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000004 3.943539e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 3.943539e-06
+#Malloc_MIDMAP_YZ(39 67) 0.54 Mbyte
+#Malloc_MIDMAP_YZ(39 67) 0.54 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12  12 #13  77 #14  257 
+#15  481 #16  724 #17  983 #18  1227 #19  1483 
+#20  1724 #21  1942 #22  2200 #23  2509 #24  2785 
+#25  3127 #26  3465 #27  3790 #28  4068 #29  4260 
+#30  4343 #31  4361 #32  4361 #33  4361 #34  4361 
+#35  4361 #36  4361 #37  4361 #38  4361 #39  4361 
+#40  4361 #41  4361 #42  4361 
+#Surface_Model: Volume 87684.12 (A^3) Area 20297.74 (A^2) Rg 34.95 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 4362
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3ixv_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3ixv_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 5157
+NCHAIN 1
+#Natom 5157 nCA 626 nP 0 rCA_P 0.121388 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 24.543237 RG_Atom_Points 24.507841
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 6997834.650297
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(5157 50) 2062800.00 byte -> 1.97 Mbyte
+step 0 dParm 4.781129
+step 10 dParm 1.365182
+step 20 dParm 0.604309
+step 30 dParm 0.442654
+step 40 dParm 0.445127
+step 50 dParm 0.279707
+step 60 dParm 0.253751
+step 70 dParm 0.315421
+step 80 dParm 0.327298
+step 90 dParm 0.265512
+step 100 dParm 0.267209
+step 110 dParm 0.208905
+step 120 dParm 0.180516
+step 130 dParm 0.154923
+step 140 dParm 0.138619
+step 150 dParm 0.170136
+step 160 dParm 0.237840
+step 170 dParm 0.074473
+step 180 dParm 0.062078
+step 190 dParm 0.057506
+step 200 dParm 0.059398
+step 210 dParm 0.070629
+step 220 dParm 0.082005
+step 230 dParm 0.094291
+step 240 dParm 0.066053
+step 250 dParm 0.077011
+step 260 dParm 0.084909
+step 270 dParm 0.086267
+step 280 dParm 0.081711
+step 290 dParm 0.074384
+step 300 dParm 0.067530
+step 310 dParm 0.062914
+step 320 dParm 0.060252
+step 330 dParm 0.057781
+step 340 dParm 0.053873
+step 350 dParm 0.048916
+step 360 dParm 0.044331
+step 370 dParm 0.040577
+step 380 dParm 0.037411
+step 390 dParm 0.034701
+step 400 dParm 0.032710
+step 410 dParm 0.032007
+step 420 dParm 0.033132
+step 430 dParm 0.035997
+step 440 dParm 0.039222
+step 450 dParm 0.040139
+step 460 dParm 0.037142
+step 470 dParm 0.033155
+step 480 dParm 0.032926
+step 490 dParm 0.037111
+step 500 dParm 0.044498
+step 510 dParm 0.055252
+step 520 dParm 0.070523
+step 530 dParm 0.091353
+step 540 dParm 0.118223
+step 550 dParm 0.149788
+step 560 dParm 0.164146
+step 570 dParm 0.133457
+step 580 dParm 0.095803
+step 590 dParm 0.073711
+step 600 dParm 0.066276
+step 610 dParm 0.071955
+step 620 dParm 0.085911
+step 630 dParm 0.105719
+step 640 dParm 0.089320
+step 650 dParm 0.056189
+step 660 dParm 0.037782
+step 670 dParm 0.027438
+step 680 dParm 0.020858
+step 690 dParm 0.016456
+step 700 dParm 0.013549
+step 710 dParm 0.011677
+step 720 dParm 0.010457
+step 730 dParm 0.009617
+step 740 dParm 0.008996
+step 750 dParm 0.008507
+step 760 dParm 0.008105
+step 770 dParm 0.007764
+step 780 dParm 0.007465
+step 790 dParm 0.007200
+step 800 dParm 0.006960
+step 810 dParm 0.006740
+step 820 dParm 0.006537
+step 830 dParm 0.006348
+step 840 dParm 0.006171
+step 850 dParm 0.006004
+step 860 dParm 0.005846
+step 870 dParm 0.005695
+step 880 dParm 0.005552
+step 890 dParm 0.005415
+step 900 dParm 0.005283
+step 910 dParm 0.005156
+step 920 dParm 0.005035
+step 930 dParm 0.004918
+step 940 dParm 0.004805
+step 950 dParm 0.004695
+step 960 dParm 0.004590
+step 970 dParm 0.004488
+step 980 dParm 0.004390
+step 990 dParm 0.004295
+step 1000 dParm 0.004203
+step 1010 dParm 0.004113
+step 1020 dParm 0.004027
+step 1030 dParm 0.003943
+step 1040 dParm 0.003862
+step 1050 dParm 0.003783
+step 1060 dParm 0.003706
+step 1070 dParm 0.003631
+step 1080 dParm 0.003559
+step 1090 dParm 0.003488
+step 1100 dParm 0.003419
+step 1110 dParm 0.003351
+step 1120 dParm 0.003285
+step 1130 dParm 0.003220
+step 1140 dParm 0.003156
+step 1150 dParm 0.003093
+step 1160 dParm 0.003032
+step 1170 dParm 0.002970
+step 1180 dParm 0.002910
+step 1190 dParm 0.002850
+step 1200 dParm 0.002790
+step 1210 dParm 0.002730
+step 1220 dParm 0.002671
+step 1230 dParm 0.002612
+step 1240 dParm 0.002552
+step 1250 dParm 0.002493
+step 1260 dParm 0.002434
+step 1270 dParm 0.002374
+step 1280 dParm 0.002314
+step 1290 dParm 0.002254
+step 1300 dParm 0.002194
+step 1310 dParm 0.002134
+step 1320 dParm 0.002074
+step 1330 dParm 0.002014
+step 1340 dParm 0.001953
+step 1350 dParm 0.001893
+step 1360 dParm 0.001833
+step 1370 dParm 0.001774
+step 1380 dParm 0.001714
+step 1390 dParm 0.001655
+step 1400 dParm 0.001597
+step 1410 dParm 0.001539
+step 1420 dParm 0.001482
+step 1430 dParm 0.001425
+step 1440 dParm 0.001370
+step 1450 dParm 0.001315
+step 1460 dParm 0.001262
+step 1470 dParm 0.001210
+step 1480 dParm 0.001158
+step 1490 dParm 0.001109
+step 1500 dParm 0.001060
+step 1510 dParm 0.001013
+#Free_DOUBLE2DMAP(5157 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3ixv_chainA_50.gmm" (FileType G)
+logLike -790591.508988
+Nrepeat_fin 1513
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:48:4
+COMP_TIME_SEC_FINAL  12.162086
+#COMMAND  ./gmconvert G2S -igmm 3ixv_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3ixv_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3ixv_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3ixv_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 15.390295 MIN -4.682622 MAX 149.220328 N 39
+#g 1 SD 12.983184 MIN -47.044407 MAX 82.787430 N 33
+#g 2 SD 14.033754 MIN -54.460667 MAX 85.876870 N 36
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     24.543237
+Rg_map_pnt 24.516379
+Rg_map_box 24.597821
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 31.685183 Vsphe_eff_gmm 133246.944252 threshold 3.336910e-07
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000033 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000006 6.005400e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 6.005400e-06
+#Malloc_MIDMAP_YZ(33 36) 0.24 Mbyte
+#Malloc_MIDMAP_YZ(33 36) 0.24 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11  24 #12  97 #13  290 #14  604 
+#15  894 #16  1195 #17  1462 #18  1766 #19  2026 
+#20  2293 #21  2575 #22  2825 #23  3085 #24  3306 
+#25  3488 #26  3605 #27  3698 #28  3769 #29  3800 
+#30  3807 #31  3807 #32  3807 #33  3807 #34  3807 
+#35  3807 #36  3807 #37  3807 
+#Surface_Model: Volume 76791.70 (A^3) Area 17147.34 (A^2) Rg 23.55 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3808
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3j7b_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3j7b_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 4017
+NCHAIN 1
+#Natom 4017 nCA 499 nP 0 rCA_P 0.124222 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 25.725812 RG_Atom_Points 25.691888
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 7992901.669376
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(4017 50) 1606800.00 byte -> 1.53 Mbyte
+step 0 dParm 3.906884
+step 10 dParm 0.652241
+step 20 dParm 0.425903
+step 30 dParm 0.394456
+step 40 dParm 0.273618
+step 50 dParm 0.374121
+step 60 dParm 0.219241
+step 70 dParm 0.171353
+step 80 dParm 0.137526
+step 90 dParm 0.146240
+step 100 dParm 0.197693
+step 110 dParm 0.233854
+step 120 dParm 0.090368
+step 130 dParm 0.066079
+step 140 dParm 0.061277
+step 150 dParm 0.063943
+step 160 dParm 0.068932
+step 170 dParm 0.055167
+step 180 dParm 0.051513
+step 190 dParm 0.051183
+step 200 dParm 0.052713
+step 210 dParm 0.059705
+step 220 dParm 0.076454
+step 230 dParm 0.079147
+step 240 dParm 0.060529
+step 250 dParm 0.053503
+step 260 dParm 0.048163
+step 270 dParm 0.043903
+step 280 dParm 0.040627
+step 290 dParm 0.037546
+step 300 dParm 0.033794
+step 310 dParm 0.029342
+step 320 dParm 0.024379
+step 330 dParm 0.019476
+step 340 dParm 0.015282
+step 350 dParm 0.012053
+step 360 dParm 0.009734
+step 370 dParm 0.008134
+step 380 dParm 0.007057
+step 390 dParm 0.006349
+step 400 dParm 0.005907
+step 410 dParm 0.005670
+step 420 dParm 0.005601
+step 430 dParm 0.005686
+step 440 dParm 0.005923
+step 450 dParm 0.006316
+step 460 dParm 0.006873
+step 470 dParm 0.007588
+step 480 dParm 0.008431
+step 490 dParm 0.009316
+step 500 dParm 0.010084
+step 510 dParm 0.010526
+step 520 dParm 0.010459
+step 530 dParm 0.009843
+step 540 dParm 0.008811
+step 550 dParm 0.007585
+step 560 dParm 0.006356
+step 570 dParm 0.005239
+step 580 dParm 0.004277
+step 590 dParm 0.003478
+step 600 dParm 0.002828
+step 610 dParm 0.002307
+step 620 dParm 0.001896
+step 630 dParm 0.001572
+step 640 dParm 0.001320
+step 650 dParm 0.001124
+#Free_DOUBLE2DMAP(4017 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3j7b_chainA_50.gmm" (FileType G)
+logLike -604085.114754
+Nrepeat_fin 658
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:48:8
+COMP_TIME_SEC_FINAL  4.166876
+#COMMAND  ./gmconvert G2S -igmm 3j7b_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3j7b_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3j7b_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3j7b_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 13.692407 MIN -45.168430 MAX 91.755643 N 35
+#g 1 SD 17.258478 MIN -67.727768 MAX 104.857013 N 44
+#g 2 SD 13.284588 MIN -10.201248 MAX 122.644633 N 34
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     25.725812
+Rg_map_pnt 25.693378
+Rg_map_box 25.771101
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 33.211880 Vsphe_eff_gmm 153450.739053 threshold 9.142248e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000039 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000006 6.312274e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 6.312274e-06
+#Malloc_MIDMAP_YZ(44 34) 0.31 Mbyte
+#Malloc_MIDMAP_YZ(44 34) 0.31 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10  15 #11  179 #12  374 #13  593 #14  849 
+#15  1109 #16  1405 #17  1646 #18  1976 #19  2319 
+#20  2568 #21  2827 #22  3002 #23  3144 #24  3246 
+#25  3319 #26  3331 #27  3331 #28  3331 #29  3331 
+#30  3331 #31  3331 #32  3331 #33  3331 
+#Surface_Model: Volume 63976.57 (A^3) Area 16008.03 (A^2) Rg 24.75 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3332
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5jm0_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5jm0_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 7604
+NCHAIN 1
+#Natom 7604 nCA 940 nP 0 rCA_P 0.123619 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 32.146678 RG_Atom_Points 32.119489
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 25494978.540007
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(7604 50) 3041600.00 byte -> 2.90 Mbyte
+step 0 dParm 6.814414
+step 10 dParm 1.192374
+step 20 dParm 0.826118
+step 30 dParm 0.625239
+step 40 dParm 0.483154
+step 50 dParm 0.424494
+step 60 dParm 0.425725
+step 70 dParm 0.409566
+step 80 dParm 0.370705
+step 90 dParm 0.554327
+step 100 dParm 0.411230
+step 110 dParm 0.422484
+step 120 dParm 0.322344
+step 130 dParm 0.272065
+step 140 dParm 0.256961
+step 150 dParm 0.291961
+step 160 dParm 0.244227
+step 170 dParm 0.193595
+step 180 dParm 0.168368
+step 190 dParm 0.158534
+step 200 dParm 0.142951
+step 210 dParm 0.116647
+step 220 dParm 0.101245
+step 230 dParm 0.089846
+step 240 dParm 0.082743
+step 250 dParm 0.081716
+step 260 dParm 0.088610
+step 270 dParm 0.100470
+step 280 dParm 0.105611
+step 290 dParm 0.101544
+step 300 dParm 0.092221
+step 310 dParm 0.081903
+step 320 dParm 0.072824
+step 330 dParm 0.065554
+step 340 dParm 0.060283
+step 350 dParm 0.056963
+step 360 dParm 0.055294
+step 370 dParm 0.054821
+step 380 dParm 0.055070
+step 390 dParm 0.055611
+step 400 dParm 0.056072
+step 410 dParm 0.056132
+step 420 dParm 0.055520
+step 430 dParm 0.054045
+step 440 dParm 0.051623
+step 450 dParm 0.048302
+step 460 dParm 0.044253
+step 470 dParm 0.039746
+step 480 dParm 0.035098
+step 490 dParm 0.030617
+step 500 dParm 0.026573
+step 510 dParm 0.023180
+step 520 dParm 0.020593
+step 530 dParm 0.018897
+step 540 dParm 0.018089
+step 550 dParm 0.018062
+step 560 dParm 0.018632
+step 570 dParm 0.019589
+step 580 dParm 0.020737
+step 590 dParm 0.021903
+step 600 dParm 0.022942
+step 610 dParm 0.023731
+step 620 dParm 0.024174
+step 630 dParm 0.024208
+step 640 dParm 0.023810
+step 650 dParm 0.022997
+step 660 dParm 0.021825
+step 670 dParm 0.020376
+step 680 dParm 0.018747
+step 690 dParm 0.017033
+step 700 dParm 0.015318
+step 710 dParm 0.013670
+step 720 dParm 0.012134
+step 730 dParm 0.010736
+step 740 dParm 0.009489
+step 750 dParm 0.008391
+step 760 dParm 0.007436
+step 770 dParm 0.006609
+step 780 dParm 0.005898
+step 790 dParm 0.005287
+step 800 dParm 0.004762
+step 810 dParm 0.004312
+step 820 dParm 0.003925
+step 830 dParm 0.003591
+step 840 dParm 0.003303
+step 850 dParm 0.003053
+step 860 dParm 0.002836
+step 870 dParm 0.002647
+step 880 dParm 0.002483
+step 890 dParm 0.002339
+step 900 dParm 0.002213
+step 910 dParm 0.002102
+step 920 dParm 0.002005
+step 930 dParm 0.001919
+step 940 dParm 0.001844
+step 950 dParm 0.001777
+step 960 dParm 0.001718
+step 970 dParm 0.001665
+step 980 dParm 0.001619
+step 990 dParm 0.001577
+step 1000 dParm 0.001540
+step 1010 dParm 0.001506
+step 1020 dParm 0.001476
+step 1030 dParm 0.001449
+step 1040 dParm 0.001425
+step 1050 dParm 0.001402
+step 1060 dParm 0.001382
+step 1070 dParm 0.001363
+step 1080 dParm 0.001346
+step 1090 dParm 0.001330
+step 1100 dParm 0.001315
+step 1110 dParm 0.001302
+step 1120 dParm 0.001289
+step 1130 dParm 0.001277
+step 1140 dParm 0.001266
+step 1150 dParm 0.001255
+step 1160 dParm 0.001245
+step 1170 dParm 0.001236
+step 1180 dParm 0.001226
+step 1190 dParm 0.001218
+step 1200 dParm 0.001210
+step 1210 dParm 0.001202
+step 1220 dParm 0.001194
+step 1230 dParm 0.001187
+step 1240 dParm 0.001180
+step 1250 dParm 0.001173
+step 1260 dParm 0.001167
+step 1270 dParm 0.001161
+step 1280 dParm 0.001155
+step 1290 dParm 0.001149
+step 1300 dParm 0.001143
+step 1310 dParm 0.001138
+step 1320 dParm 0.001133
+step 1330 dParm 0.001128
+step 1340 dParm 0.001123
+step 1350 dParm 0.001118
+step 1360 dParm 0.001114
+step 1370 dParm 0.001110
+step 1380 dParm 0.001106
+step 1390 dParm 0.001102
+step 1400 dParm 0.001098
+step 1410 dParm 0.001094
+step 1420 dParm 0.001090
+step 1430 dParm 0.001087
+step 1440 dParm 0.001084
+step 1450 dParm 0.001081
+step 1460 dParm 0.001078
+step 1470 dParm 0.001075
+step 1480 dParm 0.001072
+step 1490 dParm 0.001069
+step 1500 dParm 0.001067
+step 1510 dParm 0.001065
+step 1520 dParm 0.001062
+step 1530 dParm 0.001060
+step 1540 dParm 0.001058
+step 1550 dParm 0.001057
+step 1560 dParm 0.001055
+step 1570 dParm 0.001053
+step 1580 dParm 0.001052
+step 1590 dParm 0.001051
+step 1600 dParm 0.001050
+step 1610 dParm 0.001049
+step 1620 dParm 0.001048
+step 1630 dParm 0.001047
+step 1640 dParm 0.001046
+step 1650 dParm 0.001046
+step 1660 dParm 0.001045
+step 1670 dParm 0.001045
+step 1680 dParm 0.001045
+step 1690 dParm 0.001045
+step 1700 dParm 0.001045
+step 1710 dParm 0.001045
+step 1720 dParm 0.001046
+step 1730 dParm 0.001046
+step 1740 dParm 0.001047
+step 1750 dParm 0.001047
+step 1760 dParm 0.001048
+step 1770 dParm 0.001049
+step 1780 dParm 0.001051
+step 1790 dParm 0.001052
+step 1800 dParm 0.001053
+step 1810 dParm 0.001055
+step 1820 dParm 0.001057
+step 1830 dParm 0.001059
+step 1840 dParm 0.001061
+step 1850 dParm 0.001063
+step 1860 dParm 0.001065
+step 1870 dParm 0.001068
+step 1880 dParm 0.001070
+step 1890 dParm 0.001073
+step 1900 dParm 0.001076
+step 1910 dParm 0.001079
+step 1920 dParm 0.001083
+step 1930 dParm 0.001086
+step 1940 dParm 0.001090
+step 1950 dParm 0.001094
+step 1960 dParm 0.001098
+step 1970 dParm 0.001102
+step 1980 dParm 0.001106
+step 1990 dParm 0.001111
+step 2000 dParm 0.001115
+step 2010 dParm 0.001120
+step 2020 dParm 0.001125
+step 2030 dParm 0.001131
+step 2040 dParm 0.001136
+step 2050 dParm 0.001142
+step 2060 dParm 0.001148
+step 2070 dParm 0.001154
+step 2080 dParm 0.001161
+step 2090 dParm 0.001167
+step 2100 dParm 0.001174
+step 2110 dParm 0.001181
+step 2120 dParm 0.001189
+step 2130 dParm 0.001196
+step 2140 dParm 0.001204
+step 2150 dParm 0.001212
+step 2160 dParm 0.001221
+step 2170 dParm 0.001230
+step 2180 dParm 0.001239
+step 2190 dParm 0.001248
+step 2200 dParm 0.001258
+step 2210 dParm 0.001268
+step 2220 dParm 0.001278
+step 2230 dParm 0.001289
+step 2240 dParm 0.001300
+step 2250 dParm 0.001311
+step 2260 dParm 0.001323
+step 2270 dParm 0.001335
+step 2280 dParm 0.001347
+step 2290 dParm 0.001360
+step 2300 dParm 0.001374
+step 2310 dParm 0.001387
+step 2320 dParm 0.001402
+step 2330 dParm 0.001416
+step 2340 dParm 0.001431
+step 2350 dParm 0.001447
+step 2360 dParm 0.001463
+step 2370 dParm 0.001480
+step 2380 dParm 0.001497
+step 2390 dParm 0.001515
+step 2400 dParm 0.001534
+step 2410 dParm 0.001553
+step 2420 dParm 0.001572
+step 2430 dParm 0.001593
+step 2440 dParm 0.001614
+step 2450 dParm 0.001636
+step 2460 dParm 0.001658
+step 2470 dParm 0.001681
+step 2480 dParm 0.001705
+step 2490 dParm 0.001730
+step 2500 dParm 0.001756
+step 2510 dParm 0.001783
+step 2520 dParm 0.001811
+step 2530 dParm 0.001839
+step 2540 dParm 0.001869
+step 2550 dParm 0.001900
+step 2560 dParm 0.001932
+step 2570 dParm 0.001965
+step 2580 dParm 0.001999
+step 2590 dParm 0.002035
+step 2600 dParm 0.002072
+step 2610 dParm 0.002110
+step 2620 dParm 0.002150
+step 2630 dParm 0.002191
+step 2640 dParm 0.002234
+step 2650 dParm 0.002279
+step 2660 dParm 0.002326
+step 2670 dParm 0.002374
+step 2680 dParm 0.002425
+step 2690 dParm 0.002477
+step 2700 dParm 0.002532
+step 2710 dParm 0.002589
+step 2720 dParm 0.002648
+step 2730 dParm 0.002710
+step 2740 dParm 0.002775
+step 2750 dParm 0.002842
+step 2760 dParm 0.002913
+step 2770 dParm 0.002987
+step 2780 dParm 0.003064
+step 2790 dParm 0.003144
+step 2800 dParm 0.003229
+step 2810 dParm 0.003317
+step 2820 dParm 0.003410
+step 2830 dParm 0.003507
+step 2840 dParm 0.003609
+step 2850 dParm 0.003715
+step 2860 dParm 0.003828
+step 2870 dParm 0.003945
+step 2880 dParm 0.004069
+step 2890 dParm 0.004199
+step 2900 dParm 0.004336
+step 2910 dParm 0.004481
+step 2920 dParm 0.004633
+step 2930 dParm 0.004793
+step 2940 dParm 0.004962
+step 2950 dParm 0.005141
+step 2960 dParm 0.005329
+step 2970 dParm 0.005528
+step 2980 dParm 0.005739
+step 2990 dParm 0.005961
+step 3000 dParm 0.006197
+step 3010 dParm 0.006446
+step 3020 dParm 0.006711
+step 3030 dParm 0.006991
+step 3040 dParm 0.007288
+step 3050 dParm 0.007603
+step 3060 dParm 0.007937
+step 3070 dParm 0.008292
+step 3080 dParm 0.008670
+step 3090 dParm 0.009070
+step 3100 dParm 0.009496
+step 3110 dParm 0.009948
+step 3120 dParm 0.010429
+step 3130 dParm 0.010940
+step 3140 dParm 0.011484
+step 3150 dParm 0.012061
+step 3160 dParm 0.012675
+step 3170 dParm 0.013328
+step 3180 dParm 0.014021
+step 3190 dParm 0.014758
+step 3200 dParm 0.015541
+step 3210 dParm 0.016372
+step 3220 dParm 0.017253
+step 3230 dParm 0.018188
+step 3240 dParm 0.019178
+step 3250 dParm 0.020225
+step 3260 dParm 0.021332
+step 3270 dParm 0.022499
+step 3280 dParm 0.023725
+step 3290 dParm 0.025010
+step 3300 dParm 0.026348
+step 3310 dParm 0.027733
+step 3320 dParm 0.029155
+step 3330 dParm 0.030598
+step 3340 dParm 0.032042
+step 3350 dParm 0.033462
+step 3360 dParm 0.034828
+step 3370 dParm 0.036110
+step 3380 dParm 0.037277
+step 3390 dParm 0.038303
+step 3400 dParm 0.039171
+step 3410 dParm 0.039875
+step 3420 dParm 0.040413
+step 3430 dParm 0.040787
+step 3440 dParm 0.040985
+step 3450 dParm 0.040978
+step 3460 dParm 0.040711
+step 3470 dParm 0.040118
+step 3480 dParm 0.039136
+step 3490 dParm 0.037730
+step 3500 dParm 0.035909
+step 3510 dParm 0.033733
+step 3520 dParm 0.031299
+step 3530 dParm 0.028725
+step 3540 dParm 0.026125
+step 3550 dParm 0.023597
+step 3560 dParm 0.021211
+step 3570 dParm 0.019009
+step 3580 dParm 0.017013
+step 3590 dParm 0.015226
+step 3600 dParm 0.013642
+step 3610 dParm 0.012248
+step 3620 dParm 0.011026
+step 3630 dParm 0.009960
+step 3640 dParm 0.009032
+step 3650 dParm 0.008227
+step 3660 dParm 0.007530
+step 3670 dParm 0.006928
+step 3680 dParm 0.006410
+step 3690 dParm 0.005967
+step 3700 dParm 0.005591
+step 3710 dParm 0.005276
+step 3720 dParm 0.005017
+step 3730 dParm 0.004811
+step 3740 dParm 0.004654
+step 3750 dParm 0.004543
+step 3760 dParm 0.004475
+step 3770 dParm 0.004448
+step 3780 dParm 0.004457
+step 3790 dParm 0.004499
+step 3800 dParm 0.004568
+step 3810 dParm 0.004658
+step 3820 dParm 0.004762
+step 3830 dParm 0.004875
+step 3840 dParm 0.004988
+step 3850 dParm 0.005096
+step 3860 dParm 0.005193
+step 3870 dParm 0.005276
+step 3880 dParm 0.005342
+step 3890 dParm 0.005390
+step 3900 dParm 0.005421
+step 3910 dParm 0.005436
+step 3920 dParm 0.005434
+step 3930 dParm 0.005417
+step 3940 dParm 0.005383
+step 3950 dParm 0.005330
+step 3960 dParm 0.005255
+step 3970 dParm 0.005152
+step 3980 dParm 0.005016
+step 3990 dParm 0.004843
+step 4000 dParm 0.004629
+step 4010 dParm 0.004375
+step 4020 dParm 0.004084
+step 4030 dParm 0.003764
+step 4040 dParm 0.003425
+step 4050 dParm 0.003081
+step 4060 dParm 0.002742
+step 4070 dParm 0.002419
+step 4080 dParm 0.002120
+step 4090 dParm 0.001849
+step 4100 dParm 0.001608
+step 4110 dParm 0.001396
+step 4120 dParm 0.001213
+step 4130 dParm 0.001055
+#Free_DOUBLE2DMAP(7604 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5jm0_chainA_50.gmm" (FileType G)
+logLike -1218305.027333
+Nrepeat_fin 4134
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:48:58
+COMP_TIME_SEC_FINAL  50.001343
+#COMMAND  ./gmconvert G2S -igmm 5jm0_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5jm0_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5jm0_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5jm0_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 14.658011 MIN 36.987278 MAX 183.567386 N 37
+#g 1 SD 17.047698 MIN 63.096409 MAX 233.573386 N 43
+#g 2 SD 22.976676 MIN -9.628652 MAX 220.138108 N 58
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     32.146678
+Rg_map_pnt 32.105698
+Rg_map_box 32.167932
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 41.501183 Vsphe_eff_gmm 299412.572959 threshold 5.586919e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000019 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000003 3.230921e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 3.230921e-06
+#Malloc_MIDMAP_YZ(43 58) 0.51 Mbyte
+#Malloc_MIDMAP_YZ(43 58) 0.51 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8  15 #9  55 
+#10  156 #11  257 #12  403 #13  541 #14  910 
+#15  1320 #16  1815 #17  2289 #18  2733 #19  3161 
+#20  3611 #21  4009 #22  4314 #23  4683 #24  5077 
+#25  5333 #26  5410 #27  5440 #28  5445 #29  5445 
+#30  5445 #31  5445 #32  5445 #33  5445 #34  5445 
+#35  5445 
+#Surface_Model: Volume 134065.36 (A^3) Area 24621.24 (A^2) Rg 30.85 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 5446
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5tj6_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5tj6_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 7041
+NCHAIN 1
+#Natom 7041 nCA 890 nP 0 rCA_P 0.126402 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 42.153189 RG_Atom_Points 42.132357
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 42991172.245267
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(7041 50) 2816400.00 byte -> 2.69 Mbyte
+step 0 dParm 6.142760
+step 10 dParm 1.264453
+step 20 dParm 1.090876
+step 30 dParm 0.752072
+step 40 dParm 0.555505
+step 50 dParm 0.481437
+step 60 dParm 0.568213
+step 70 dParm 0.262706
+step 80 dParm 0.186544
+step 90 dParm 0.146158
+step 100 dParm 0.325587
+step 110 dParm 0.500341
+step 120 dParm 0.403553
+step 130 dParm 0.283646
+step 140 dParm 0.222551
+step 150 dParm 0.166016
+step 160 dParm 0.109626
+step 170 dParm 0.079113
+step 180 dParm 0.081232
+step 190 dParm 0.092528
+step 200 dParm 0.108829
+step 210 dParm 0.143354
+step 220 dParm 0.182504
+step 230 dParm 0.171121
+step 240 dParm 0.136484
+step 250 dParm 0.120706
+step 260 dParm 0.133804
+step 270 dParm 0.195417
+step 280 dParm 0.174394
+step 290 dParm 0.095595
+step 300 dParm 0.078292
+step 310 dParm 0.070402
+step 320 dParm 0.068061
+step 330 dParm 0.071127
+step 340 dParm 0.081938
+step 350 dParm 0.092794
+step 360 dParm 0.089130
+step 370 dParm 0.082900
+step 380 dParm 0.093416
+step 390 dParm 0.132238
+step 400 dParm 0.193099
+step 410 dParm 0.222048
+step 420 dParm 0.281660
+step 430 dParm 0.228264
+step 440 dParm 0.165003
+step 450 dParm 0.110878
+step 460 dParm 0.087017
+step 470 dParm 0.072391
+step 480 dParm 0.062081
+step 490 dParm 0.054479
+step 500 dParm 0.048725
+step 510 dParm 0.044294
+step 520 dParm 0.040820
+step 530 dParm 0.038019
+step 540 dParm 0.035654
+step 550 dParm 0.033537
+step 560 dParm 0.031544
+step 570 dParm 0.029615
+step 580 dParm 0.027738
+step 590 dParm 0.025926
+step 600 dParm 0.024204
+step 610 dParm 0.022593
+step 620 dParm 0.021113
+step 630 dParm 0.019777
+step 640 dParm 0.018590
+step 650 dParm 0.017551
+step 660 dParm 0.016653
+step 670 dParm 0.015886
+step 680 dParm 0.015238
+step 690 dParm 0.014696
+step 700 dParm 0.014249
+step 710 dParm 0.013884
+step 720 dParm 0.013594
+step 730 dParm 0.013370
+step 740 dParm 0.013205
+step 750 dParm 0.013094
+step 760 dParm 0.013033
+step 770 dParm 0.013020
+step 780 dParm 0.013054
+step 790 dParm 0.013134
+step 800 dParm 0.013261
+step 810 dParm 0.013436
+step 820 dParm 0.013660
+step 830 dParm 0.013938
+step 840 dParm 0.014272
+step 850 dParm 0.014667
+step 860 dParm 0.015129
+step 870 dParm 0.015663
+step 880 dParm 0.016276
+step 890 dParm 0.016978
+step 900 dParm 0.017777
+step 910 dParm 0.018684
+step 920 dParm 0.019715
+step 930 dParm 0.020888
+step 940 dParm 0.022240
+step 950 dParm 0.023848
+step 960 dParm 0.025923
+step 970 dParm 0.029066
+step 980 dParm 0.034995
+step 990 dParm 0.048065
+step 1000 dParm 0.077354
+step 1010 dParm 0.138794
+step 1020 dParm 0.255243
+step 1030 dParm 0.440127
+step 1040 dParm 0.662668
+step 1050 dParm 0.942106
+step 1060 dParm 1.197215
+step 1070 dParm 0.534068
+step 1080 dParm 0.208323
+step 1090 dParm 0.223612
+step 1100 dParm 0.349702
+step 1110 dParm 0.678478
+step 1120 dParm 0.171488
+step 1130 dParm 0.040546
+step 1140 dParm 0.036312
+step 1150 dParm 0.039637
+step 1160 dParm 0.045626
+step 1170 dParm 0.055744
+step 1180 dParm 0.070972
+step 1190 dParm 0.087236
+step 1200 dParm 0.090371
+step 1210 dParm 0.070887
+step 1220 dParm 0.048527
+step 1230 dParm 0.036626
+step 1240 dParm 0.031854
+step 1250 dParm 0.030862
+step 1260 dParm 0.032561
+step 1270 dParm 0.037933
+step 1280 dParm 0.050267
+step 1290 dParm 0.068609
+step 1300 dParm 0.077570
+step 1310 dParm 0.072174
+step 1320 dParm 0.062487
+step 1330 dParm 0.056226
+step 1340 dParm 0.070644
+step 1350 dParm 0.116946
+step 1360 dParm 0.056566
+step 1370 dParm 0.044358
+step 1380 dParm 0.040062
+step 1390 dParm 0.036854
+step 1400 dParm 0.034297
+step 1410 dParm 0.032169
+step 1420 dParm 0.030275
+step 1430 dParm 0.028480
+step 1440 dParm 0.026706
+step 1450 dParm 0.024935
+step 1460 dParm 0.023187
+step 1470 dParm 0.021503
+step 1480 dParm 0.019922
+step 1490 dParm 0.018475
+step 1500 dParm 0.017172
+step 1510 dParm 0.016013
+step 1520 dParm 0.014987
+step 1530 dParm 0.014082
+step 1540 dParm 0.013284
+step 1550 dParm 0.012581
+step 1560 dParm 0.011963
+step 1570 dParm 0.011423
+step 1580 dParm 0.010958
+step 1590 dParm 0.010565
+step 1600 dParm 0.010242
+step 1610 dParm 0.009993
+step 1620 dParm 0.009818
+step 1630 dParm 0.009725
+step 1640 dParm 0.009719
+step 1650 dParm 0.009810
+step 1660 dParm 0.010012
+step 1670 dParm 0.010340
+step 1680 dParm 0.010818
+step 1690 dParm 0.011475
+step 1700 dParm 0.012351
+step 1710 dParm 0.013499
+step 1720 dParm 0.014992
+step 1730 dParm 0.016931
+step 1740 dParm 0.019449
+step 1750 dParm 0.022727
+step 1760 dParm 0.026988
+step 1770 dParm 0.032468
+step 1780 dParm 0.039300
+step 1790 dParm 0.047209
+step 1800 dParm 0.054935
+step 1810 dParm 0.059501
+step 1820 dParm 0.057301
+step 1830 dParm 0.049839
+step 1840 dParm 0.041108
+step 1850 dParm 0.032961
+step 1860 dParm 0.026157
+step 1870 dParm 0.020847
+step 1880 dParm 0.016857
+step 1890 dParm 0.013903
+step 1900 dParm 0.011710
+step 1910 dParm 0.010057
+step 1920 dParm 0.008779
+step 1930 dParm 0.007762
+step 1940 dParm 0.006931
+step 1950 dParm 0.006233
+step 1960 dParm 0.005635
+step 1970 dParm 0.005114
+step 1980 dParm 0.004654
+step 1990 dParm 0.004246
+step 2000 dParm 0.003880
+step 2010 dParm 0.003551
+step 2020 dParm 0.003254
+step 2030 dParm 0.002985
+step 2040 dParm 0.002741
+step 2050 dParm 0.002520
+step 2060 dParm 0.002319
+step 2070 dParm 0.002136
+step 2080 dParm 0.001970
+step 2090 dParm 0.001818
+step 2100 dParm 0.001680
+step 2110 dParm 0.001554
+step 2120 dParm 0.001439
+step 2130 dParm 0.001334
+step 2140 dParm 0.001239
+step 2150 dParm 0.001151
+step 2160 dParm 0.001072
+step 2170 dParm 0.000999
+#Free_DOUBLE2DMAP(7041 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5tj6_chainA_50.gmm" (FileType G)
+logLike -1119330.751167
+Nrepeat_fin 2170
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:49:23
+COMP_TIME_SEC_FINAL  24.762543
+#COMMAND  ./gmconvert G2S -igmm 5tj6_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5tj6_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5tj6_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5tj6_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 29.264127 MIN 35.121170 MAX 327.762441 N 74
+#g 1 SD 13.002783 MIN 80.277451 MAX 210.305277 N 33
+#g 2 SD 27.412220 MIN 39.267860 MAX 313.390067 N 69
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     42.153189
+Rg_map_pnt 42.121778
+Rg_map_box 42.169232
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 54.419533 Vsphe_eff_gmm 675076.573330 threshold -1.000000e+00
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000022 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000003 2.523719e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 2.523719e-06
+#Malloc_MIDMAP_YZ(33 69) 0.47 Mbyte
+#Malloc_MIDMAP_YZ(33 69) 0.47 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12 #13 #14 
+#15 #16 #17 #18 #19  43 
+#20  82 #21  147 #22  235 #23  390 #24  549 
+#25  686 #26  857 #27  1035 #28  1179 #29  1351 
+#30  1515 #31  1637 #32  1743 #33  1846 #34  2002 
+#35  2187 #36  2442 #37  2686 #38  2893 #39  3124 
+#40  3354 #41  3597 #42  3812 #43  4047 #44  4303 
+#45  4486 #46  4634 #47  4843 #48  4998 #49  5088 
+#50  5101 #51  5101 #52  5101 #53  5101 #54  5101 
+#55  5101 #56  5101 #57  5101 #58  5101 #59  5101 
+#60  5101 #61  5101 #62  5101 #63  5101 #64  5101 
+#65  5101 #66  5101 #67  5101 #68  5101 #69  5101 
+#70  5101 #71  5101 #72  5101 
+#Surface_Model: Volume 138037.50 (A^3) Area 23711.60 (A^2) Rg 41.34 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 5102
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3j9c_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3j9c_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3326
+NCHAIN 1
+#Natom 3326 nCA 423 nP 0 rCA_P 0.127180 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 45.691319 RG_Atom_Points 45.672344
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 17294532.875579
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3326 50) 1330400.00 byte -> 1.27 Mbyte
+step 0 dParm 3.019775
+step 10 dParm 0.442484
+step 20 dParm 0.324676
+step 30 dParm 0.279818
+step 40 dParm 0.337545
+step 50 dParm 0.257381
+step 60 dParm 0.220705
+step 70 dParm 0.170508
+step 80 dParm 0.135290
+step 90 dParm 0.114140
+step 100 dParm 0.108894
+step 110 dParm 0.111130
+step 120 dParm 0.123619
+step 130 dParm 0.211593
+step 140 dParm 0.195404
+step 150 dParm 0.116570
+step 160 dParm 0.105623
+step 170 dParm 0.098566
+step 180 dParm 0.119547
+step 190 dParm 0.100829
+step 200 dParm 0.107169
+step 210 dParm 0.131682
+step 220 dParm 0.115394
+step 230 dParm 0.086386
+step 240 dParm 0.108107
+step 250 dParm 0.262600
+step 260 dParm 0.062017
+step 270 dParm 0.058421
+step 280 dParm 0.063783
+step 290 dParm 0.073322
+step 300 dParm 0.059446
+step 310 dParm 0.057920
+step 320 dParm 0.057922
+step 330 dParm 0.056197
+step 340 dParm 0.051160
+step 350 dParm 0.043294
+step 360 dParm 0.034795
+step 370 dParm 0.027685
+step 380 dParm 0.022746
+step 390 dParm 0.019753
+step 400 dParm 0.018081
+step 410 dParm 0.017137
+step 420 dParm 0.016520
+step 430 dParm 0.016002
+step 440 dParm 0.015466
+step 450 dParm 0.014856
+step 460 dParm 0.014156
+step 470 dParm 0.013370
+step 480 dParm 0.012518
+step 490 dParm 0.011629
+step 500 dParm 0.010732
+step 510 dParm 0.009855
+step 520 dParm 0.009019
+step 530 dParm 0.008240
+step 540 dParm 0.007525
+step 550 dParm 0.006877
+step 560 dParm 0.006293
+step 570 dParm 0.005768
+step 580 dParm 0.005298
+step 590 dParm 0.004876
+step 600 dParm 0.004495
+step 610 dParm 0.004150
+step 620 dParm 0.003834
+step 630 dParm 0.003545
+step 640 dParm 0.003277
+step 650 dParm 0.003027
+step 660 dParm 0.002794
+step 670 dParm 0.002575
+step 680 dParm 0.002370
+step 690 dParm 0.002177
+step 700 dParm 0.001998
+step 710 dParm 0.001830
+step 720 dParm 0.001675
+step 730 dParm 0.001531
+step 740 dParm 0.001398
+step 750 dParm 0.001276
+step 760 dParm 0.001165
+step 770 dParm 0.001063
+#Free_DOUBLE2DMAP(3326 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3j9c_chainA_50.gmm" (FileType G)
+logLike -492194.613393
+Nrepeat_fin 777
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:49:27
+COMP_TIME_SEC_FINAL  4.430746
+#COMMAND  ./gmconvert G2S -igmm 3j9c_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3j9c_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3j9c_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3j9c_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 14.966984 MIN -97.850327 MAX 51.819511 N 38
+#g 1 SD 13.764104 MIN -52.394825 MAX 85.246211 N 35
+#g 2 SD 40.917422 MIN -240.936600 MAX 168.237625 N 103
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     45.691319
+Rg_map_pnt 45.704332
+Rg_map_box 45.748071
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 58.987239 Vsphe_eff_gmm 859731.441617 threshold -1.000000e+00
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000044 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000004 4.315947e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 4.315947e-06
+#Malloc_MIDMAP_YZ(35 103) 0.74 Mbyte
+#Malloc_MIDMAP_YZ(35 103) 0.74 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11  39 #12  152 #13  312 #14  495 
+#15  709 #16  959 #17  1161 #18  1385 #19  1635 
+#20  1971 #21  2304 #22  2580 #23  2809 #24  2934 
+#25  3035 #26  3149 #27  3275 #28  3365 #29  3441 
+#30  3463 #31  3463 #32  3463 #33  3463 #34  3463 
+#35  3463 #36  3463 
+#Surface_Model: Volume 67335.26 (A^3) Area 16336.35 (A^2) Rg 45.00 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3464
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5i68_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5i68_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 5198
+NCHAIN 1
+#Natom 5198 nCA 662 nP 0 rCA_P 0.127357 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 25.530434 RG_Atom_Points 25.496270
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 7375013.170679
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(5198 50) 2079200.00 byte -> 1.98 Mbyte
+step 0 dParm 4.692698
+step 10 dParm 0.745098
+step 20 dParm 0.556991
+step 30 dParm 0.489766
+step 40 dParm 0.430712
+step 50 dParm 0.424214
+step 60 dParm 0.430788
+step 70 dParm 0.188121
+step 80 dParm 0.142661
+step 90 dParm 0.174755
+step 100 dParm 0.127454
+step 110 dParm 0.131315
+step 120 dParm 0.120568
+step 130 dParm 0.142012
+step 140 dParm 0.224552
+step 150 dParm 0.237873
+step 160 dParm 0.138481
+step 170 dParm 0.124481
+step 180 dParm 0.146494
+step 190 dParm 0.216786
+step 200 dParm 0.180651
+step 210 dParm 0.206557
+step 220 dParm 0.140914
+step 230 dParm 0.097593
+step 240 dParm 0.092441
+step 250 dParm 0.089275
+step 260 dParm 0.056586
+step 270 dParm 0.039629
+step 280 dParm 0.035195
+step 290 dParm 0.032034
+step 300 dParm 0.029470
+step 310 dParm 0.028773
+step 320 dParm 0.030042
+step 330 dParm 0.034892
+step 340 dParm 0.050952
+step 350 dParm 0.110851
+step 360 dParm 0.231997
+step 370 dParm 0.117518
+step 380 dParm 0.044010
+step 390 dParm 0.023488
+step 400 dParm 0.019041
+step 410 dParm 0.017048
+step 420 dParm 0.015940
+step 430 dParm 0.015273
+step 440 dParm 0.014857
+step 450 dParm 0.014603
+step 460 dParm 0.014459
+step 470 dParm 0.014394
+step 480 dParm 0.014385
+step 490 dParm 0.014415
+step 500 dParm 0.014472
+step 510 dParm 0.014546
+step 520 dParm 0.014628
+step 530 dParm 0.014714
+step 540 dParm 0.014796
+step 550 dParm 0.014871
+step 560 dParm 0.014935
+step 570 dParm 0.014985
+step 580 dParm 0.015017
+step 590 dParm 0.015030
+step 600 dParm 0.015021
+step 610 dParm 0.014990
+step 620 dParm 0.014937
+step 630 dParm 0.014860
+step 640 dParm 0.014762
+step 650 dParm 0.014645
+step 660 dParm 0.014509
+step 670 dParm 0.014358
+step 680 dParm 0.014195
+step 690 dParm 0.014024
+step 700 dParm 0.013847
+step 710 dParm 0.013669
+step 720 dParm 0.013491
+step 730 dParm 0.013317
+step 740 dParm 0.013149
+step 750 dParm 0.012989
+step 760 dParm 0.012836
+step 770 dParm 0.012692
+step 780 dParm 0.012555
+step 790 dParm 0.012426
+step 800 dParm 0.012303
+step 810 dParm 0.012184
+step 820 dParm 0.012068
+step 830 dParm 0.011952
+step 840 dParm 0.011836
+step 850 dParm 0.011718
+step 860 dParm 0.011595
+step 870 dParm 0.011467
+step 880 dParm 0.011333
+step 890 dParm 0.011191
+step 900 dParm 0.011043
+step 910 dParm 0.010886
+step 920 dParm 0.010723
+step 930 dParm 0.010552
+step 940 dParm 0.010376
+step 950 dParm 0.010195
+step 960 dParm 0.010009
+step 970 dParm 0.009821
+step 980 dParm 0.009632
+step 990 dParm 0.009442
+step 1000 dParm 0.009255
+step 1010 dParm 0.009070
+step 1020 dParm 0.008891
+step 1030 dParm 0.008717
+step 1040 dParm 0.008552
+step 1050 dParm 0.008395
+step 1060 dParm 0.008249
+step 1070 dParm 0.008116
+step 1080 dParm 0.007997
+step 1090 dParm 0.007893
+step 1100 dParm 0.007808
+step 1110 dParm 0.007742
+step 1120 dParm 0.007699
+step 1130 dParm 0.007681
+step 1140 dParm 0.007692
+step 1150 dParm 0.007738
+step 1160 dParm 0.007822
+step 1170 dParm 0.007951
+step 1180 dParm 0.008136
+step 1190 dParm 0.008386
+step 1200 dParm 0.008716
+step 1210 dParm 0.009147
+step 1220 dParm 0.009704
+step 1230 dParm 0.010425
+step 1240 dParm 0.011360
+step 1250 dParm 0.012584
+step 1260 dParm 0.014204
+step 1270 dParm 0.016376
+step 1280 dParm 0.019323
+step 1290 dParm 0.023335
+step 1300 dParm 0.028691
+step 1310 dParm 0.035298
+step 1320 dParm 0.041916
+step 1330 dParm 0.046099
+step 1340 dParm 0.047619
+step 1350 dParm 0.051548
+step 1360 dParm 0.062745
+step 1370 dParm 0.068718
+step 1380 dParm 0.050275
+step 1390 dParm 0.033878
+step 1400 dParm 0.025950
+step 1410 dParm 0.021628
+step 1420 dParm 0.018827
+step 1430 dParm 0.016819
+step 1440 dParm 0.015291
+step 1450 dParm 0.014082
+step 1460 dParm 0.013097
+step 1470 dParm 0.012278
+step 1480 dParm 0.011588
+step 1490 dParm 0.011001
+step 1500 dParm 0.010499
+step 1510 dParm 0.010064
+step 1520 dParm 0.009684
+step 1530 dParm 0.009346
+step 1540 dParm 0.009042
+step 1550 dParm 0.008762
+step 1560 dParm 0.008499
+step 1570 dParm 0.008249
+step 1580 dParm 0.008007
+step 1590 dParm 0.007769
+step 1600 dParm 0.007534
+step 1610 dParm 0.007300
+step 1620 dParm 0.007067
+step 1630 dParm 0.006834
+step 1640 dParm 0.006602
+step 1650 dParm 0.006370
+step 1660 dParm 0.006140
+step 1670 dParm 0.005912
+step 1680 dParm 0.005687
+step 1690 dParm 0.005466
+step 1700 dParm 0.005248
+step 1710 dParm 0.005036
+step 1720 dParm 0.004830
+step 1730 dParm 0.004629
+step 1740 dParm 0.004435
+step 1750 dParm 0.004247
+step 1760 dParm 0.004066
+step 1770 dParm 0.003892
+step 1780 dParm 0.003725
+step 1790 dParm 0.003565
+step 1800 dParm 0.003412
+step 1810 dParm 0.003265
+step 1820 dParm 0.003125
+step 1830 dParm 0.002991
+step 1840 dParm 0.002864
+step 1850 dParm 0.002742
+step 1860 dParm 0.002625
+step 1870 dParm 0.002514
+step 1880 dParm 0.002408
+step 1890 dParm 0.002307
+step 1900 dParm 0.002210
+step 1910 dParm 0.002118
+step 1920 dParm 0.002030
+step 1930 dParm 0.001945
+step 1940 dParm 0.001865
+step 1950 dParm 0.001788
+step 1960 dParm 0.001714
+step 1970 dParm 0.001643
+step 1980 dParm 0.001575
+step 1990 dParm 0.001511
+step 2000 dParm 0.001449
+step 2010 dParm 0.001389
+step 2020 dParm 0.001332
+step 2030 dParm 0.001277
+step 2040 dParm 0.001225
+step 2050 dParm 0.001175
+step 2060 dParm 0.001126
+step 2070 dParm 0.001080
+step 2080 dParm 0.001036
+#Free_DOUBLE2DMAP(5198 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5i68_chainA_50.gmm" (FileType G)
+logLike -802765.026038
+Nrepeat_fin 2089
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:49:45
+COMP_TIME_SEC_FINAL  17.431707
+#COMMAND  ./gmconvert G2S -igmm 5i68_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5i68_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5i68_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5i68_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 16.472675 MIN 33.054596 MAX 197.781345 N 42
+#g 1 SD 12.709358 MIN 79.926926 MAX 207.020504 N 32
+#g 2 SD 14.796157 MIN 8.761393 MAX 156.722967 N 37
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     25.530434
+Rg_map_pnt 25.487642
+Rg_map_box 25.565991
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 32.959649 Vsphe_eff_gmm 149981.032041 threshold 1.473479e-07
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000026 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000006 5.581794e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.581794e-06
+#Malloc_MIDMAP_YZ(32 37) 0.24 Mbyte
+#Malloc_MIDMAP_YZ(32 37) 0.24 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10  34 #11  62 #12  108 #13  144 #14  224 
+#15  420 #16  644 #17  975 #18  1289 #19  1552 
+#20  1818 #21  2083 #22  2346 #23  2586 #24  2805 
+#25  3005 #26  3183 #27  3352 #28  3510 #29  3658 
+#30  3705 #31  3717 #32  3717 #33  3717 #34  3717 
+#35  3717 #36  3717 #37  3717 #38  3717 #39  3717 
+#40  3717 
+#Surface_Model: Volume 81637.45 (A^3) Area 17146.96 (A^2) Rg 24.45 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3718
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5fkx_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5fkx_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3506
+NCHAIN 1
+#Natom 3506 nCA 710 nP 0 rCA_P 0.202510 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 30.506560 RG_Atom_Points 30.478218
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 19610884.133338
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3506 50) 1402400.00 byte -> 1.34 Mbyte
+step 0 dParm 4.296927
+step 10 dParm 1.364067
+step 20 dParm 1.446059
+step 30 dParm 0.516051
+step 40 dParm 0.599072
+step 50 dParm 0.217838
+step 60 dParm 0.163576
+step 70 dParm 0.097865
+step 80 dParm 0.052505
+step 90 dParm 0.036728
+step 100 dParm 0.046266
+step 110 dParm 0.136304
+step 120 dParm 0.155906
+step 130 dParm 0.021277
+step 140 dParm 0.007744
+step 150 dParm 0.003814
+step 160 dParm 0.001951
+step 170 dParm 0.000995
+#Free_DOUBLE2DMAP(3506 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5fkx_chainA_50.gmm" (FileType G)
+logLike -528620.439868
+Nrepeat_fin 170
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:49:46
+COMP_TIME_SEC_FINAL  0.978866
+#COMMAND  ./gmconvert G2S -igmm 5fkx_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5fkx_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5fkx_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5fkx_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 21.010962 MIN -84.390862 MAX 125.718762 N 53
+#g 1 SD 17.656263 MIN -37.116104 MAX 139.446526 N 45
+#g 2 SD 13.320888 MIN -48.571507 MAX 84.637380 N 34
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     30.506560
+Rg_map_pnt 30.514421
+Rg_map_box 30.579893
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 39.383800 Vsphe_eff_gmm 255883.016273 threshold 3.853130e-09
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000055 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000005 5.396642e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.396642e-06
+#Malloc_MIDMAP_YZ(45 34) 0.32 Mbyte
+#Malloc_MIDMAP_YZ(45 34) 0.32 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12 #13 #14 
+#15  24 #16  123 #17  281 #18  443 #19  628 
+#20  878 #21  1162 #22  1451 #23  1797 #24  2115 
+#25  2414 #26  2735 #27  3056 #28  3367 #29  3671 
+#30  3936 #31  4222 #32  4509 #33  4794 #34  5085 
+#35  5306 #36  5409 #37  5415 #38  5415 #39  5415 
+#40  5415 #41  5415 #42  5415 #43  5415 #44  5415 
+#45  5415 #46  5415 #47  5415 #48  5415 #49  5415 
+#50  5415 #51  5415 
+#Surface_Model: Volume 63678.77 (A^3) Area 27612.01 (A^2) Rg 30.32 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 5416
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3jd6_chainO.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3jd6_chainO.pdb
+ng 50
+#MODE:A2G
+NATOM 1668
+NCHAIN 1
+#Natom 1668 nCA 167 nP 0 rCA_P 0.100120 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 15.657730 RG_Atom_Points 15.603928
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 441352.438076
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(1668 50) 667200.00 byte -> 0.64 Mbyte
+step 0 dParm 1.822785
+step 10 dParm 0.340507
+step 20 dParm 0.262336
+step 30 dParm 0.238458
+step 40 dParm 0.190270
+step 50 dParm 0.142928
+step 60 dParm 0.185284
+step 70 dParm 0.118092
+step 80 dParm 0.113838
+step 90 dParm 0.121621
+step 100 dParm 0.187336
+step 110 dParm 0.149100
+step 120 dParm 0.100949
+step 130 dParm 0.148090
+step 140 dParm 0.122553
+step 150 dParm 0.081311
+step 160 dParm 0.044097
+step 170 dParm 0.036708
+step 180 dParm 0.039744
+step 190 dParm 0.049314
+step 200 dParm 0.049591
+step 210 dParm 0.044008
+step 220 dParm 0.038061
+step 230 dParm 0.029207
+step 240 dParm 0.024093
+step 250 dParm 0.021553
+step 260 dParm 0.019815
+step 270 dParm 0.018423
+step 280 dParm 0.017402
+step 290 dParm 0.016959
+step 300 dParm 0.017403
+step 310 dParm 0.019178
+step 320 dParm 0.022697
+step 330 dParm 0.025296
+step 340 dParm 0.023478
+step 350 dParm 0.024829
+step 360 dParm 0.030779
+step 370 dParm 0.042379
+step 380 dParm 0.028974
+step 390 dParm 0.018001
+step 400 dParm 0.015685
+step 410 dParm 0.014373
+step 420 dParm 0.013403
+step 430 dParm 0.012609
+step 440 dParm 0.011921
+step 450 dParm 0.011304
+step 460 dParm 0.010735
+step 470 dParm 0.010203
+step 480 dParm 0.009699
+step 490 dParm 0.009221
+step 500 dParm 0.008771
+step 510 dParm 0.008353
+step 520 dParm 0.007973
+step 530 dParm 0.007641
+step 540 dParm 0.007374
+step 550 dParm 0.007202
+step 560 dParm 0.007196
+step 570 dParm 0.007532
+step 580 dParm 0.008538
+step 590 dParm 0.010129
+step 600 dParm 0.011040
+step 610 dParm 0.011383
+step 620 dParm 0.014329
+step 630 dParm 0.033853
+step 640 dParm 0.030059
+step 650 dParm 0.010668
+step 660 dParm 0.010051
+step 670 dParm 0.010195
+step 680 dParm 0.010624
+step 690 dParm 0.011236
+step 700 dParm 0.012025
+step 710 dParm 0.013028
+step 720 dParm 0.014329
+step 730 dParm 0.016321
+step 740 dParm 0.021096
+step 750 dParm 0.028679
+step 760 dParm 0.016438
+step 770 dParm 0.013639
+step 780 dParm 0.012625
+step 790 dParm 0.012101
+step 800 dParm 0.012154
+step 810 dParm 0.012944
+step 820 dParm 0.014480
+step 830 dParm 0.016446
+step 840 dParm 0.017956
+step 850 dParm 0.017735
+step 860 dParm 0.015358
+step 870 dParm 0.011989
+step 880 dParm 0.009140
+step 890 dParm 0.007926
+step 900 dParm 0.011471
+step 910 dParm 0.029010
+step 920 dParm 0.007296
+step 930 dParm 0.003753
+step 940 dParm 0.003074
+step 950 dParm 0.002783
+step 960 dParm 0.002625
+step 970 dParm 0.002549
+step 980 dParm 0.002543
+step 990 dParm 0.002607
+step 1000 dParm 0.002752
+step 1010 dParm 0.002996
+step 1020 dParm 0.003374
+step 1030 dParm 0.003946
+step 1040 dParm 0.004810
+step 1050 dParm 0.006143
+step 1060 dParm 0.008259
+step 1070 dParm 0.011676
+step 1080 dParm 0.016952
+step 1090 dParm 0.023052
+step 1100 dParm 0.024607
+step 1110 dParm 0.020502
+step 1120 dParm 0.016597
+step 1130 dParm 0.014300
+step 1140 dParm 0.013471
+step 1150 dParm 0.014543
+step 1160 dParm 0.019232
+step 1170 dParm 0.033649
+step 1180 dParm 0.096374
+step 1190 dParm 0.095335
+step 1200 dParm 0.048749
+step 1210 dParm 0.011111
+step 1220 dParm 0.005412
+step 1230 dParm 0.004240
+step 1240 dParm 0.003614
+step 1250 dParm 0.003203
+step 1260 dParm 0.002890
+step 1270 dParm 0.002632
+step 1280 dParm 0.002412
+step 1290 dParm 0.002220
+step 1300 dParm 0.002049
+step 1310 dParm 0.001895
+step 1320 dParm 0.001756
+step 1330 dParm 0.001630
+step 1340 dParm 0.001514
+step 1350 dParm 0.001408
+step 1360 dParm 0.001309
+step 1370 dParm 0.001219
+step 1380 dParm 0.001135
+step 1390 dParm 0.001057
+#Free_DOUBLE2DMAP(1668 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3jd6_chainO_50.gmm" (FileType G)
+logLike -222814.583820
+Nrepeat_fin 1398
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:49:49
+COMP_TIME_SEC_FINAL  3.638746
+#COMMAND  ./gmconvert G2S -igmm 3jd6_chainO_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3jd6_chainO_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3jd6_chainO_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3jd6_chainO_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 10.070599 MIN -19.921082 MAX 80.784903 N 26
+#g 1 SD 8.776602 MIN -12.194961 MAX 75.571063 N 22
+#g 2 SD 8.168158 MIN -60.360043 MAX 21.321535 N 21
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     15.657730
+Rg_map_pnt 15.628963
+Rg_map_box 15.756411
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 20.214042 Vsphe_eff_gmm 34597.771263 threshold 3.696263e-07
+#Voxel_Statistics()
+#ave 0.000001 min 0.000000 max 0.000108 sd 0.000007
+#Marching_Cube_Tetrahedral(0.000023 2.333097e-05,midpnttype:C)
+MC_THRESHOLD_DENSITY 2.333097e-05
+#Malloc_MIDMAP_YZ(22 21) 0.10 Mbyte
+#Malloc_MIDMAP_YZ(22 21) 0.10 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7  28 #8  73 #9  201 
+#10  343 #11  487 #12  596 #13  693 #14  824 
+#15  991 #16  1130 #17  1245 #18  1276 #19  1277 
+#20  1277 #21  1277 #22  1277 #23  1277 #24  1277 
+
+#Surface_Model: Volume 18664.92 (A^3) Area 6028.01 (A^2) Rg 14.93 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 1278
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3j6c_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3j6c_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 760
+NCHAIN 1
+#Natom 760 nCA 93 nP 0 rCA_P 0.122368 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 12.417414 RG_Atom_Points 12.346767
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 115191.998847
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(760 50) 304000.00 byte -> 0.29 Mbyte
+step 0 dParm 1.297179
+step 10 dParm 0.204688
+step 20 dParm 0.166926
+step 30 dParm 0.114063
+step 40 dParm 0.074502
+step 50 dParm 0.064691
+step 60 dParm 0.054648
+step 70 dParm 0.064844
+step 80 dParm 0.073324
+step 90 dParm 0.048570
+step 100 dParm 0.020752
+step 110 dParm 0.014283
+step 120 dParm 0.020926
+step 130 dParm 0.021327
+step 140 dParm 0.013926
+step 150 dParm 0.008308
+step 160 dParm 0.005988
+step 170 dParm 0.005705
+step 180 dParm 0.005764
+step 190 dParm 0.005925
+step 200 dParm 0.006168
+step 210 dParm 0.006501
+step 220 dParm 0.006932
+step 230 dParm 0.007474
+step 240 dParm 0.008148
+step 250 dParm 0.009015
+step 260 dParm 0.010234
+step 270 dParm 0.012256
+step 280 dParm 0.016525
+step 290 dParm 0.028426
+step 300 dParm 0.050889
+step 310 dParm 0.040263
+step 320 dParm 0.042484
+step 330 dParm 0.039322
+step 340 dParm 0.029926
+step 350 dParm 0.031197
+step 360 dParm 0.058423
+step 370 dParm 0.082790
+step 380 dParm 0.027714
+step 390 dParm 0.073307
+step 400 dParm 0.084050
+step 410 dParm 0.023650
+step 420 dParm 0.012794
+step 430 dParm 0.010745
+step 440 dParm 0.009993
+step 450 dParm 0.010012
+step 460 dParm 0.010841
+step 470 dParm 0.012920
+step 480 dParm 0.017539
+step 490 dParm 0.028910
+step 500 dParm 0.065654
+step 510 dParm 0.162854
+step 520 dParm 0.064338
+step 530 dParm 0.011445
+step 540 dParm 0.004290
+step 550 dParm 0.002348
+step 560 dParm 0.001729
+step 570 dParm 0.001501
+step 580 dParm 0.001403
+step 590 dParm 0.001364
+step 600 dParm 0.001364
+step 610 dParm 0.001395
+step 620 dParm 0.001457
+step 630 dParm 0.001553
+step 640 dParm 0.001689
+step 650 dParm 0.001880
+step 660 dParm 0.002147
+step 670 dParm 0.002529
+step 680 dParm 0.003096
+step 690 dParm 0.003979
+step 700 dParm 0.005432
+step 710 dParm 0.007888
+step 720 dParm 0.011371
+step 730 dParm 0.012363
+step 740 dParm 0.009107
+step 750 dParm 0.007570
+step 760 dParm 0.009249
+step 770 dParm 0.012617
+step 780 dParm 0.009779
+step 790 dParm 0.004136
+step 800 dParm 0.001393
+#Free_DOUBLE2DMAP(760 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3j6c_chainA_50.gmm" (FileType G)
+logLike -95962.183893
+Nrepeat_fin 804
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:49:50
+COMP_TIME_SEC_FINAL  0.956590
+#COMMAND  ./gmconvert G2S -igmm 3j6c_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3j6c_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3j6c_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3j6c_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 8.341765 MIN -8.806976 MAX 74.610677 N 21
+#g 1 SD 6.416288 MIN 25.336411 MAX 89.499291 N 17
+#g 2 SD 6.590778 MIN 42.266663 MAX 108.174446 N 17
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     12.417414
+Rg_map_pnt 12.474865
+Rg_map_box 12.634170
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 16.030812 Vsphe_eff_gmm 17256.597658 threshold 3.022874e-07
+#Voxel_Statistics()
+#ave 0.000003 min 0.000000 max 0.000246 sd 0.000016
+#Marching_Cube_Tetrahedral(0.000051 5.078431e-05,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.078431e-05
+#Malloc_MIDMAP_YZ(17 17) 0.06 Mbyte
+#Malloc_MIDMAP_YZ(17 17) 0.06 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6  4 #7  40 #8  151 #9  249 
+#10  367 #11  502 #12  624 #13  727 #14  797 
+#15  831 #16  831 #17  831 #18  831 #19  831 
+
+#Surface_Model: Volume 7633.77 (A^3) Area 4238.42 (A^2) Rg 12.33 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 832
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 3b8k_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 3b8k_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 1818
+NCHAIN 1
+#Natom 1818 nCA 239 nP 0 rCA_P 0.131463 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 18.981257 RG_Atom_Points 18.934914
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 1472759.296081
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(1818 50) 727200.00 byte -> 0.69 Mbyte
+step 0 dParm 1.795097
+step 10 dParm 0.348346
+step 20 dParm 0.249074
+step 30 dParm 0.222531
+step 40 dParm 0.100074
+step 50 dParm 0.095120
+step 60 dParm 0.080462
+step 70 dParm 0.080037
+step 80 dParm 0.130677
+step 90 dParm 0.050875
+step 100 dParm 0.051065
+step 110 dParm 0.067467
+step 120 dParm 0.091068
+step 130 dParm 0.055732
+step 140 dParm 0.041016
+step 150 dParm 0.026895
+step 160 dParm 0.023236
+step 170 dParm 0.023182
+step 180 dParm 0.027329
+step 190 dParm 0.047692
+step 200 dParm 0.051792
+step 210 dParm 0.026411
+step 220 dParm 0.017950
+step 230 dParm 0.011568
+step 240 dParm 0.008319
+step 250 dParm 0.007022
+step 260 dParm 0.006436
+step 270 dParm 0.006110
+step 280 dParm 0.005914
+step 290 dParm 0.005802
+step 300 dParm 0.005764
+step 310 dParm 0.005821
+step 320 dParm 0.006063
+step 330 dParm 0.006735
+step 340 dParm 0.008534
+step 350 dParm 0.013568
+step 360 dParm 0.028779
+step 370 dParm 0.063254
+step 380 dParm 0.048997
+step 390 dParm 0.021932
+step 400 dParm 0.013238
+step 410 dParm 0.009478
+step 420 dParm 0.007333
+step 430 dParm 0.006021
+step 440 dParm 0.005243
+step 450 dParm 0.004836
+step 460 dParm 0.004704
+step 470 dParm 0.004791
+step 480 dParm 0.005073
+step 490 dParm 0.005541
+step 500 dParm 0.006198
+step 510 dParm 0.007029
+step 520 dParm 0.007972
+step 530 dParm 0.008872
+step 540 dParm 0.009460
+step 550 dParm 0.009433
+step 560 dParm 0.008682
+step 570 dParm 0.007574
+step 580 dParm 0.007186
+step 590 dParm 0.009153
+step 600 dParm 0.014983
+step 610 dParm 0.027433
+step 620 dParm 0.046998
+step 630 dParm 0.037583
+step 640 dParm 0.115138
+step 650 dParm 0.028485
+step 660 dParm 0.012456
+step 670 dParm 0.008985
+step 680 dParm 0.007319
+step 690 dParm 0.006090
+step 700 dParm 0.005128
+step 710 dParm 0.004364
+step 720 dParm 0.003753
+step 730 dParm 0.003262
+step 740 dParm 0.002864
+step 750 dParm 0.002538
+step 760 dParm 0.002268
+step 770 dParm 0.002040
+step 780 dParm 0.001844
+step 790 dParm 0.001673
+step 800 dParm 0.001520
+step 810 dParm 0.001383
+step 820 dParm 0.001259
+step 830 dParm 0.001146
+step 840 dParm 0.001042
+#Free_DOUBLE2DMAP(1818 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"3b8k_chainA_50.gmm" (FileType G)
+logLike -252217.239416
+Nrepeat_fin 845
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:49:53
+COMP_TIME_SEC_FINAL  2.418216
+#COMMAND  ./gmconvert G2S -igmm 3b8k_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 3b8k_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('3b8k_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("3b8k_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 9.980620 MIN 9.662992 MAX 109.469192 N 25
+#g 1 SD 9.759968 MIN -19.980412 MAX 77.619266 N 25
+#g 2 SD 12.861508 MIN 1.566249 MAX 130.181324 N 33
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     18.981257
+Rg_map_pnt 18.950828
+Rg_map_box 19.056072
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 24.504698 Vsphe_eff_gmm 61636.313267 threshold 3.122689e-07
+#Voxel_Statistics()
+#ave 0.000001 min 0.000000 max 0.000098 sd 0.000005
+#Marching_Cube_Tetrahedral(0.000017 1.665644e-05,midpnttype:C)
+MC_THRESHOLD_DENSITY 1.665644e-05
+#Malloc_MIDMAP_YZ(25 33) 0.17 Mbyte
+#Malloc_MIDMAP_YZ(25 33) 0.17 Mbyte
+#0 #1 #2 #3 #4 
+#5  15 #6  50 #7  99 #8  149 #9  236 
+#10  366 #11  544 #12  833 #13  1119 #14  1362 
+#15  1552 #16  1683 #17  1778 #18  1816 #19  1840 
+#20  1845 #21  1845 #22  1845 #23  1845 
+#Surface_Model: Volume 23681.61 (A^3) Area 9409.53 (A^2) Rg 18.58 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 1846
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5k0z_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5k0z_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 2427
+NCHAIN 1
+#Natom 2427 nCA 317 nP 0 rCA_P 0.130614 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 20.866906 RG_Atom_Points 20.824838
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 1802142.168446
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(2427 50) 970800.00 byte -> 0.93 Mbyte
+step 0 dParm 2.526993
+step 10 dParm 0.375429
+step 20 dParm 0.237496
+step 30 dParm 0.228590
+step 40 dParm 0.198168
+step 50 dParm 0.204782
+step 60 dParm 0.209839
+step 70 dParm 0.184606
+step 80 dParm 0.203127
+step 90 dParm 0.096803
+step 100 dParm 0.082538
+step 110 dParm 0.070951
+step 120 dParm 0.061803
+step 130 dParm 0.062853
+step 140 dParm 0.076868
+step 150 dParm 0.100977
+step 160 dParm 0.091965
+step 170 dParm 0.047992
+step 180 dParm 0.038704
+step 190 dParm 0.038869
+step 200 dParm 0.041818
+step 210 dParm 0.053940
+step 220 dParm 0.089993
+step 230 dParm 0.088494
+step 240 dParm 0.048236
+step 250 dParm 0.035139
+step 260 dParm 0.027997
+step 270 dParm 0.023142
+step 280 dParm 0.019822
+step 290 dParm 0.017528
+step 300 dParm 0.015858
+step 310 dParm 0.014533
+step 320 dParm 0.013372
+step 330 dParm 0.012266
+step 340 dParm 0.011158
+step 350 dParm 0.010024
+step 360 dParm 0.008874
+step 370 dParm 0.007739
+step 380 dParm 0.006656
+step 390 dParm 0.005662
+step 400 dParm 0.004781
+step 410 dParm 0.004025
+step 420 dParm 0.003393
+step 430 dParm 0.002875
+step 440 dParm 0.002457
+step 450 dParm 0.002120
+step 460 dParm 0.001850
+step 470 dParm 0.001631
+step 480 dParm 0.001452
+step 490 dParm 0.001302
+step 500 dParm 0.001175
+step 510 dParm 0.001066
+#Free_DOUBLE2DMAP(2427 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5k0z_chainA_50.gmm" (FileType G)
+logLike -347033.256483
+Nrepeat_fin 517
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:49:55
+COMP_TIME_SEC_FINAL  1.976971
+#COMMAND  ./gmconvert G2S -igmm 5k0z_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5k0z_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5k0z_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5k0z_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 10.865972 MIN 0.367935 MAX 109.027655 N 28
+#g 1 SD 15.582934 MIN -46.169506 MAX 109.659837 N 39
+#g 2 SD 8.633109 MIN -13.255837 MAX 73.075253 N 22
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     20.866906
+Rg_map_pnt 20.864189
+Rg_map_box 20.959828
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 26.939060 Vsphe_eff_gmm 81890.950386 threshold 1.672381e-07
+#Voxel_Statistics()
+#ave 0.000001 min 0.000000 max 0.000066 sd 0.000004
+#Marching_Cube_Tetrahedral(0.000013 1.255685e-05,midpnttype:C)
+MC_THRESHOLD_DENSITY 1.255685e-05
+#Malloc_MIDMAP_YZ(39 22) 0.18 Mbyte
+#Malloc_MIDMAP_YZ(39 22) 0.18 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8  55 #9  228 
+#10  370 #11  524 #12  736 #13  955 #14  1212 
+#15  1485 #16  1745 #17  1940 #18  2110 #19  2177 
+#20  2177 #21  2177 #22  2177 #23  2177 #24  2177 
+#25  2177 #26  2177 
+#Surface_Model: Volume 34480.35 (A^3) Area 9824.21 (A^2) Rg 20.01 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 2178
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 5jzh_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 5jzh_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 4007
+NCHAIN 1
+#Natom 4007 nCA 424 nP 0 rCA_P 0.105815 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 35.561681 RG_Atom_Points 35.538108
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 7637155.008963
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(4007 50) 1602800.00 byte -> 1.53 Mbyte
+step 0 dParm 3.525186
+step 10 dParm 0.510619
+step 20 dParm 0.345950
+step 30 dParm 0.288319
+step 40 dParm 0.254488
+step 50 dParm 0.279484
+step 60 dParm 0.213816
+step 70 dParm 0.169256
+step 80 dParm 0.135280
+step 90 dParm 0.136742
+step 100 dParm 0.167117
+step 110 dParm 0.133253
+step 120 dParm 0.092205
+step 130 dParm 0.077495
+step 140 dParm 0.076500
+step 150 dParm 0.090766
+step 160 dParm 0.112603
+step 170 dParm 0.110750
+step 180 dParm 0.078146
+step 190 dParm 0.070568
+step 200 dParm 0.070451
+step 210 dParm 0.075293
+step 220 dParm 0.092329
+step 230 dParm 0.105092
+step 240 dParm 0.100828
+step 250 dParm 0.085354
+step 260 dParm 0.070379
+step 270 dParm 0.061609
+step 280 dParm 0.057712
+step 290 dParm 0.050167
+step 300 dParm 0.041686
+step 310 dParm 0.035233
+step 320 dParm 0.031095
+step 330 dParm 0.028744
+step 340 dParm 0.027784
+step 350 dParm 0.028257
+step 360 dParm 0.031556
+step 370 dParm 0.043954
+step 380 dParm 0.082746
+step 390 dParm 0.029614
+step 400 dParm 0.024953
+step 410 dParm 0.024167
+step 420 dParm 0.024576
+step 430 dParm 0.026238
+step 440 dParm 0.029316
+step 450 dParm 0.034067
+step 460 dParm 0.040619
+step 470 dParm 0.048486
+step 480 dParm 0.056745
+step 490 dParm 0.062388
+step 500 dParm 0.043948
+step 510 dParm 0.042109
+step 520 dParm 0.047620
+step 530 dParm 0.057734
+step 540 dParm 0.074505
+step 550 dParm 0.112350
+step 560 dParm 0.115029
+step 570 dParm 0.077120
+step 580 dParm 0.052928
+step 590 dParm 0.058758
+step 600 dParm 0.048234
+step 610 dParm 0.034215
+step 620 dParm 0.027544
+step 630 dParm 0.023033
+step 640 dParm 0.019832
+step 650 dParm 0.017378
+step 660 dParm 0.015415
+step 670 dParm 0.013823
+step 680 dParm 0.012532
+step 690 dParm 0.011485
+step 700 dParm 0.010641
+step 710 dParm 0.009963
+step 720 dParm 0.009425
+step 730 dParm 0.009007
+step 740 dParm 0.008692
+step 750 dParm 0.008466
+step 760 dParm 0.008315
+step 770 dParm 0.008230
+step 780 dParm 0.008199
+step 790 dParm 0.008211
+step 800 dParm 0.008259
+step 810 dParm 0.008334
+step 820 dParm 0.008428
+step 830 dParm 0.008535
+step 840 dParm 0.008650
+step 850 dParm 0.008768
+step 860 dParm 0.008884
+step 870 dParm 0.008996
+step 880 dParm 0.009099
+step 890 dParm 0.009191
+step 900 dParm 0.009270
+step 910 dParm 0.009334
+step 920 dParm 0.009382
+step 930 dParm 0.009411
+step 940 dParm 0.009421
+step 950 dParm 0.009412
+step 960 dParm 0.009382
+step 970 dParm 0.009331
+step 980 dParm 0.009260
+step 990 dParm 0.009169
+step 1000 dParm 0.009058
+step 1010 dParm 0.008929
+step 1020 dParm 0.008781
+step 1030 dParm 0.008617
+step 1040 dParm 0.008438
+step 1050 dParm 0.008244
+step 1060 dParm 0.008038
+step 1070 dParm 0.007822
+step 1080 dParm 0.007596
+step 1090 dParm 0.007363
+step 1100 dParm 0.007124
+step 1110 dParm 0.006880
+step 1120 dParm 0.006634
+step 1130 dParm 0.006386
+step 1140 dParm 0.006139
+step 1150 dParm 0.005893
+step 1160 dParm 0.005649
+step 1170 dParm 0.005409
+step 1180 dParm 0.005174
+step 1190 dParm 0.004944
+step 1200 dParm 0.004719
+step 1210 dParm 0.004501
+step 1220 dParm 0.004290
+step 1230 dParm 0.004086
+step 1240 dParm 0.003890
+step 1250 dParm 0.003702
+step 1260 dParm 0.003521
+step 1270 dParm 0.003347
+step 1280 dParm 0.003182
+step 1290 dParm 0.003024
+step 1300 dParm 0.002873
+step 1310 dParm 0.002730
+step 1320 dParm 0.002593
+step 1330 dParm 0.002464
+step 1340 dParm 0.002340
+step 1350 dParm 0.002224
+step 1360 dParm 0.002113
+step 1370 dParm 0.002008
+step 1380 dParm 0.001908
+step 1390 dParm 0.001814
+step 1400 dParm 0.001724
+step 1410 dParm 0.001640
+step 1420 dParm 0.001560
+step 1430 dParm 0.001484
+step 1440 dParm 0.001412
+step 1450 dParm 0.001344
+step 1460 dParm 0.001280
+step 1470 dParm 0.001219
+step 1480 dParm 0.001161
+step 1490 dParm 0.001106
+step 1500 dParm 0.001055
+step 1510 dParm 0.001006
+#Free_DOUBLE2DMAP(4007 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"5jzh_chainA_50.gmm" (FileType G)
+logLike -584629.652408
+Nrepeat_fin 1512
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:50:5
+COMP_TIME_SEC_FINAL  9.972098
+#COMMAND  ./gmconvert G2S -igmm 5jzh_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 5jzh_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('5jzh_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("5jzh_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 18.387989 MIN 1.997022 MAX 185.876908 N 46
+#g 1 SD 21.395778 MIN 17.659544 MAX 231.617322 N 54
+#g 2 SD 21.650306 MIN -6.298995 MAX 210.204069 N 55
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     35.561682
+Rg_map_pnt 35.536655
+Rg_map_box 35.592890
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 45.909934 Vsphe_eff_gmm 405329.864738 threshold -1.000000e+00
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000044 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000004 4.183569e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 4.183569e-06
+#Malloc_MIDMAP_YZ(54 55) 0.61 Mbyte
+#Malloc_MIDMAP_YZ(54 55) 0.61 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12 #13 #14 
+#15  34 #16  114 #17  248 #18  551 #19  791 
+#20  997 #21  1203 #22  1455 #23  1723 #24  1907 
+#25  2077 #26  2197 #27  2309 #28  2436 #29  2522 
+#30  2611 #31  2689 #32  2780 #33  2861 #34  2924 
+#35  2987 #36  3014 #37  3019 #38  3019 #39  3019 
+#40  3019 #41  3019 #42  3019 #43  3019 #44  3019 
+
+#Surface_Model: Volume 68845.81 (A^3) Area 14080.46 (A^2) Rg 35.15 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3020
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6ave_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6ave_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 3191
+NCHAIN 1
+#Natom 3191 nCA 424 nP 0 rCA_P 0.132874 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 31.612814 RG_Atom_Points 31.585063
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 7594955.296413
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(3191 50) 1276400.00 byte -> 1.22 Mbyte
+step 0 dParm 3.035982
+step 10 dParm 0.475636
+step 20 dParm 0.521583
+step 30 dParm 0.455429
+step 40 dParm 0.394810
+step 50 dParm 0.233104
+step 60 dParm 0.198605
+step 70 dParm 0.278133
+step 80 dParm 0.139753
+step 90 dParm 0.128207
+step 100 dParm 0.145280
+step 110 dParm 0.138691
+step 120 dParm 0.112470
+step 130 dParm 0.095637
+step 140 dParm 0.095696
+step 150 dParm 0.088238
+step 160 dParm 0.084477
+step 170 dParm 0.083830
+step 180 dParm 0.082868
+step 190 dParm 0.083602
+step 200 dParm 0.085227
+step 210 dParm 0.084559
+step 220 dParm 0.075585
+step 230 dParm 0.055354
+step 240 dParm 0.043753
+step 250 dParm 0.041585
+step 260 dParm 0.036735
+step 270 dParm 0.032753
+step 280 dParm 0.029422
+step 290 dParm 0.028534
+step 300 dParm 0.029699
+step 310 dParm 0.032720
+step 320 dParm 0.037741
+step 330 dParm 0.044559
+step 340 dParm 0.051266
+step 350 dParm 0.056166
+step 360 dParm 0.059063
+step 370 dParm 0.058623
+step 380 dParm 0.050392
+step 390 dParm 0.042040
+step 400 dParm 0.038610
+step 410 dParm 0.041457
+step 420 dParm 0.039925
+step 430 dParm 0.035214
+step 440 dParm 0.038850
+step 450 dParm 0.047926
+step 460 dParm 0.062041
+step 470 dParm 0.069285
+step 480 dParm 0.046594
+step 490 dParm 0.025715
+step 500 dParm 0.017158
+step 510 dParm 0.013022
+step 520 dParm 0.011001
+step 530 dParm 0.010623
+step 540 dParm 0.012035
+step 550 dParm 0.015251
+step 560 dParm 0.019586
+step 570 dParm 0.023993
+step 580 dParm 0.029169
+step 590 dParm 0.040590
+step 600 dParm 0.069096
+step 610 dParm 0.080992
+step 620 dParm 0.031434
+step 630 dParm 0.010939
+step 640 dParm 0.006553
+step 650 dParm 0.005711
+step 660 dParm 0.005497
+step 670 dParm 0.005430
+step 680 dParm 0.005424
+step 690 dParm 0.005459
+step 700 dParm 0.005525
+step 710 dParm 0.005620
+step 720 dParm 0.005739
+step 730 dParm 0.005881
+step 740 dParm 0.006044
+step 750 dParm 0.006225
+step 760 dParm 0.006420
+step 770 dParm 0.006624
+step 780 dParm 0.006833
+step 790 dParm 0.007039
+step 800 dParm 0.007234
+step 810 dParm 0.007409
+step 820 dParm 0.007555
+step 830 dParm 0.007663
+step 840 dParm 0.007727
+step 850 dParm 0.007743
+step 860 dParm 0.007710
+step 870 dParm 0.007634
+step 880 dParm 0.007518
+step 890 dParm 0.007372
+step 900 dParm 0.007205
+step 910 dParm 0.007026
+step 920 dParm 0.006842
+step 930 dParm 0.006658
+step 940 dParm 0.006479
+step 950 dParm 0.006307
+step 960 dParm 0.006141
+step 970 dParm 0.005982
+step 980 dParm 0.005828
+step 990 dParm 0.005677
+step 1000 dParm 0.005527
+step 1010 dParm 0.005376
+step 1020 dParm 0.005223
+step 1030 dParm 0.005068
+step 1040 dParm 0.004912
+step 1050 dParm 0.004754
+step 1060 dParm 0.004597
+step 1070 dParm 0.004444
+step 1080 dParm 0.004297
+step 1090 dParm 0.004160
+step 1100 dParm 0.004036
+step 1110 dParm 0.003927
+step 1120 dParm 0.003837
+step 1130 dParm 0.003765
+step 1140 dParm 0.003713
+step 1150 dParm 0.003677
+step 1160 dParm 0.003655
+step 1170 dParm 0.003642
+step 1180 dParm 0.003628
+step 1190 dParm 0.003607
+step 1200 dParm 0.003568
+step 1210 dParm 0.003502
+step 1220 dParm 0.003402
+step 1230 dParm 0.003265
+step 1240 dParm 0.003093
+step 1250 dParm 0.002893
+step 1260 dParm 0.002675
+step 1270 dParm 0.002449
+step 1280 dParm 0.002226
+step 1290 dParm 0.002013
+step 1300 dParm 0.001814
+step 1310 dParm 0.001631
+step 1320 dParm 0.001465
+step 1330 dParm 0.001315
+step 1340 dParm 0.001179
+step 1350 dParm 0.001057
+#Free_DOUBLE2DMAP(3191 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6ave_chainA_50.gmm" (FileType G)
+logLike -471915.132335
+Nrepeat_fin 1356
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:50:12
+COMP_TIME_SEC_FINAL  7.048039
+#COMMAND  ./gmconvert G2S -igmm 6ave_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6ave_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6ave_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6ave_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 9.880992 MIN 63.178379 MAX 161.988301 N 25
+#g 1 SD 13.249671 MIN 22.832460 MAX 155.329175 N 34
+#g 2 SD 26.947768 MIN -60.453938 MAX 209.023738 N 68
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     31.612814
+Rg_map_pnt 31.584684
+Rg_map_box 31.647942
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 40.811967 Vsphe_eff_gmm 284741.773542 threshold -1.000000e+00
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000058 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000007 6.851793e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 6.851793e-06
+#Malloc_MIDMAP_YZ(34 68) 0.48 Mbyte
+#Malloc_MIDMAP_YZ(34 68) 0.48 Mbyte
+#0 #1 #2 #3 #4 
+#5  47 #6  108 #7  173 #8  258 #9  468 
+#10  779 #11  1242 #12  1755 #13  2079 #14  2400 
+#15  2688 #16  2910 #17  3045 #18  3117 #19  3129 
+#20  3129 #21  3129 #22  3129 #23  3129 
+#Surface_Model: Volume 55362.67 (A^3) Area 14732.49 (A^2) Rg 30.78 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 3130
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6bo4_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6bo4_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 4608
+NCHAIN 1
+#Natom 4608 nCA 625 nP 0 rCA_P 0.135634 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 35.161041 RG_Atom_Points 35.135991
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 24557932.457387
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(4608 50) 1843200.00 byte -> 1.76 Mbyte
+step 0 dParm 4.274895
+step 10 dParm 0.760273
+step 20 dParm 0.620993
+step 30 dParm 0.458077
+step 40 dParm 0.494051
+step 50 dParm 0.566153
+step 60 dParm 0.311791
+step 70 dParm 0.274998
+step 80 dParm 0.332419
+step 90 dParm 0.187363
+step 100 dParm 0.113452
+step 110 dParm 0.100852
+step 120 dParm 0.118528
+step 130 dParm 0.103616
+step 140 dParm 0.080924
+step 150 dParm 0.071179
+step 160 dParm 0.055944
+step 170 dParm 0.046698
+step 180 dParm 0.045795
+step 190 dParm 0.046898
+step 200 dParm 0.047033
+step 210 dParm 0.053313
+step 220 dParm 0.063470
+step 230 dParm 0.077007
+step 240 dParm 0.075444
+step 250 dParm 0.057388
+step 260 dParm 0.042861
+step 270 dParm 0.034961
+step 280 dParm 0.030398
+step 290 dParm 0.027385
+step 300 dParm 0.025416
+step 310 dParm 0.024125
+step 320 dParm 0.022973
+step 330 dParm 0.021381
+step 340 dParm 0.019065
+step 350 dParm 0.016237
+step 360 dParm 0.013430
+step 370 dParm 0.011123
+step 380 dParm 0.009523
+step 390 dParm 0.008573
+step 400 dParm 0.008072
+step 410 dParm 0.007800
+step 420 dParm 0.007585
+step 430 dParm 0.007315
+step 440 dParm 0.006939
+step 450 dParm 0.006449
+step 460 dParm 0.005874
+step 470 dParm 0.005257
+step 480 dParm 0.004647
+step 490 dParm 0.004082
+step 500 dParm 0.003587
+step 510 dParm 0.003174
+step 520 dParm 0.002841
+step 530 dParm 0.002582
+step 540 dParm 0.002383
+step 550 dParm 0.002233
+step 560 dParm 0.002119
+step 570 dParm 0.002033
+step 580 dParm 0.001967
+step 590 dParm 0.001917
+step 600 dParm 0.001878
+step 610 dParm 0.001849
+step 620 dParm 0.001828
+step 630 dParm 0.001814
+step 640 dParm 0.001806
+step 650 dParm 0.001803
+step 660 dParm 0.001805
+step 670 dParm 0.001812
+step 680 dParm 0.001824
+step 690 dParm 0.001841
+step 700 dParm 0.001863
+step 710 dParm 0.001889
+step 720 dParm 0.001921
+step 730 dParm 0.001959
+step 740 dParm 0.002002
+step 750 dParm 0.002052
+step 760 dParm 0.002108
+step 770 dParm 0.002171
+step 780 dParm 0.002242
+step 790 dParm 0.002321
+step 800 dParm 0.002409
+step 810 dParm 0.002507
+step 820 dParm 0.002617
+step 830 dParm 0.002738
+step 840 dParm 0.002874
+step 850 dParm 0.003024
+step 860 dParm 0.003192
+step 870 dParm 0.003378
+step 880 dParm 0.003586
+step 890 dParm 0.003818
+step 900 dParm 0.004076
+step 910 dParm 0.004365
+step 920 dParm 0.004688
+step 930 dParm 0.005048
+step 940 dParm 0.005451
+step 950 dParm 0.005902
+step 960 dParm 0.006404
+step 970 dParm 0.006964
+step 980 dParm 0.007586
+step 990 dParm 0.008274
+step 1000 dParm 0.009031
+step 1010 dParm 0.009856
+step 1020 dParm 0.010748
+step 1030 dParm 0.011700
+step 1040 dParm 0.012698
+step 1050 dParm 0.013724
+step 1060 dParm 0.014749
+step 1070 dParm 0.015738
+step 1080 dParm 0.016649
+step 1090 dParm 0.017436
+step 1100 dParm 0.018055
+step 1110 dParm 0.018475
+step 1120 dParm 0.018688
+step 1130 dParm 0.018712
+step 1140 dParm 0.018594
+step 1150 dParm 0.018395
+step 1160 dParm 0.018182
+step 1170 dParm 0.018008
+step 1180 dParm 0.017912
+step 1190 dParm 0.017919
+step 1200 dParm 0.018040
+step 1210 dParm 0.018281
+step 1220 dParm 0.018649
+step 1230 dParm 0.019149
+step 1240 dParm 0.019789
+step 1250 dParm 0.020582
+step 1260 dParm 0.021550
+step 1270 dParm 0.022719
+step 1280 dParm 0.024132
+step 1290 dParm 0.025849
+step 1300 dParm 0.027955
+step 1310 dParm 0.030551
+step 1320 dParm 0.033721
+step 1330 dParm 0.037424
+step 1340 dParm 0.041274
+step 1350 dParm 0.044347
+step 1360 dParm 0.045430
+step 1370 dParm 0.043816
+step 1380 dParm 0.039706
+step 1390 dParm 0.033922
+step 1400 dParm 0.027506
+step 1410 dParm 0.021374
+step 1420 dParm 0.016097
+step 1430 dParm 0.011877
+step 1440 dParm 0.008668
+step 1450 dParm 0.006309
+step 1460 dParm 0.004610
+step 1470 dParm 0.003403
+step 1480 dParm 0.002549
+step 1490 dParm 0.001945
+step 1500 dParm 0.001514
+step 1510 dParm 0.001202
+#Free_DOUBLE2DMAP(4608 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6bo4_chainA_50.gmm" (FileType G)
+logLike -701437.947534
+Nrepeat_fin 1519
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:50:23
+COMP_TIME_SEC_FINAL  11.600676
+#COMMAND  ./gmconvert G2S -igmm 6bo4_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6bo4_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6bo4_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6bo4_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 17.423658 MIN 0.707477 MAX 174.944056 N 44
+#g 1 SD 12.605650 MIN 8.039249 MAX 134.095746 N 32
+#g 2 SD 27.817486 MIN -34.120316 MAX 244.054547 N 70
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     35.161041
+Rg_map_pnt 35.153973
+Rg_map_box 35.210819
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 45.392709 Vsphe_eff_gmm 391784.194518 threshold -1.000000e+00
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000037 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000004 4.296596e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 4.296596e-06
+#Malloc_MIDMAP_YZ(32 70) 0.46 Mbyte
+#Malloc_MIDMAP_YZ(32 70) 0.46 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11  51 #12  164 #13  266 #14  379 
+#15  485 #16  598 #17  738 #18  880 #19  1155 
+#20  1489 #21  1894 #22  2321 #23  2778 #24  3241 
+#25  3615 #26  3946 #27  4239 #28  4563 #29  4753 
+#30  4825 #31  4855 #32  4855 #33  4855 #34  4855 
+#35  4855 #36  4855 #37  4855 #38  4855 #39  4855 
+#40  4855 #41  4855 #42  4855 
+#Surface_Model: Volume 82472.62 (A^3) Area 22859.20 (A^2) Rg 34.69 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 4856
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6mgv_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6mgv_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 5075
+NCHAIN 1
+#Natom 5075 nCA 634 nP 0 rCA_P 0.124926 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 27.663944 RG_Atom_Points 27.631987
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 12239463.089344
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(5075 50) 2030000.00 byte -> 1.94 Mbyte
+step 0 dParm 4.523053
+step 10 dParm 1.103490
+step 20 dParm 0.982482
+step 30 dParm 0.582595
+step 40 dParm 0.449958
+step 50 dParm 0.383566
+step 60 dParm 0.451885
+step 70 dParm 0.316054
+step 80 dParm 0.215706
+step 90 dParm 0.169911
+step 100 dParm 0.162840
+step 110 dParm 0.164391
+step 120 dParm 0.160766
+step 130 dParm 0.149512
+step 140 dParm 0.134927
+step 150 dParm 0.134372
+step 160 dParm 0.095102
+step 170 dParm 0.074866
+step 180 dParm 0.064315
+step 190 dParm 0.056313
+step 200 dParm 0.051175
+step 210 dParm 0.049342
+step 220 dParm 0.051969
+step 230 dParm 0.060731
+step 240 dParm 0.072665
+step 250 dParm 0.077419
+step 260 dParm 0.072809
+step 270 dParm 0.067787
+step 280 dParm 0.067711
+step 290 dParm 0.061057
+step 300 dParm 0.051195
+step 310 dParm 0.043953
+step 320 dParm 0.042144
+step 330 dParm 0.044310
+step 340 dParm 0.046723
+step 350 dParm 0.049656
+step 360 dParm 0.056063
+step 370 dParm 0.070678
+step 380 dParm 0.097947
+step 390 dParm 0.137671
+step 400 dParm 0.147307
+step 410 dParm 0.102779
+step 420 dParm 0.070951
+step 430 dParm 0.060676
+step 440 dParm 0.069534
+step 450 dParm 0.088971
+step 460 dParm 0.120137
+step 470 dParm 0.164906
+step 480 dParm 0.212422
+step 490 dParm 0.227703
+step 500 dParm 0.202337
+step 510 dParm 0.193701
+step 520 dParm 0.166090
+step 530 dParm 0.150152
+step 540 dParm 0.133492
+step 550 dParm 0.111756
+step 560 dParm 0.091068
+step 570 dParm 0.075106
+step 580 dParm 0.065075
+step 590 dParm 0.058975
+step 600 dParm 0.056032
+step 610 dParm 0.060004
+step 620 dParm 0.044895
+step 630 dParm 0.030663
+step 640 dParm 0.027330
+step 650 dParm 0.025800
+step 660 dParm 0.024826
+step 670 dParm 0.024150
+step 680 dParm 0.023664
+step 690 dParm 0.023314
+step 700 dParm 0.023062
+step 710 dParm 0.022873
+step 720 dParm 0.022707
+step 730 dParm 0.022542
+step 740 dParm 0.022400
+step 750 dParm 0.022407
+step 760 dParm 0.022823
+step 770 dParm 0.024047
+step 780 dParm 0.026642
+step 790 dParm 0.031484
+step 800 dParm 0.040172
+step 810 dParm 0.055577
+step 820 dParm 0.079819
+step 830 dParm 0.095846
+step 840 dParm 0.069809
+step 850 dParm 0.047661
+step 860 dParm 0.055996
+step 870 dParm 0.064687
+step 880 dParm 0.068539
+step 890 dParm 0.074356
+step 900 dParm 0.082936
+step 910 dParm 0.089220
+step 920 dParm 0.083757
+step 930 dParm 0.062808
+step 940 dParm 0.039537
+step 950 dParm 0.025688
+step 960 dParm 0.019654
+step 970 dParm 0.016945
+step 980 dParm 0.015364
+step 990 dParm 0.014194
+step 1000 dParm 0.013209
+step 1010 dParm 0.012327
+step 1020 dParm 0.011513
+step 1030 dParm 0.010753
+step 1040 dParm 0.010040
+step 1050 dParm 0.009369
+step 1060 dParm 0.008740
+step 1070 dParm 0.008150
+step 1080 dParm 0.007599
+step 1090 dParm 0.007085
+step 1100 dParm 0.006606
+step 1110 dParm 0.006160
+step 1120 dParm 0.005747
+step 1130 dParm 0.005364
+step 1140 dParm 0.005009
+step 1150 dParm 0.004681
+step 1160 dParm 0.004378
+step 1170 dParm 0.004098
+step 1180 dParm 0.003840
+step 1190 dParm 0.003603
+step 1200 dParm 0.003385
+step 1210 dParm 0.003186
+step 1220 dParm 0.003005
+step 1230 dParm 0.002840
+step 1240 dParm 0.002691
+step 1250 dParm 0.002557
+step 1260 dParm 0.002438
+step 1270 dParm 0.002333
+step 1280 dParm 0.002241
+step 1290 dParm 0.002163
+step 1300 dParm 0.002098
+step 1310 dParm 0.002044
+step 1320 dParm 0.002003
+step 1330 dParm 0.001973
+step 1340 dParm 0.001954
+step 1350 dParm 0.001946
+step 1360 dParm 0.001947
+step 1370 dParm 0.001958
+step 1380 dParm 0.001978
+step 1390 dParm 0.002006
+step 1400 dParm 0.002042
+step 1410 dParm 0.002086
+step 1420 dParm 0.002136
+step 1430 dParm 0.002194
+step 1440 dParm 0.002258
+step 1450 dParm 0.002328
+step 1460 dParm 0.002405
+step 1470 dParm 0.002487
+step 1480 dParm 0.002575
+step 1490 dParm 0.002669
+step 1500 dParm 0.002769
+step 1510 dParm 0.002874
+step 1520 dParm 0.002985
+step 1530 dParm 0.003102
+step 1540 dParm 0.003224
+step 1550 dParm 0.003351
+step 1560 dParm 0.003484
+step 1570 dParm 0.003621
+step 1580 dParm 0.003764
+step 1590 dParm 0.003911
+step 1600 dParm 0.004062
+step 1610 dParm 0.004217
+step 1620 dParm 0.004375
+step 1630 dParm 0.004536
+step 1640 dParm 0.004697
+step 1650 dParm 0.004859
+step 1660 dParm 0.005020
+step 1670 dParm 0.005179
+step 1680 dParm 0.005334
+step 1690 dParm 0.005484
+step 1700 dParm 0.005626
+step 1710 dParm 0.005760
+step 1720 dParm 0.005882
+step 1730 dParm 0.005991
+step 1740 dParm 0.006085
+step 1750 dParm 0.006162
+step 1760 dParm 0.006220
+step 1770 dParm 0.006259
+step 1780 dParm 0.006276
+step 1790 dParm 0.006272
+step 1800 dParm 0.006246
+step 1810 dParm 0.006197
+step 1820 dParm 0.006126
+step 1830 dParm 0.006035
+step 1840 dParm 0.005924
+step 1850 dParm 0.005794
+step 1860 dParm 0.005649
+step 1870 dParm 0.005489
+step 1880 dParm 0.005316
+step 1890 dParm 0.005134
+step 1900 dParm 0.004944
+step 1910 dParm 0.004748
+step 1920 dParm 0.004548
+step 1930 dParm 0.004346
+step 1940 dParm 0.004144
+step 1950 dParm 0.003943
+step 1960 dParm 0.003744
+step 1970 dParm 0.003549
+step 1980 dParm 0.003359
+step 1990 dParm 0.003174
+step 2000 dParm 0.002995
+step 2010 dParm 0.002822
+step 2020 dParm 0.002656
+step 2030 dParm 0.002497
+step 2040 dParm 0.002345
+step 2050 dParm 0.002200
+step 2060 dParm 0.002063
+step 2070 dParm 0.001932
+step 2080 dParm 0.001808
+step 2090 dParm 0.001691
+step 2100 dParm 0.001581
+step 2110 dParm 0.001476
+step 2120 dParm 0.001378
+step 2130 dParm 0.001286
+step 2140 dParm 0.001200
+step 2150 dParm 0.001118
+step 2160 dParm 0.001042
+#Free_DOUBLE2DMAP(5075 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6mgv_chainA_50.gmm" (FileType G)
+logLike -772444.878110
+Nrepeat_fin 2166
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:50:41
+COMP_TIME_SEC_FINAL  17.086827
+#COMMAND  ./gmconvert G2S -igmm 6mgv_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6mgv_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6mgv_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6mgv_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 14.007290 MIN 65.896873 MAX 205.969774 N 36
+#g 1 SD 15.878511 MIN 22.623556 MAX 181.408667 N 40
+#g 2 SD 17.803440 MIN 19.820114 MAX 197.854517 N 45
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     27.663944
+Rg_map_pnt 27.619701
+Rg_map_box 27.692018
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 35.713998 Vsphe_eff_gmm 190811.266544 threshold 7.141813e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000030 sd 0.000002
+#Marching_Cube_Tetrahedral(0.000005 5.154605e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 5.154605e-06
+#Malloc_MIDMAP_YZ(40 45) 0.37 Mbyte
+#Malloc_MIDMAP_YZ(40 45) 0.37 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9  34 
+#10  118 #11  225 #12  383 #13  551 #14  855 
+#15  1231 #16  1685 #17  2148 #18  2524 #19  2872 
+#20  3122 #21  3451 #22  3753 #23  4005 #24  4175 
+#25  4264 #26  4299 #27  4299 #28  4299 #29  4299 
+#30  4299 #31  4299 #32  4299 #33  4299 #34  4299 
+
+#Surface_Model: Volume 79487.56 (A^3) Area 19329.35 (A^2) Rg 26.82 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 4300
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"
+#COMMAND  ./gmconvert A2G -ipdb 6nt3_chainA.pdb -ng 50
+HOSTNAME NOT_REGISTERED
+MODE A2G
+ipdb 6nt3_chainA.pdb
+ng 50
+#MODE:A2G
+NATOM 10429
+NCHAIN 1
+#Natom 10429 nCA 1278 nP 0 rCA_P 0.122543 ==> Judged AtmResType 'A'
+#Assign_Radius()
+#RG_Atoms 38.143226 RG_Atom_Points 38.120047
+#Set_Variance_of_Atoms(VarType:A Crr2var:0.200000 Resolution:0.000000)
+#Det_Mol 107789407.411572
+#K_Means_Clustering_For_Atoms_Multiple_Start(Ngauss:50)
+#EM_optimize_Gaussian_input_GMM_for_Atoms()
+#Malloc_DOUBLE2DMAP(10429 50) 4171600.00 byte -> 3.98 Mbyte
+step 0 dParm 7.928927
+step 10 dParm 1.263170
+step 20 dParm 1.258513
+step 30 dParm 0.901032
+step 40 dParm 0.983036
+step 50 dParm 0.974249
+step 60 dParm 0.597093
+step 70 dParm 0.600577
+step 80 dParm 0.893994
+step 90 dParm 0.563235
+step 100 dParm 0.356017
+step 110 dParm 0.501352
+step 120 dParm 0.271153
+step 130 dParm 0.253104
+step 140 dParm 0.238492
+step 150 dParm 0.277270
+step 160 dParm 0.202084
+step 170 dParm 0.124882
+step 180 dParm 0.092245
+step 190 dParm 0.076486
+step 200 dParm 0.067004
+step 210 dParm 0.059852
+step 220 dParm 0.053966
+step 230 dParm 0.049504
+step 240 dParm 0.046733
+step 250 dParm 0.045579
+step 260 dParm 0.045715
+step 270 dParm 0.046802
+step 280 dParm 0.048607
+step 290 dParm 0.051017
+step 300 dParm 0.053996
+step 310 dParm 0.057569
+step 320 dParm 0.061842
+step 330 dParm 0.067092
+step 340 dParm 0.073961
+step 350 dParm 0.083811
+step 360 dParm 0.099268
+step 370 dParm 0.124767
+step 380 dParm 0.165818
+step 390 dParm 0.221876
+step 400 dParm 0.266299
+step 410 dParm 0.257771
+step 420 dParm 0.219726
+step 430 dParm 0.195117
+step 440 dParm 0.184780
+step 450 dParm 0.176228
+step 460 dParm 0.165900
+step 470 dParm 0.172891
+step 480 dParm 0.211639
+step 490 dParm 0.290314
+step 500 dParm 0.418049
+step 510 dParm 0.465032
+step 520 dParm 0.360136
+step 530 dParm 0.264485
+step 540 dParm 0.294089
+step 550 dParm 0.470032
+step 560 dParm 0.917008
+step 570 dParm 0.374919
+step 580 dParm 0.267656
+step 590 dParm 0.202841
+step 600 dParm 0.181029
+step 610 dParm 0.181703
+step 620 dParm 0.176861
+step 630 dParm 0.150487
+step 640 dParm 0.124207
+step 650 dParm 0.119881
+step 660 dParm 0.130038
+step 670 dParm 0.146241
+step 680 dParm 0.162236
+step 690 dParm 0.171301
+step 700 dParm 0.167734
+step 710 dParm 0.150328
+step 720 dParm 0.124007
+step 730 dParm 0.096419
+step 740 dParm 0.072957
+step 750 dParm 0.055274
+step 760 dParm 0.042756
+step 770 dParm 0.034152
+step 780 dParm 0.028329
+step 790 dParm 0.024436
+step 800 dParm 0.021882
+step 810 dParm 0.020279
+step 820 dParm 0.019397
+step 830 dParm 0.019124
+step 840 dParm 0.019449
+step 850 dParm 0.020468
+step 860 dParm 0.022428
+step 870 dParm 0.025842
+step 880 dParm 0.031799
+step 890 dParm 0.042809
+step 900 dParm 0.065235
+step 910 dParm 0.113649
+step 920 dParm 0.168483
+step 930 dParm 0.097289
+step 940 dParm 0.044139
+step 950 dParm 0.025346
+step 960 dParm 0.016483
+step 970 dParm 0.011876
+step 980 dParm 0.009617
+step 990 dParm 0.008628
+step 1000 dParm 0.008213
+step 1010 dParm 0.007993
+step 1020 dParm 0.007799
+step 1030 dParm 0.007568
+step 1040 dParm 0.007287
+step 1050 dParm 0.006961
+step 1060 dParm 0.006601
+step 1070 dParm 0.006219
+step 1080 dParm 0.005827
+step 1090 dParm 0.005432
+step 1100 dParm 0.005044
+step 1110 dParm 0.004666
+step 1120 dParm 0.004304
+step 1130 dParm 0.003959
+step 1140 dParm 0.003634
+step 1150 dParm 0.003329
+step 1160 dParm 0.003044
+step 1170 dParm 0.002780
+step 1180 dParm 0.002536
+step 1190 dParm 0.002311
+step 1200 dParm 0.002104
+step 1210 dParm 0.001915
+step 1220 dParm 0.001741
+step 1230 dParm 0.001582
+step 1240 dParm 0.001437
+step 1250 dParm 0.001305
+step 1260 dParm 0.001185
+step 1270 dParm 0.001076
+#Free_DOUBLE2DMAP(10429 50)
+#Ngauss 50 --> 50
+#Delete_Identical_gdfs_of_GMM()
+#Ngauss 50 --> 50
+#Write_GAUSS3D_Array_File()-->"6nt3_chainA_50.gmm" (FileType G)
+logLike -1719279.103760
+Nrepeat_fin 1278
+Nsingularity 0
+END_DATE_FINAL Dec 18,2020 10:51:2
+COMP_TIME_SEC_FINAL  21.126362
+#COMMAND  ./gmconvert G2S -igmm 6nt3_chainA_50.gmm -gw 4 -opdb pdbfile0.pdb
+HOSTNAME NOT_REGISTERED
+MODE G2S
+igmm 6nt3_chainA_50.gmm
+gw 4
+opdb pdbfile0.pdb
+#MODE:G2S
+#Number_Of_GAUSS3D_in_File('6nt3_chainA_50.gmm' FileType G)
+#Ngauss 50
+#Read_GAUSS3D_Array_File("6nt3_chainA_50.gmm" FileType G)
+#Malloc_Voxel_From_GAUSS3D_Array(Ngauss 50 MaxSD 5.000000 gw 4.000000)
+#g 0 SD 23.210028 MIN 7.140511 MAX 239.240790 N 59
+#g 1 SD 22.082575 MIN 16.955431 MAX 237.781182 N 56
+#g 2 SD 20.701695 MIN 22.768913 MAX 229.785867 N 52
+#Set_Voxel_Value_By_GAUSS3D_Array(vox,Ngauss,Garray)
+Rg_gmm     38.143226
+Rg_map_pnt 38.097836
+Rg_map_box 38.150296
+#float Find_Voxel_threshold_density_for_given_volume(Nhistbin 100000)
+#Reff_gmm 49.242693 Vsphe_eff_gmm 500165.813231 threshold 3.293716e-08
+#Voxel_Statistics()
+#ave 0.000000 min 0.000000 max 0.000013 sd 0.000001
+#Marching_Cube_Tetrahedral(0.000002 2.000538e-06,midpnttype:C)
+MC_THRESHOLD_DENSITY 2.000538e-06
+#Malloc_MIDMAP_YZ(56 52) 0.60 Mbyte
+#Malloc_MIDMAP_YZ(56 52) 0.60 Mbyte
+#0 #1 #2 #3 #4 
+#5 #6 #7 #8 #9 
+#10 #11 #12 #13 #14  15 
+#15  47 #16  90 #17  236 #18  396 #19  619 
+#20  880 #21  1156 #22  1416 #23  1725 #24  2066 
+#25  2622 #26  3121 #27  3523 #28  3932 #29  4467 
+#30  5018 #31  5562 #32  5971 #33  6345 #34  6791 
+#35  7115 #36  7343 #37  7540 #38  7789 #39  8006 
+#40  8171 #41  8339 #42  8453 #43  8493 #44  8510 
+#45  8515 #46  8515 #47  8515 #48  8515 #49  8515 
+#50  8515 #51  8515 #52  8515 #53  8515 #54  8515 
+#55  8515 #56  8515 #57  8515 
+#Surface_Model: Volume 190884.81 (A^3) Area 38837.78 (A^2) Rg 36.91 (A) 
+#Output_MC_Edges_PDB() --> "pdbfile0.pdb"
+#Nvertex 8516
+#OutFace 1
+#Write_GAUSS3D_Array_Center_Points()-->"pdbfile0.pdb"

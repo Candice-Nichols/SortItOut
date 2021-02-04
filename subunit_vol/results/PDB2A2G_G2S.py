@@ -1,6 +1,6 @@
 import os
 import subprocess
-infile = open("input.txt","r")
+infile = open("input3.txt","r")
 for line in infile:
 	#parse pdb id from input file
 	line = line.strip()

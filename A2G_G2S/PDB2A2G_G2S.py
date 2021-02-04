@@ -1,6 +1,6 @@
 import os
 import subprocess
-infile = open("pdb_0717.txt","r")
+infile = open("pdb_1006.txt","r")
 for line in infile:
 	#parse pdb id from input file
 	line = line.strip()
@@ -9,7 +9,7 @@ for line in infile:
 		#download pdb file
 		command = "wget https://files.rcsb.org/download/"+pdbid
 		subprocess.check_call(command.split())
-		gmmoutput= line+"_25.gmm"
+		gmmoutput= line+"_50.gmm"
 		try:
 			#convert pdb to gaussion model then to surface model
 			os.system("./A2G_G2S.sh {0} {1}".format(pdbid,gmmoutput))

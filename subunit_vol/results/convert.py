@@ -1,4 +1,4 @@
-infile= open("nohup.out","r")
+infile= open("output_1218.txt","r")
 for line in infile:
 	line=line.strip()
 	content=line.split()
