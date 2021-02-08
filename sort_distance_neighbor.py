@@ -85,8 +85,8 @@ for i in range (len(res)):
 	ilst=list(res[i])
 	plst=list(res[i])
 	plst.sort()
-	#find smallest 2 distances
-	for j in range (0,2):
+	#find smallest 3 distances
+	for j in range (0,3):
 		dist_diff=plst[j]
 		idx=ilst.index(dist_diff)
 		idxem=sortedem[idx]

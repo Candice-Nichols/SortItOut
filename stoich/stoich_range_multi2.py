@@ -58,7 +58,22 @@ def recursion_stoich_r(targ,vols,cutoff_st,cutoff_en,increment):
     len_num=len(vols)
     og_vols=tuple(vols)
     if len_num==1:
-        stoich(og_vols,vols,targ,cutoff_st)
+        cutoff=cutoff_st
+        res_dict={}
+        while cutoff <= cutoff_en:
+            res=[]
+            print(cutoff)
+            max_num=math.ceil(targ*(1+cutoff)/vols[0])
+            for item in itertools.product(range(1,max_num),repeat=len_num):
+                item=list(item)
+                res_list = []
+                for i in range(0, len(item)): 
+                    res_list.append(item[i] * vols[i])
+                if sum(res_list)>targ*(1-cutoff) and sum(res_list)<targ*(1+cutoff):
+                    res.append(item)
+            res_dict[cutoff]=res
+            cutoff+=increment
+        return res_dict
     else:
         cutoff=cutoff_st
         res_dict={}
@@ -84,8 +99,8 @@ def recursion_stoich_r(targ,vols,cutoff_st,cutoff_en,increment):
 def recursion_stoich_tn2(targ,vols,cutoff_st,cutoff_en,increment):
     len_num=len(vols)
     og_vols=tuple(vols)
-    if len_num==1:
-        stoich(og_vols,vols,targ,cutoff_st)
+    if len_num==0:
+        return
     else:
         cutoff=cutoff_st
         res_dict={}
@@ -123,7 +138,7 @@ def print_totalnum(dic):
         print(str(l))
 
 
-infile=open("input_copy.txt","r")
+infile=open("input4.txt","r")
 for line in infile:
     line=line.strip()
     info=line.split(":")

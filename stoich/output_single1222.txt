@@ -1,7 +1,0 @@
-2ynj
-Traceback (most recent call last):
-  File "stoich_range_new.py", line 151, in <module>
-    results=recursion_stoich_r(targ,vols,0.05,2,0.05)
-  File "stoich_range_new.py", line 52, in recursion_stoich_r
-    stoich(og_vols,vols,targ,cutoff_st)
-TypeError: 'list' object is not callable

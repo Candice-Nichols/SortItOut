@@ -118,7 +118,7 @@ def print_totalnum(dic):
         print(str(l))
 
 
-infile=open("input3.txt","r")
+infile=open("input4.txt","r")
 for line in infile:
     line=line.strip()
     info=line.split(":")
