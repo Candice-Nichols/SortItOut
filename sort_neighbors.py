@@ -1,4 +1,4 @@
-pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_overall-.txt","r")
+pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_overall.txt","r")
 pdbvoldict={}
 pdbvollst=[]
 for line in pdbvol:
@@ -9,7 +9,9 @@ for line in pdbvol:
     #apply lr new
     #linear_vol=float(line2[1])*1.07938533+23172.3787*float(res)-228522.066547639
     #apply lr new 0204
-    linear_vol=float(line2[1])*1.14708135-159785.52734952
+    #linear_vol=float(line2[1])*1.14708135-159785.52734952
+    #apply lr new 0219
+    linear_vol=float(line2[1])*0.91657308-51187.65809547
     #apply linear regression to membrane proteins
     #linear_vol=float(line2[1])*0.658359617+23528.3482*float(res)-30957.365008784633
     #linear_vol=float(line2[1])
@@ -30,7 +32,7 @@ print(sortedpdb)
 pdbvol.close()
 
 
-emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_overall-.txt","r")
+emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_overall.txt","r")
 emvoldict={}
 emvollst=[]
 for line in emvol:
@@ -68,8 +70,8 @@ for i in range(count):
     score=abs((pdb_vol-em_vol)/em_vol)
     print(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score))
     handle.write(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score)+"\n")
-    #sliding window k=2
-    for j in range(2,0,-1):
+    #sliding window k=1
+    for j in range(1,0,-1):
         if (i-j)>=0:
             emfile=sortedem[i-j]
             pdb_vol=pdbvoldict[pdb]

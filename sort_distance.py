@@ -1,18 +1,20 @@
 import numpy as np
 import scipy
-pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_groupa.txt","r")
+pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_overall.txt","r")
 pdbvoldict={}
 pdbvollst=[]
 pdbarr=[]
 for line in pdbvol:
         line=line.strip()
         line2=line.split(":")
-        key=line2[0]
+       	key=line2[0]
 	#parse resolution
-	res=line2[2]
+        res=line2[2]
 	#apply non membrane multi linear regression new 0204
-	linear_vol=float(line2[1])*1.14708135-159785.52734952
-	#apply linear regression for membrane protein
+	#linear_vol=float(line2[1])*1.14708135-159785.52734952
+	#apply new linear regression 02/23
+        linear_vol=float(line2[1])*0.91657308-51187.65809547
+        #apply linear regression for membrane protein
         #parse pdb id and volume into a dictionary
         pdbvoldict[key]=linear_vol
         #create a list of volumes
@@ -33,7 +35,7 @@ for item in pdbvollst:
 #print(pdbarr)
 pdbvol.close()
 
-emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_groupb.txt","r")
+emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_overall.txt","r")
 emvoldict={}
 emvollst=[]
 emarr=[]
@@ -82,7 +84,7 @@ for i in range (len(res)):
 	plst=list(res[i])
 	plst.sort()
 	#calculate 10% of pdb as threshold
-	thres=(pdbvoldict[pdbfile])*0.10
+	thres=(pdbvoldict[pdbfile])*0.15
 	print(thres)
 	#find distances below threshold
 	for j in range (0,len(plst)):

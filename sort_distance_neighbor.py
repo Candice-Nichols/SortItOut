@@ -13,8 +13,10 @@ for line in pdbvol:
         #apply lr new
         #linear_vol=float(line2[1])*1.07938533+23172.3787*float(res)-228522.066547639
         #apply new lr 0204
-        linear_vol=float(line2[1])*1.14708135-159785.52734952
-	#apply linear regression for membrane proteins
+        #linear_vol=float(line2[1])*1.14708135-159785.52734952
+        #apply new lr 0219
+        linear_vol=float(line2[1])*0.91657308-51187.65809547
+        #apply linear regression for membrane proteins
         #linear_vol= float(line2[1])*0.658359617+23528.3482*float(res)-30957.365008784633
         #linear_vol=float(line2[1])
 	#parse pdb id and volume into a dictionary
@@ -85,8 +87,8 @@ for i in range (len(res)):
 	ilst=list(res[i])
 	plst=list(res[i])
 	plst.sort()
-	#find smallest 3 distances
-	for j in range (0,3):
+	#find smallest 2 distances
+	for j in range (0,2):
 		dist_diff=plst[j]
 		idx=ilst.index(dist_diff)
 		idxem=sortedem[idx]
