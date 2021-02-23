@@ -10,7 +10,7 @@ Matching atomic protein subunit structure into protein complex EM maps
 cd V2G_G2S
 ```
 
-### Create input file "gmm_input.txt", and edit with EMDB ids, format as following
+### Create input file "gmm_input.txt", and edit with EMDB ids, format as following 
 ```
 EMDB_3488
 EMDB_3204
@@ -25,9 +25,17 @@ nohup python EMDB2V2G_G2S.py > gmm_output.txt &
 ### to edit Ngauss edit in V2G_G2S.sh
 ```
 ./gmconvert V2G -imap $input -ogmm $2 -ng 100 -zth $contour -max_memory 90000
+
 ```
-
-
+### For EM volume calculation using manually entered countour level, format input as following
+```
+EMDB_3488:4.0
+...
+```
+### Run program
+```
+nohup python EMDB2V2G_G2S2.py > gmm_output.txt &
+```
 
 ## A2G_G2S Calculation
 
