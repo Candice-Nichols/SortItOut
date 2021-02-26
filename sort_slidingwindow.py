@@ -1,4 +1,4 @@
-pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_overall.txt","r")
+pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_overall2.txt","r")
 pdbvoldict={}
 pdbvollst=[]
 for line in pdbvol:
@@ -32,7 +32,7 @@ print(sortedpdb)
 pdbvol.close()
 
 
-emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_overall.txt","r")
+emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_overall2.txt","r")
 emvoldict={}
 emvollst=[]
 for line in emvol:
@@ -70,8 +70,8 @@ for i in range(count):
     score=abs((pdb_vol-em_vol)/em_vol)
     print(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score))
     handle.write(pdb+": "+str(pdb_vol)+" , "+emfile+": "+str(em_vol)+" , "+str(score)+"\n")
-    #sliding window k=1
-    for j in range(1,0,-1):
+    #sliding window k=3
+    for j in range(3,0,-1):
         if (i-j)>=0:
             emfile=sortedem[i-j]
             pdb_vol=pdbvoldict[pdb]

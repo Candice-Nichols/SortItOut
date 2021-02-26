@@ -1,6 +1,6 @@
 import numpy as np
 import scipy
-pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_overall.txt","r")
+pdbvol=open("/home/cc59863/SortItOut/A2G_G2S/pdbvol_overall2.txt","r")
 pdbvoldict={}
 pdbvollst=[]
 pdbarr=[]
@@ -35,7 +35,7 @@ for item in pdbvollst:
 #print(pdbarr)
 pdbvol.close()
 
-emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_overall.txt","r")
+emvol=open("/home/cc59863/SortItOut/V2G_G2S/emvol_overall2.txt","r")
 emvoldict={}
 emvollst=[]
 emarr=[]
@@ -84,7 +84,7 @@ for i in range (len(res)):
 	plst=list(res[i])
 	plst.sort()
 	#calculate 10% of pdb as threshold
-	thres=(pdbvoldict[pdbfile])*0.15
+	thres=(pdbvoldict[pdbfile])*0.20
 	print(thres)
 	#find distances below threshold
 	for j in range (0,len(plst)):
