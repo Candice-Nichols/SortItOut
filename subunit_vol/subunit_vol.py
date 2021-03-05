@@ -1,5 +1,5 @@
 from biopandas.pdb import PandasPdb
-infile=open("subunit_input.txt","r")
+infile=open("subunit_input2.txt","r")
 for line in infile:
 	line=line.strip()
 	content=line.split()

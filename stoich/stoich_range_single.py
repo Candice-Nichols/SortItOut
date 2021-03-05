@@ -118,7 +118,7 @@ def print_totalnum(dic):
         print(str(l))
 
 
-infile=open("input4.txt","r")
+infile=open("input_single.txt","r")
 for line in infile:
     line=line.strip()
     info=line.split(":")
@@ -129,7 +129,7 @@ for line in infile:
     res=eval(info[3])
     vols=eval(info[4])
     ogvols=tuple(eval(info[4]))
-    targ=(emvol+121000.18327867)/1.0922644
+    targ=(emvol+48157.40446631)/0.94719955
     #targ=(emvol+228522.0665476391-23172.3787*res)/1.07938533
     #targ=(emvol+61363.74335666094-9905.04389*res)/0.988966859
     results=recursion_stoich_r(targ,vols,0.05,2,0.05)
